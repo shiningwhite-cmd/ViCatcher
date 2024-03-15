@@ -1,0 +1,20 @@
+[
+    {
+        "role_class": "Extractor",
+        "module_name": "Role.Extractor",
+        "role_name": "Johnson",
+        "role_sub_tags": [
+            "Role.Extractor.Extractor",
+            "Johnson"
+        ]
+    },
+    {
+        "role_class": "WikiResearcher",
+        "module_name": "Role.WikiResearcher",
+        "role_name": "Mark",
+        "role_sub_tags": [
+            "Mark",
+            "Role.WikiResearcher.WikiResearcher"
+        ]
+    }
+]

@@ -1,0 +1,113 @@
+2024-03-11 14:59:08.770 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 14:59:08.770 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 14:59:08.771 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 14:59:08.771 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 14:59:24.609 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 14:59:24.609 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 14:59:24.609 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 14:59:24.609 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 14:59:26.272 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 18:19:48.661 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 18:19:48.661 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 18:19:48.661 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 18:19:48.661 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 18:19:50.965 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 18:20:18.240 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 18:20:18.241 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 18:20:18.241 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 18:20:18.241 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 18:20:19.747 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 19:44:09.416 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 19:44:09.416 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 19:44:09.417 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 19:44:09.417 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 19:44:12.179 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 19:44:52.247 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 19:44:52.247 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 19:44:52.247 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 19:44:52.247 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 19:44:53.855 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 19:45:43.855 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 19:45:43.855 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 19:45:43.856 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 19:45:43.856 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 19:45:45.424 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 19:48:08.846 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 19:48:08.846 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 19:48:08.846 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 19:48:08.846 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 19:48:10.464 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 19:50:11.114 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 19:50:11.114 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 19:50:11.114 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 19:50:11.114 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 19:50:13.554 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 20:00:48.625 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 20:00:48.625 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 20:00:48.625 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 20:00:48.625 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 20:00:50.828 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 20:04:29.501 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 20:04:29.502 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 20:04:29.502 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 20:04:29.502 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 20:04:31.604 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 20:05:39.580 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 20:05:39.580 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 20:05:39.581 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 20:05:39.581 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 20:05:41.116 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 20:12:07.948 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 20:12:07.948 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 20:12:07.948 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 20:12:07.948 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 20:12:09.497 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 20:15:20.712 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 20:15:20.712 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 20:15:20.713 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 20:15:20.713 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 20:15:22.285 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 20:17:03.991 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 20:17:03.991 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 20:17:03.992 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 20:17:03.992 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 20:17:05.460 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 20:20:28.104 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 20:20:28.105 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 20:20:28.105 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 20:20:28.105 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 20:20:29.594 | INFO     | Module.AnalyseAudio:record_audio:50 - * recording
+2024-03-11 22:27:21.161 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 22:27:21.161 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 22:27:21.161 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 22:27:21.161 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 22:27:23.358 | INFO     | Module.AnalyseAudio:record_audio:51 - * recording
+2024-03-11 22:29:23.590 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 22:29:23.590 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 22:29:23.591 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 22:29:23.591 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 22:29:28.890 | INFO     | Module.AnalyseAudio:record_audio:53 - * recording
+2024-03-11 22:29:42.284 | INFO     | Module.AnalyseAudio:recognize_audio:96 - Recognized text: 
+2024-03-11 22:29:49.298 | INFO     | Module.AnalyseAudio:recognize_audio:96 - Recognized text: 
+2024-03-11 22:30:03.153 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 22:30:03.153 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 22:30:03.153 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 22:30:03.153 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 22:30:07.832 | INFO     | Module.AnalyseAudio:record_audio:53 - * recording
+2024-03-11 22:30:21.350 | INFO     | Module.AnalyseAudio:recognize_audio:96 - Recognized text: 
+2024-03-11 22:30:28.314 | INFO     | Module.AnalyseAudio:recognize_audio:96 - Recognized text: 
+2024-03-11 22:31:22.551 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 22:31:22.551 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 22:31:22.551 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 22:31:22.551 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 22:31:24.527 | INFO     | Module.AnalyseAudio:record_audio:53 - * recording
+2024-03-11 22:31:40.589 | INFO     | Module.AnalyseAudio:recognize_audio:96 - 
+2024-03-11 22:31:45.045 | INFO     | Module.AnalyseAudio:recognize_audio:96 - 
+2024-03-11 22:32:03.883 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-11 22:32:03.883 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-11 22:32:03.884 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-11 22:32:03.884 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-11 22:32:08.657 | INFO     | Module.AnalyseAudio:record_audio:53 - * recording
+2024-03-11 22:32:23.344 | INFO     | Module.AnalyseAudio:recognize_audio:96 - Recognized text: 多哥基准能力测试上全面超越了GPT4和Gemi-Nite成为地表最强大模型亮点1,Cloud3有三个型号,按尺寸从小到大,依次是Hikon
+2024-03-11 22:32:30.213 | INFO     | Module.AnalyseAudio:recognize_audio:96 - Recognized text: Sonyd和Opus最强的Opus实现了接近人类的理解能力需要20道订阅门槛API价格比GPT4贵两倍Sonyd代替Cloud 2.1
+2024-03-11 22:32:40.282 | INFO     | Module.AnalyseAudio:recognize_audio:96 - Recognized text: 成为聊天基础模型能力接近GPD4和免费使用派库回复速度最快价格最低能实现实施对话2.2 Cloud3所有型号都

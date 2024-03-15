@@ -1,0 +1,12 @@
+2023-12-29 15:50:48.724 | DEBUG    | metagpt.config:__init__:50 - Config loading done.
+2023-12-29 15:50:48.724 | DEBUG    | metagpt.config:_ensure_workspace_exists:125 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2023-12-29 15:52:07.595 | DEBUG    | metagpt.config:__init__:50 - Config loading done.
+2023-12-29 15:52:07.595 | DEBUG    | metagpt.config:_ensure_workspace_exists:125 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2023-12-29 15:52:07.834 | INFO     | __main__:main:175 - Provide the first 10 numbers of the Fibonacci series
+2023-12-29 15:52:07.834 | DEBUG    | metagpt.roles.role:_observe:301 - () observed: ['user: Provide the first 10...']
+2023-12-29 15:52:07.834 | DEBUG    | metagpt.roles.role:_set_state:210 - [ThinkAction]
+2023-12-29 15:52:37.486 | DEBUG    | metagpt.config:__init__:50 - Config loading done.
+2023-12-29 15:52:37.486 | DEBUG    | metagpt.config:_ensure_workspace_exists:125 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2023-12-29 15:52:37.707 | INFO     | __main__:main:173 - Provide the first 10 numbers of the Fibonacci series
+2023-12-29 15:52:37.707 | DEBUG    | metagpt.roles.role:_observe:301 - () observed: ['user: Provide the first 10...']
+2023-12-29 15:52:37.707 | DEBUG    | metagpt.roles.role:_set_state:210 - [ThinkAction]

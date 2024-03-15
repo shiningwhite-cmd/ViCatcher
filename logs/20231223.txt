@@ -1,0 +1,44 @@
+2023-12-23 10:45:02.411 | DEBUG    | metagpt.config:__init__:50 - Config loading done.
+2023-12-23 10:45:02.412 | DEBUG    | metagpt.config:_ensure_workspace_exists:125 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2023-12-23 10:45:02.879 | INFO     | __main__:main:222 - Git 教程
+2023-12-23 10:45:02.880 | DEBUG    | metagpt.roles.role:_observe:314 - Stitch(Tutorial Assistant) observed: ['user: Git 教程...']
+2023-12-23 10:45:02.880 | INFO     | __main__:_think:136 - -1
+2023-12-23 10:45:02.880 | INFO     | __main__:_think:137 - <__main__.TutorialAssistant object at 0x000001301FAFC450>
+2023-12-23 10:45:02.880 | DEBUG    | metagpt.roles.role:_set_state:223 - [WriteDirectory]
+2023-12-23 10:45:02.881 | DEBUG    | metagpt.provider.base_gpt_api:aask:52 - [{'role': 'system', 'content': "You are a Tutorial Assistant, named Stitch, your goal is Generate tutorial documents, and the constraint is Strictly follow Markdown's syntax, with neat and standardized layout. "}, {'role': 'user', 'content': '\n        You are now a seasoned technical professional in the field of the internet. \n        We need you to write a technical tutorial with the topic "Git 教程".\n        \n        Please provide the specific table of contents for this tutorial, strictly following the following requirements:\n        1. The output must be strictly in the specified language, Chinese.\n        2. Answer strictly in the dictionary format like {"title": "xxx", "directory": [{"dir 1": ["sub dir 1", "sub dir 2"]}, {"dir 2": ["sub dir 3", "sub dir 4"]}]}.\n        3. The directory should be as specific and sufficient as possible, with a primary and secondary directory.The secondary directory is in the array.\n        4. Do not have extra spaces or line breaks.\n        5. Each directory title has practical significance.\n        '}]
+2023-12-23 10:45:04.950 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAIGPTAPI.acompletion_text' after 2.063(s), this was the 1st time calling it.
+2023-12-23 10:45:07.180 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAIGPTAPI.acompletion_text' after 4.297(s), this was the 2nd time calling it.
+2023-12-23 10:45:09.363 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAIGPTAPI.acompletion_text' after 6.484(s), this was the 3rd time calling it.
+2023-12-23 10:45:14.720 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAIGPTAPI.acompletion_text' after 11.828(s), this was the 4th time calling it.
+2023-12-23 10:46:26.768 | DEBUG    | metagpt.config:__init__:50 - Config loading done.
+2023-12-23 10:46:26.768 | DEBUG    | metagpt.config:_ensure_workspace_exists:125 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2023-12-23 10:46:27.066 | INFO     | __main__:main:125 - Print numbers from 4 to 6
+2023-12-23 10:46:27.067 | DEBUG    | metagpt.roles.role:_observe:314 - Jerry(Printer) observed: ['user: Print numbers from 4...']
+2023-12-23 10:46:27.067 | INFO     | __main__:_think:71 - -1
+2023-12-23 10:46:27.067 | DEBUG    | metagpt.roles.role:_set_state:223 - [ThinkAction]
+2023-12-23 10:46:27.067 | DEBUG    | metagpt.provider.base_gpt_api:aask:52 - [{'role': 'system', 'content': 'You are a Printer, named Jerry, your goal is Print the number, and the constraint is . '}, {'role': 'user', 'content': '\n            You are now a number list generator, follow the instruction Print numbers from 4 to 6 and \n            generate a number list to be printed please.\n            \n            Please provide the number list for me, strictly following the following requirements:\n            1. Answer strictly in the list format like [1,2,3,4]\n            2. Do not have extra spaces or line breaks.\n            Return the list here:\n            '}]
+2023-12-23 10:46:29.131 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAIGPTAPI.acompletion_text' after 2.062(s), this was the 1st time calling it.
+2023-12-23 10:46:31.342 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAIGPTAPI.acompletion_text' after 4.265(s), this was the 2nd time calling it.
+2023-12-23 10:46:33.551 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAIGPTAPI.acompletion_text' after 6.484(s), this was the 3rd time calling it.
+2023-12-23 10:47:11.000 | DEBUG    | metagpt.config:__init__:50 - Config loading done.
+2023-12-23 10:47:11.001 | DEBUG    | metagpt.config:_ensure_workspace_exists:125 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2023-12-23 10:47:11.308 | INFO     | __main__:main:125 - Print numbers from 4 to 6
+2023-12-23 10:47:11.308 | DEBUG    | metagpt.roles.role:_observe:314 - Jerry(Printer) observed: ['user: Print numbers from 4...']
+2023-12-23 10:47:11.308 | INFO     | __main__:_think:71 - -1
+2023-12-23 10:47:11.309 | DEBUG    | metagpt.roles.role:_set_state:223 - [ThinkAction]
+2023-12-23 10:47:11.309 | DEBUG    | metagpt.provider.base_gpt_api:aask:52 - [{'role': 'system', 'content': 'You are a Printer, named Jerry, your goal is Print the number, and the constraint is . '}, {'role': 'user', 'content': '\n            You are now a number list generator, follow the instruction Print numbers from 4 to 6 and \n            generate a number list to be printed please.\n            \n            Please provide the number list for me, strictly following the following requirements:\n            1. Answer strictly in the list format like [1,2,3,4]\n            2. Do not have extra spaces or line breaks.\n            Return the list here:\n            '}]
+2023-12-23 10:47:13.067 | ERROR    | metagpt.provider.openai_api:_calc_usage:332 - usage calculation failed!
+2023-12-23 10:47:13.068 | ERROR    | metagpt.provider.openai_api:_update_costs:369 - updating costs failed!
+2023-12-23 10:47:13.068 | INFO     | __main__:_act:101 - [4, 5, 6]
+2023-12-23 10:47:13.068 | INFO     | __main__:_think:71 - 0
+2023-12-23 10:47:13.068 | DEBUG    | metagpt.roles.role:_set_state:223 - [SimplePrint, SimplePrint, SimplePrint]
+2023-12-23 10:47:13.068 | INFO     | __main__:_act:106 - 0
+2023-12-23 10:47:13.069 | INFO     | __main__:_think:71 - 0
+2023-12-23 10:47:13.069 | DEBUG    | metagpt.roles.role:_set_state:223 - [SimplePrint, SimplePrint, SimplePrint]
+2023-12-23 10:47:13.069 | INFO     | __main__:_act:106 - 0
+2023-12-23 10:47:13.069 | INFO     | __main__:_think:71 - 1
+2023-12-23 10:47:13.069 | DEBUG    | metagpt.roles.role:_set_state:223 - [SimplePrint, SimplePrint, SimplePrint]
+2023-12-23 10:47:13.069 | INFO     | __main__:_act:106 - 0
+2023-12-23 10:47:13.069 | INFO     | __main__:_think:71 - 2
+2023-12-23 10:47:13.069 | DEBUG    | metagpt.roles.role:_set_state:223 - [SimplePrint, SimplePrint, SimplePrint]
+2023-12-23 10:47:13.070 | INFO     | __main__:main:127 - Printer: 0

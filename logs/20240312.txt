@@ -1,0 +1,215 @@
+2024-03-12 09:54:37.828 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 09:54:37.828 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 09:54:37.829 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 09:54:37.829 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 09:54:43.028 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 09:54:43.028 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.572 s.
+2024-03-12 09:54:43.040 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 09:58:04.078 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 09:58:04.078 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 09:58:04.078 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 09:58:04.078 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 09:58:08.010 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 09:58:08.010 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.546 s.
+2024-03-12 09:58:08.011 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 10:52:24.796 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 10:52:24.796 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 10:52:24.797 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 10:52:24.797 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 10:52:29.514 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 10:52:29.514 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.560 s.
+2024-03-12 10:52:29.515 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 10:54:36.729 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 10:54:36.729 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 10:54:36.729 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 10:54:36.729 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 10:54:40.518 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 10:54:40.519 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.412 s.
+2024-03-12 10:54:40.519 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 12:31:26.805 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 12:31:26.805 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 12:31:26.805 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 12:31:26.806 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 12:31:32.017 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 12:31:32.017 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.554 s.
+2024-03-12 12:31:32.018 | INFO     | Module.AnalyseAudio:record_audio:60 - * recording
+2024-03-12 12:32:13.238 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 12:32:13.238 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 12:32:13.238 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 12:32:13.238 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 12:32:17.484 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 12:32:17.484 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.673 s.
+2024-03-12 12:32:17.486 | INFO     | Module.AnalyseAudio:record_audio:60 - * recording
+2024-03-12 12:35:30.339 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 12:35:30.339 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 12:35:30.339 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 12:35:30.339 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 12:35:34.391 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 12:35:34.392 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.490 s.
+2024-03-12 12:35:34.392 | INFO     | Module.AnalyseAudio:record_audio:60 - * recording
+2024-03-12 12:36:36.180 | INFO     | Module.AnalyseAudio:recognize_audio:117 - ['在这正常运行服务,为了下载和部署进向,Node中会有一个container runtime,也就是容器运行十组件每个应用服务都可以认为是一个container,并且大多数时候我们还会为应用服务搭配一个日制收集器container或监控采集器container这多个container共同组成一个一个pod它运行在node上k8s可以将POD從某個Node調度到另一個Node還能以POD為單位去做重啟和動態擴縮容的操作所以說POD是K8S中最小的調度單位另外前面現在提到控制平面會通過Controller Manager控制Node創建和關閉服務Node也得有個組件能接收到這個命令才能去做這些動作這個組件叫Kubalap主要負責管理和監控破的最後Note中還有個Cuba Proxy它負責Note的網絡通信功能有了它外部請求就能被轉發到破的中平面和no的共同構成了一個cluster也就是集群在公司裡我們一般會構建多個集群比如測試環境用一個集群生成環境用另外一個集群同時為了將集群內容']
+2024-03-12 12:36:46.069 | INFO     | Module.AnalyseAudio:recognize_audio:117 - ['在这正常运行服务,为了下载和部署进向,Node中会有一个container runtime,也就是容器运行十组件每个应用服务都可以认为是一个container,并且大多数时候我们还会为应用服务搭配一个日制收集器container或监控采集器container这多个container共同组成一个一个pod它运行在node上k8s可以将POD從某個Node調度到另一個Node還能以POD為單位去做重啟和動態擴縮容的操作所以說POD是K8S中最小的調度單位另外前面現在提到控制平面會通過Controller Manager控制Node創建和關閉服務Node也得有個組件能接收到這個命令才能去做這些動作這個組件叫Kubalap主要負責管理和監控破的最後Note中還有個Cuba Proxy它負責Note的網絡通信功能有了它外部請求就能被轉發到破的中平面和no的共同構成了一個cluster也就是集群在公司裡我們一般會構建多個集群比如測試環境用一個集群生成環境用另外一個集群同時為了將集群內容内部的服务暴露给外部用户使用我们一般还会部署一个入口控制器比如 Ingress  控制器它可以提供一个入口让外部用户访问集群内部服务']
+2024-03-12 22:15:31.772 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:15:31.772 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:15:31.772 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:15:31.772 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:15:38.744 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:15:38.745 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.979 s.
+2024-03-12 22:15:38.746 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:16:21.486 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:16:21.486 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:16:21.487 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:16:21.487 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:16:25.569 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:16:25.569 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.610 s.
+2024-03-12 22:16:25.570 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:28:56.875 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:28:56.875 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.554 s.
+2024-03-12 22:29:37.552 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:29:37.552 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.312 s.
+2024-03-12 22:30:11.095 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:30:11.095 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.324 s.
+2024-03-12 22:30:35.198 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:30:35.199 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.329 s.
+2024-03-12 22:30:58.163 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:30:58.163 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.330 s.
+2024-03-12 22:30:59.469 | INFO     | Module.AnalyseAudio:record_audio:61 - * recording
+2024-03-12 22:34:25.289 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:34:25.289 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.316 s.
+2024-03-12 22:34:27.521 | INFO     | Module.AnalyseAudio:record_audio:61 - * recording
+2024-03-12 22:35:40.098 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:35:40.098 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.307 s.
+2024-03-12 22:35:41.213 | INFO     | Module.AnalyseAudio:record_audio:61 - * recording
+2024-03-12 22:36:24.000 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:36:24.000 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.298 s.
+2024-03-12 22:36:25.081 | INFO     | Module.AnalyseAudio:record_audio:61 - * recording
+2024-03-12 22:38:15.754 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:38:15.754 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.535 s.
+2024-03-12 22:38:16.876 | INFO     | Module.AnalyseAudio:record_audio:61 - * recording
+2024-03-12 22:39:34.180 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:39:34.180 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.551 s.
+2024-03-12 22:39:34.180 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:42:55.276 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:42:55.277 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:42:55.277 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:42:55.277 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:42:59.132 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:42:59.132 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.317 s.
+2024-03-12 22:42:59.140 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:42:59.140 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:42:59.183 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:42:59.183 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:42:59.199 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:44:30.205 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:44:30.206 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.322 s.
+2024-03-12 22:44:30.206 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:45:13.564 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:45:13.564 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:45:13.564 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:45:13.565 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:45:16.854 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:45:16.855 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.300 s.
+2024-03-12 22:45:16.862 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:45:16.862 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:45:16.880 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:45:16.880 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:45:16.916 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:46:09.940 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:46:09.941 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:46:09.941 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:46:09.941 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:46:13.230 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:46:13.230 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.299 s.
+2024-03-12 22:46:13.237 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:46:13.237 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:46:13.254 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:46:13.255 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:46:13.269 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:48:21.990 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:48:21.990 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:48:21.990 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:48:21.990 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:48:25.308 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:48:25.309 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.309 s.
+2024-03-12 22:48:25.315 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:48:25.315 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:48:25.335 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:48:25.336 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:48:25.366 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:48:58.588 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:48:58.588 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:48:58.588 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:48:58.588 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:49:02.024 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:49:02.025 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.340 s.
+2024-03-12 22:49:02.032 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:49:02.032 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:49:02.055 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:49:02.055 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:49:02.072 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:51:24.699 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:51:24.699 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.316 s.
+2024-03-12 22:51:24.700 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:51:39.136 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 強大也很有趣近期再看一本講述老成都的書書名是消失了古城清末名出成都的日常生活記憶其中提到一個非常鮮活的老成都記憶台教子
+2024-03-12 22:51:46.406 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 一般来说轿子都是前后路有人来抬但是轿子后方仍无法看见前路怎么办呢于是,下面程度街头的抬轿小号便从前方抬轿人口容传出看到路危险时说
+2024-03-12 22:51:56.425 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 协食一片坡回应到才稳才不缩如果地上有分处说天上摇紫飞大约地上流史一大堆这些话真是幽默风趣成为寄头文化和下来的
+2024-03-12 22:52:47.038 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:52:47.038 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.319 s.
+2024-03-12 22:52:47.039 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:52:59.466 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 在南说我们在聊相对坚持的内容思考神话也同话的原流探用现象学之上的故乡研究现象生的在南意识我相信这些内容是指得更加充分思考业数对的
+2024-03-12 22:53:07.835 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 但接连上了几条硬菜之后我也深感疲惫所以这就要从实败华案例的节目给大家分享一些轻松的思考那么视频正式开始
+2024-03-12 22:54:21.623 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:54:21.623 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:54:21.623 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:54:21.623 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:54:25.769 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:54:25.769 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.564 s.
+2024-03-12 22:54:25.779 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:54:25.779 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:54:25.821 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:54:25.821 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:54:25.842 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:57:06.407 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:57:06.407 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:57:06.408 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:57:06.408 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:57:09.798 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:57:09.798 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.351 s.
+2024-03-12 22:57:09.806 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:57:09.806 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:57:09.829 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:57:09.829 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:57:09.844 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:57:57.116 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:57:57.116 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.304 s.
+2024-03-12 22:57:57.117 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 22:58:12.212 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 因此在这些现实以来运行千万年的逻辑的支持下我们就是实际存在于我们周边某处角落的城市等待着我们更深入的探索强大也很有趣进行来看一本《甲术老城路》
+2024-03-12 22:58:18.540 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 书名是消失了古城,清末名出成都的日常生活记忆其中提到一个非常鲜活的老成都记忆台教子一般来说,教子都是前后乐人来台但是教子
+2024-03-12 22:58:38.619 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:58:38.619 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:58:38.620 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 22:58:38.620 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 22:58:42.375 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 22:58:42.375 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.410 s.
+2024-03-12 22:58:42.382 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:58:42.382 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:58:42.423 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 22:58:42.423 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 22:58:42.448 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 23:00:07.066 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 23:00:07.068 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 23:00:07.069 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-12 23:00:07.069 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-12 23:00:10.269 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 23:00:10.269 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.310 s.
+2024-03-12 23:00:10.276 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 23:00:10.278 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 23:00:10.465 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-12 23:00:10.466 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-12 23:00:10.483 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 23:01:40.442 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-12 23:01:40.442 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.307 s.
+2024-03-12 23:01:40.443 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-12 23:01:54.873 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 是归属权的行政文件现在本画的关键词已经出现土地归属的认定在建议模法的逻辑下这块土地属于世世代代守护在此地的保卫者而在现代化的
+2024-03-12 23:02:01.559 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 在各種機構的證明文件的擔保價格才能獲得確認無論是否屬立土地相關的歷史偵測的變遷
+2024-03-12 23:02:12.183 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 而且我们都能知道一件事被不明不白的人上门要求自证甚至离开自己的故乡一定是让人恼火的所以我们当然可以无暂的理解魔法是与今天所代表的城市体系

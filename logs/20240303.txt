@@ -1,0 +1,29 @@
+2024-03-03 16:17:44.413 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-03 16:17:44.413 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-03 16:17:44.414 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Desktop\MetaGPT\workspace
+2024-03-03 16:17:44.414 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-03 16:17:46.424 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-03-03 16:17:46.424 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-03 16:17:46.451 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: Large Language Model...']
+2024-03-03 16:17:46.451 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-03 16:17:46.451 | INFO     | Role.Extractor:_act:29 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-03 16:17:46.451 | DEBUG    | Action.KeywordExtract:run:71 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+Large Language Models (LLMs) often make errors when performing numerical calculations.         In contrast to traditional chain-of-thought reasoning, the program-of-thoughts approach         involves generating executable code to solve problems.
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-03 16:17:47.941 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 232, completion_tokens: 13
+2024-03-03 16:17:47.942 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1

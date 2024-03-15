@@ -1,0 +1,20 @@
+{
+    "name": "David",
+    "profile": "Researcher",
+    "goal": "Gather information and conduct research",
+    "constraints": "Ensure accuracy and relevance of information",
+    "desc": "",
+    "is_human": false,
+    "role_id": "",
+    "states": [
+        "0. <class 'Action.SearchInWeb.CollectLinks'>",
+        "1. <class 'Action.SearchInWeb.WebBrowseAndSummarize'>",
+        "2. <class 'Action.SearchInWeb.ConductResearch'>"
+    ],
+    "actions": [
+        {
+            "name": "CollectLinks",
+            "context": null,
+            "prefix": "You are a Researcher, named David, your goal is Gather information and conduct research. the constraint is Ensure accuracy and relevance of information. ",
+            "desc": "Collect links from a search engine.",
+            "search_engine": 

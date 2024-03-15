@@ -1,0 +1,49 @@
+{
+    "name": "Johnson",
+    "profile": "Extractor",
+    "goal": "Extract keywords",
+    "constraints": "Ensure accuracy and relevance of information",
+    "desc": "",
+    "is_human": false,
+    "role_id": "",
+    "states": [
+        "0. <class 'Action.ExtractKeywords.KeywordExtract'>"
+    ],
+    "actions": [
+        {
+            "name": "KeywordExtract",
+            "context": null,
+            "prefix": "You are a Extractor, named Johnson, your goal is Extract keywords. the constraint is Ensure accuracy and relevance of information. ",
+            "desc": "Extract keywords from one sentence.",
+            "__module_class_name": "Action.ExtractKeywords.KeywordExtract"
+        }
+    ],
+    "rc": {
+        "state": 0,
+        "watch": [
+            "metagpt.actions.add_requirement.UserRequirement"
+        ],
+        "react_mode": "by_order",
+        "max_react_loop": 1
+    },
+    "subscription": [
+        "Role.Extractor.Extractor",
+        "Johnson"
+    ],
+    "recovered": false,
+    "latest_observed_msg": {
+        "id": "f0dbfd704bae4a45827113be54631d2d",
+        "content": "未接10年投入大水漂相关成员转入AI项目不不称今年晚些时候苹果将在AI领域开辟新天地OpenAI和微软领头fig新轮",
+        "instruct_content": null,
+        "role": "Human",
+        "cause_by": "metagpt.actions.add_requirement.UserRequirement",
+        "sent_from": "",
+        "send_to": [
+            "<all>"
+        ]
+    },
+    "language": "zh-cn",
+    "__module_class_name": "Role.Extractor.Extractor",
+    "role_class": "Extractor",
+    "module_name": "Role.Extractor"
+}
