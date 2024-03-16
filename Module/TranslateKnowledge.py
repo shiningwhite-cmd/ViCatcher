@@ -93,6 +93,8 @@ class Translator:
                 if keyword_list is not None:
                     self.keywords_pop_in(keyword_list)
 
+                continue
+
             if self.keywords_is_not_none():
                 kw = self.keywords_pop_out()
 
@@ -100,5 +102,7 @@ class Translator:
                 knowledge = wr_rsp.content
 
                 logger.info(knowledge)
+
+                continue
 
             time.sleep(5)
