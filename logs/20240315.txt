@@ -1,0 +1,468 @@
+2024-03-15 15:53:34.241 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:53:34.241 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:53:34.241 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-03-15 15:53:34.242 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-15 15:53:41.928 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-15 15:53:41.928 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.635 s.
+2024-03-15 15:53:41.937 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:53:41.937 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:53:41.972 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:53:41.973 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:53:41.988 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-15 15:53:41.989 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:53:46.990 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:53:51.991 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:53:56.992 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:53:57.371 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  right now
+2024-03-15 15:54:01.992 | INFO     | Module.TranslateKnowledge:run:76 -  right now
+2024-03-15 15:54:01.995 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user:  right now...']
+2024-03-15 15:54:01.995 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:54:01.996 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:54:01.996 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ right now
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:54:03.027 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 在中間的桌子上一張乾的盒子和桌子你站在旁邊手上的桌子好,可以吃點什麼
+2024-03-15 15:54:03.663 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 193, completion_tokens: 4
+2024-03-15 15:54:03.663 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:54:03.663 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: right now...']
+2024-03-15 15:54:03.663 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:54:03.664 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:54:08.136 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 396, completion_tokens: 114
+2024-03-15 15:54:08.137 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:54:08.137 | INFO     | Module.TranslateKnowledge:run:102 - "All Right Now" is a classic rock song by English band Free, featured on their 1970 album, Fire and Water. The song, released by Island Records, peaked at number two on the UK Singles Chart and number four on the US Billboard Hot 100. It achieved global success, topping charts in over 20 countries. Notably, it received a Million Air award for 3 million air plays in the USA. "All Right Now" remains a popular track on classic rock radio and has been covered by various artists, including Rod Stewart and GNR.
+2024-03-15 15:54:13.138 | INFO     | Module.TranslateKnowledge:run:76 - 在中間的桌子上一張乾的盒子和桌子你站在旁邊手上的桌子好,可以吃點什麼
+2024-03-15 15:54:13.138 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 在中間的桌子上一張乾的盒子和桌子你站在旁...']
+2024-03-15 15:54:13.138 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:54:13.138 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:54:13.138 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+在中間的桌子上一張乾的盒子和桌子你站在旁邊手上的桌子好,可以吃點什麼
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:54:13.244 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: ��隨便
+2024-03-15 15:54:14.203 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 237, completion_tokens: 10
+2024-03-15 15:54:14.203 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:54:14.205 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 桌子...']
+2024-03-15 15:54:14.205 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:54:14.205 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:54:35.713 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:54:35.713 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:54:35.713 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-03-15 15:54:35.713 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-15 15:54:40.108 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-15 15:54:40.108 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.706 s.
+2024-03-15 15:54:40.116 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:54:40.116 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:54:40.148 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:54:40.148 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:54:40.164 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-15 15:54:40.165 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:54:45.166 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:54:50.166 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:54:55.167 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:54:55.289 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 充電的邊緣不但模型他自己會識別然後就幫你把它處理好真正比較連貫的同時OK然後對於這個地方有可能有的技術細節包括實際上我們不是上一任
+2024-03-15 15:55:00.168 | INFO     | Module.TranslateKnowledge:run:76 - 充電的邊緣不但模型他自己會識別然後就幫你把它處理好真正比較連貫的同時OK然後對於這個地方有可能有的技術細節包括實際上我們不是上一任
+2024-03-15 15:55:00.179 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 充電的邊緣不但模型他自己會識別然後就幫你...']
+2024-03-15 15:55:00.179 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:55:00.179 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:55:00.179 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+充電的邊緣不但模型他自己會識別然後就幫你把它處理好真正比較連貫的同時OK然後對於這個地方有可能有的技術細節包括實際上我們不是上一任
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:55:01.371 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 第一支中間有著非常多的細節這裡我們主流過我們這我們就知道我們操作的對象是它去到計時刻某些計時刻
+2024-03-15 15:55:01.738 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 281, completion_tokens: 13
+2024-03-15 15:55:01.738 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:55:01.738 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 技術細節...']
+2024-03-15 15:55:01.738 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:55:01.738 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:55:05.421 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 347, completion_tokens: 70
+2024-03-15 15:55:05.421 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:55:05.421 | INFO     | Module.TranslateKnowledge:run:102 - The British Consulate General Hong Kong provides professional English-to-Cantonese name translation services for British officials, a tradition dating back to the 16th Colonial Governor of Hong Kong. This unique service ensures accurate and culturally sensitive translations, avoiding taboo or embarrassing interpretations. These translated names are widely used by Cantonese media outlets and expatriate communities globally.
+2024-03-15 15:55:10.422 | INFO     | Module.TranslateKnowledge:run:76 - 第一支中間有著非常多的細節這裡我們主流過我們這我們就知道我們操作的對象是它去到計時刻某些計時刻
+2024-03-15 15:55:10.422 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 第一支中間有著非常多的細節這裡我們主流過...']
+2024-03-15 15:55:10.422 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:55:10.423 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:55:10.423 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+第一支中間有著非常多的細節這裡我們主流過我們這我們就知道我們操作的對象是它去到計時刻某些計時刻
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:55:11.198 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 中间预测的那些不太准的X0我们对这个进行融合我也这是我们的光流融合的一部分
+2024-03-15 15:55:11.563 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 254, completion_tokens: 6
+2024-03-15 15:55:11.563 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:55:11.563 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 計時刻...']
+2024-03-15 15:55:11.563 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:55:11.563 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:55:15.312 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 242, completion_tokens: 92
+2024-03-15 15:55:15.313 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:55:15.313 | INFO     | Module.TranslateKnowledge:run:102 - In September 2014, a tragic volcanic eruption occurred at Mount Ontake in Japan, resulting in the loss of 63 lives. Mount Ontake, situated on the island of Honshu, is approximately 100 kilometers northeast of Nagoya and 200 kilometers west of Tokyo. This event marked the first fatal volcanic eruption in Japan since 1991 and the deadliest since the Torishima eruption in 1902, which claimed around 150 lives.
+2024-03-15 15:55:20.313 | INFO     | Module.TranslateKnowledge:run:76 - 中间预测的那些不太准的X0我们对这个进行融合我也这是我们的光流融合的一部分
+2024-03-15 15:55:20.313 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 中间预测的那些不太准的X0我们对这个进行...']
+2024-03-15 15:55:20.313 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:55:20.313 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:55:20.314 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+中间预测的那些不太准的X0我们对这个进行融合我也这是我们的光流融合的一部分
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:55:21.510 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 234, completion_tokens: 9
+2024-03-15 15:55:21.510 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:55:21.511 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 光流融合...']
+2024-03-15 15:55:21.511 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:55:21.511 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:55:21.745 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 之後我們其實會發現就是降溶和是不夠的為什麼呢就是我們剛也曉得就是史丹波的學生他有約翼約翼的話會把圖像下台上八倍
+2024-03-15 15:55:25.075 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 180, completion_tokens: 80
+2024-03-15 15:55:25.075 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:55:25.075 | INFO     | Module.TranslateKnowledge:run:102 - 光流融合 (Guangliu Ronghe) refers to the music soundtracks released by HOYO-MiX, the in-house music studio of miHoYo, for the popular video game Genshin Impact since 2020. These soundtracks have garnered positive reviews and accolades, showcasing the studio's talent in creating immersive and captivating music for the game.
+2024-03-15 15:55:30.075 | INFO     | Module.TranslateKnowledge:run:76 - 之後我們其實會發現就是降溶和是不夠的為什麼呢就是我們剛也曉得就是史丹波的學生他有約翼約翼的話會把圖像下台上八倍
+2024-03-15 15:55:30.075 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 之後我們其實會發現就是降溶和是不夠的為什...']
+2024-03-15 15:55:30.076 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:55:30.076 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:55:30.076 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+之後我們其實會發現就是降溶和是不夠的為什麼呢就是我們剛也曉得就是史丹波的學生他有約翼約翼的話會把圖像下台上八倍
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:57:28.944 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:57:28.945 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:57:28.945 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-03-15 15:57:28.945 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-15 15:57:32.759 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-15 15:57:32.760 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.483 s.
+2024-03-15 15:57:32.766 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:57:32.766 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:57:32.788 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 15:57:32.788 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 15:57:32.804 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-15 15:57:32.804 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:57:37.805 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:57:42.806 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 15:57:46.936 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 這個時候呢這個這個在網下呢我們就可以調用自動滑動本身的圖像全功能最後就可以升成
+2024-03-15 15:57:47.806 | INFO     | Module.TranslateKnowledge:run:76 - 這個時候呢這個這個在網下呢我們就可以調用自動滑動本身的圖像全功能最後就可以升成
+2024-03-15 15:57:47.817 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 這個時候呢這個這個在網下呢我們就可以調用...']
+2024-03-15 15:57:47.817 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:57:47.817 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:57:47.817 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+這個時候呢這個這個在網下呢我們就可以調用自動滑動本身的圖像全功能最後就可以升成
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:57:49.606 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 243, completion_tokens: 14
+2024-03-15 15:57:49.606 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:57:49.607 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 圖像全功能...']
+2024-03-15 15:57:49.607 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:57:49.607 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:57:53.290 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 197, completion_tokens: 88
+2024-03-15 15:57:53.291 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:57:53.291 | INFO     | Module.TranslateKnowledge:run:102 - "圖像全功能, also known as Ningyo (人魚), refers to a mythical creature in Japanese literature that possesses both human and fish-like characteristics. While commonly referred to as "mermaid," the term is not limited to a specific gender and can encompass both male and female versions. The literal translation of Ningyo as "human-fish" highlights the unique blend of human and aquatic traits in this folklore creature."
+2024-03-15 15:57:53.891 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 对,这部操作它实际上跟之前对X0操作类似,只不过它现在处理的不是一方面的图像而是其他
+2024-03-15 15:57:58.292 | INFO     | Module.TranslateKnowledge:run:76 - 对,这部操作它实际上跟之前对X0操作类似,只不过它现在处理的不是一方面的图像而是其他
+2024-03-15 15:57:58.292 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 对,这部操作它实际上跟之前对X0操作类似...']
+2024-03-15 15:57:58.292 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:57:58.292 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:57:58.292 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+对,这部操作它实际上跟之前对X0操作类似,只不过它现在处理的不是一方面的图像而是其他
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:57:59.336 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 234, completion_tokens: 8
+2024-03-15 15:57:59.336 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:57:59.337 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 图像...']
+2024-03-15 15:57:59.337 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:57:59.337 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:58:02.763 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 202, completion_tokens: 52
+2024-03-15 15:58:02.764 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:58:02.764 | INFO     | Module.TranslateKnowledge:run:102 - 图像, also known as Ruan Lingyu or Lily Yuen, was a renowned Chinese silent film actress in the 1930s. Her exceptional acting skills and tragic suicide at the young age of 24 made her an iconic figure in Chinese cinema.
+2024-03-15 15:58:03.985 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 這部逃脫是可以說是整個Petfeller最關鍵的一部當然我們這裡省略了很多細節包括我們這個MUFF
+2024-03-15 15:58:07.764 | INFO     | Module.TranslateKnowledge:run:76 - 這部逃脫是可以說是整個Petfeller最關鍵的一部當然我們這裡省略了很多細節包括我們這個MUFF
+2024-03-15 15:58:07.764 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 這部逃脫是可以說是整個Petfeller...']
+2024-03-15 15:58:07.764 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:58:07.764 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:58:07.764 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+這部逃脫是可以說是整個Petfeller最關鍵的一部當然我們這裡省略了很多細節包括我們這個MUFF
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:58:09.020 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 252, completion_tokens: 9
+2024-03-15 15:58:09.021 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:58:09.021 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: MUFF...']
+2024-03-15 15:58:09.021 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:58:09.021 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:58:12.672 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 130, completion_tokens: 85
+2024-03-15 15:58:12.673 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:58:12.673 | INFO     | Module.TranslateKnowledge:run:102 - MUFF, short for "Municipal Urban Forest Framework," is a term that can refer to various concepts related to urban forestry and environmental planning. It encompasses strategies for managing and preserving urban green spaces, trees, and vegetation within city landscapes. MUFF initiatives aim to enhance biodiversity, improve air quality, and promote sustainable urban development. Additionally, MUFF may also stand for other specific terms or organizations depending on the context.
+2024-03-15 15:58:14.114 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 并不直接替换是有一定的分析比例替换我们这里也只讲它的大概思想对 上面两个就是我们的核心技术用光流
+2024-03-15 15:58:17.674 | INFO     | Module.TranslateKnowledge:run:76 - 并不直接替换是有一定的分析比例替换我们这里也只讲它的大概思想对 上面两个就是我们的核心技术用光流
+2024-03-15 15:58:17.674 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 并不直接替换是有一定的分析比例替换我们这...']
+2024-03-15 15:58:17.674 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:58:17.674 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:58:17.674 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+并不直接替换是有一定的分析比例替换我们这里也只讲它的大概思想对 上面两个就是我们的核心技术用光流
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:58:18.904 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 244, completion_tokens: 11
+2024-03-15 15:58:18.904 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:58:18.905 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 分析比例...']
+2024-03-15 15:58:18.905 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:58:18.905 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:58:22.784 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 336, completion_tokens: 118
+2024-03-15 15:58:22.784 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:58:22.784 | INFO     | Module.TranslateKnowledge:run:102 - Sanseitō, also known as the Party of Do it Yourself !!, is a right-wing populist political party in Japan. Founded in 2020, it gained prominence after winning a seat in the 2022 House of Councillors election. The party has been criticized for promoting COVID-19 misinformation and anti-vaccine propaganda, with its president calling COVID vaccines a "murder weapon". Sanseitō's unique appeal lies in attracting affluent, previously apolitical supporters through unconventional topics like organic food culture and spirituality, setting it apart from traditional far-right parties in Japan.
+2024-03-15 15:58:24.202 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 來融合風險變量主要是有影空間理的圖像以及真實的圖像這剛剛是核心的幾種現在我們來談一些技術的細節
+2024-03-15 15:58:27.785 | INFO     | Module.TranslateKnowledge:run:76 - 來融合風險變量主要是有影空間理的圖像以及真實的圖像這剛剛是核心的幾種現在我們來談一些技術的細節
+2024-03-15 15:58:27.785 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 來融合風險變量主要是有影空間理的圖像以及...']
+2024-03-15 15:58:27.785 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 15:58:27.785 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 15:58:27.785 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+來融合風險變量主要是有影空間理的圖像以及真實的圖像這剛剛是核心的幾種現在我們來談一些技術的細節
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 15:58:32.887 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 260, completion_tokens: 19
+2024-03-15 15:58:32.887 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 15:58:32.887 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 技術的細節...']
+2024-03-15 15:58:32.887 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 15:58:32.887 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 15:58:34.120 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 第一个细节就是A1中的编码损失这个问题可能在下工作不会碰到在我工作里面碰到这是因为我们刚刚在
+2024-03-15 15:58:36.051 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 159, completion_tokens: 57
+2024-03-15 15:58:36.051 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 15:58:36.051 | INFO     | Module.TranslateKnowledge:run:102 - Hou Chi-jan, also known as 侯季然, is a Taiwanese director and writer known for his works that delve into historical memories. His artistic endeavors often explore the intricate details of technology, offering a unique perspective on the intersection of past narratives and contemporary society.
+2024-03-15 18:51:13.175 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 18:51:13.175 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 18:51:13.175 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-03-15 18:51:13.175 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-15 18:51:17.691 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-15 18:51:17.691 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.584 s.
+2024-03-15 18:51:17.699 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 18:51:17.699 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 18:51:17.728 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 18:51:17.728 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 18:51:17.766 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-15 18:51:17.767 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 18:51:22.767 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 18:51:27.768 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 18:51:32.605 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 再不理会 再填回去拿这个之前之前编码间碼一次结果填回去总之经过了第二道改进以后最后这个VAE编码间碼的过程就
+2024-03-15 18:51:32.768 | INFO     | Module.TranslateKnowledge:run:76 - 再不理会 再填回去拿这个之前之前编码间碼一次结果填回去总之经过了第二道改进以后最后这个VAE编码间碼的过程就
+2024-03-15 18:51:32.768 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 再不理会 再填回去拿这个之前之前编码间碼...']
+2024-03-15 18:51:32.768 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 18:51:32.768 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 18:51:32.768 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+再不理会 再填回去拿这个之前之前编码间碼一次结果填回去总之经过了第二道改进以后最后这个VAE编码间碼的过程就
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 18:51:34.347 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 246, completion_tokens: 7
+2024-03-15 18:51:34.347 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 18:51:34.347 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 编码间碼...']
+2024-03-15 18:51:34.347 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 18:51:34.348 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 18:51:38.902 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 就幾乎跟源頭一樣不過這樣一個設計我們等於說提出了一種新的無損壓縮無約意編碼
+2024-03-15 18:51:48.880 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 解码的方式这样的话我们这个PAPLAN就是能够正常工作对下一个期间叫做真尖注意力它是一个
+2024-03-15 18:51:55.388 | WARNING  | metagpt.utils.common:wrapper:506 - There is a exception in role's execution, in order to resume, we delete the newest role communication message in the role's memory.
+2024-03-15 18:51:59.277 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: Cable Diffusion 視頻編輯以及圖像編輯中應用非常廣泛的一個技術這個技術是什麼意思呢?就是我們先來回顧一下注意
+2024-03-15 18:52:13.621 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 18:52:13.621 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 18:52:13.621 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-03-15 18:52:13.621 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-03-15 18:52:17.291 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-03-15 18:52:17.291 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.335 s.
+2024-03-15 18:52:17.299 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 18:52:17.299 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 18:52:17.320 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-03-15 18:52:17.321 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-03-15 18:52:17.338 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-03-15 18:52:17.338 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 18:52:22.339 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 18:52:27.339 | INFO     | Module.TranslateKnowledge:run:76 - None
+2024-03-15 18:52:31.120 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 利益與坦考與比例的信息比如說這裡我們輸的是土像X然後這裡的話交叉注意力的KB是非穩穩編的
+2024-03-15 18:52:32.340 | INFO     | Module.TranslateKnowledge:run:76 - 利益與坦考與比例的信息比如說這裡我們輸的是土像X然後這裡的話交叉注意力的KB是非穩穩編的
+2024-03-15 18:52:32.340 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 利益與坦考與比例的信息比如說這裡我們輸的...']
+2024-03-15 18:52:32.340 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-03-15 18:52:32.340 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-03-15 18:52:32.341 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+利益與坦考與比例的信息比如說這裡我們輸的是土像X然後這裡的話交叉注意力的KB是非穩穩編的
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-03-15 18:52:33.739 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 248, completion_tokens: 11
+2024-03-15 18:52:33.739 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-03-15 18:52:33.739 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 交叉注意力...']
+2024-03-15 18:52:33.739 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-03-15 18:52:33.739 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-03-15 18:52:37.416 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 85, completion_tokens: 146
+2024-03-15 18:52:37.416 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-03-15 18:52:37.416 | INFO     | Module.TranslateKnowledge:run:102 - "交叉注意力"是一种在深度学习中常用的技术，用于处理序列数据和图像数据之间的关联。通过引入交叉注意力机制，模型能够有效地捕捉不同数据之间的重要关系，提升模型性能和泛化能力。这种技术已被广泛应用于自然语言处理、计算机视觉和推荐系统等领域，为提升模型的表现和效果提供了重要的支持。
+2024-03-15 18:52:38.564 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 在庫薩摩琴的Crosser Tension裡我們實際上就是實現了圖像對於文本信息的參考這是交叉注意力的功能

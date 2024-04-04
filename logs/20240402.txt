@@ -1,0 +1,162 @@
+2024-04-02 20:06:47.291 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:06:47.291 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:06:47.291 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-02 20:06:47.291 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-02 20:06:48.155 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:06:48.155 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:06:56.836 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 208
+2024-04-02 20:06:56.836 | INFO     | Action.SearchVideo:knowledge_collect:85 - 1. Iowa State vs. Stanford basketball game at Maples Pavilion
+2. Stanford controls opening tip-off
+3. Focus on interior basketball play
+4. Stanford off to a great start in final home game of the season
+5. Bellinger scores first basket for Iowa State
+6. Emily Ryan makes an impact with her leadership and shooting
+7. Iowa State takes the lead with strong offensive play
+8. Stanford responds with offensive contributions from various players
+9. Game tied multiple times with lead changes
+10. Overtime period with intense gameplay
+11. Stanford's defense forces Iowa State to adjust shots
+12. Key plays by Kiki Iyer Offen and Emily Ryan
+13. Addie Brown's clutch three-point shooting
+14. Stanford wins in overtime, advancing to the Sweet 16
+15. Kiki Iyer Offen shines with a career-high 44 points
+16. Audi Crooks stands out with strong play despite fouling out
+17. Stanford's resilience and strong finish to secure the victory
+2024-04-02 20:08:31.986 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:08:31.986 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:08:31.986 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-02 20:08:31.986 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-02 20:08:32.608 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:08:32.609 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:08:44.190 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 178
+2024-04-02 20:08:44.191 | INFO     | Action.SearchVideo:knowledge_collect:85 - 1. The game was between Iowa State and Stanford at Maples Pavilion.
+2. Stanford controlled the opening tip-off.
+3. The game featured a lot of interior basketball with post play and action down low.
+4. Stanford had a great start in their final home game of the season.
+5. Bellinger scored the first basket for Iowa State.
+6. Emily Ryan made an impact with her three-point shooting.
+7. Stanford's player, AR Offen, had a standout performance with 44 points.
+8. Iowa State went on a 12-0 run.
+9. Cameron Brink made key plays for Stanford.
+10. The game had multiple lead changes and tied scores.
+11. The game went into overtime.
+12. AR Offen had a career-high 44 points in the game.
+13. Stanford won the game in overtime to advance to the Sweet 16.
+2024-04-02 20:09:30.894 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:09:30.894 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:09:30.895 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-02 20:09:30.895 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-02 20:09:31.520 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:09:31.520 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:09:39.053 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 476, completion_tokens: 216
+2024-04-02 20:09:39.053 | INFO     | Action.SearchVideo:knowledge_collect:85 - 1. Campus Experience:
+- Feeling overwhelmed by the size of the campus
+- Mix of excitement and nerves about exploring and fitting in
+- Concerns about imposter syndrome and social integration
+
+2. Academic and Social Life at Stanford:
+- Emphasis on academic seriousness and having fun
+- Learning from and connecting with others
+- Finding people with shared interests and values
+- Embracing uniqueness and diversity of talents
+
+3. Stanford as a Place for Dreams and Growth:
+- Encouragement to pursue dreams and thrive
+- Opportunity for self-discovery and personal growth
+- Embracing failure and prioritizing mental health
+- Cultivating well-being and flourishing
+
+4. Community and Support at Stanford:
+- Stanford as a place for community and family
+- Belonging and finding a point of engagement
+- Encouragement to keep dreaming big and making an impact
+
+5. Welcoming Message:
+- Assuring that there is a place for everyone at Stanford
+- Encouragement to keep an open mind and have fun
+- Excitement for the journey ahead
+2024-04-02 20:14:25.585 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:14:25.585 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:14:25.585 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-02 20:14:25.585 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-02 20:14:26.205 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:14:26.205 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:14:59.260 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:14:59.260 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 20:14:59.260 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-02 20:14:59.260 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-02 20:14:59.870 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-02 20:14:59.870 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-02 21:19:14.579 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:19:14.580 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 1.012 s.
+2024-04-02 21:21:04.424 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:21:04.424 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.441 s.
+2024-04-02 21:21:52.862 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:21:52.863 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.304 s.
+2024-04-02 21:21:52.933 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-02 21:22:15.804 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 从在冰果第一次担任分禁演出时就展现出了极其恐怖的天分精吹二的总集片想要传达的旋律是他第一次担任监督虽然是总集片
+2024-04-02 21:22:16.889 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 但他巧妙的删除了精雀原本有一些榮譽的戲份將感情線專注於九美子和名字向二人順時讓人近意不認識到這位創作者的無限潛力
+2024-04-02 21:22:58.999 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:22:58.999 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.512 s.
+2024-04-02 21:23:30.815 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:23:30.816 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.304 s.
+2024-04-02 21:27:59.006 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:27:59.007 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.337 s.
+2024-04-02 21:29:57.666 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:29:57.666 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.303 s.
+2024-04-02 21:30:03.085 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-02 21:30:18.025 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 3 確定只有13級的話這樣的儲備是完全足夠的但金安妮需要考慮的是當精雀3完結之後進入到後精雀時代她自己的更新換代是
+2024-04-02 21:30:24.587 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 是否及时因为金安尼目前最大的问题就是留不住人19年后陆续有很多中间和头部力量出走选择去东京圈发光发热至于金安尼留在
+2024-04-02 21:30:29.468 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-02 21:30:34.893 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 留不住人的原因礙於偏服這裡就不展開講了感興趣的觀眾可以到評論區置頂閱讀鼻子的心路以及這裡或者是寫兩篇小鈴鐺如果其實
+2024-04-02 21:30:42.421 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-02 21:30:44.112 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-02 21:30:52.880 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 穿听听 ¡Yね啦 !皆是好让你进我究竟是个愿享受品边观客
+2024-04-02 21:42:58.327 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:42:58.327 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.532 s.
+2024-04-02 21:43:35.408 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:43:35.408 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.296 s.
+2024-04-02 21:44:09.650 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:44:09.650 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.296 s.
+2024-04-02 21:45:18.423 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:45:18.423 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.312 s.
+2024-04-02 21:45:48.732 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:45:48.732 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.315 s.
+2024-04-02 21:45:54.638 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-02 21:46:10.698 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 应该有的责任感无论是在无本康雄先生去世后毫不犹豫的接过龙女普S监督的重任还是一项毫不吝嗇提拔新人的态度都是很好的佐词
+2024-04-02 21:46:15.938 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 可以说是一位实质名归的动画大师接着便是金安妮老将 北支援校将先生作为能在19年那场大火发生时以55岁的年龄从20年代
+2024-04-02 21:46:25.680 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 跳窗逃生的猛男北軍校將有著非常強大的劃力被動 機械 演技 樣樣精通
+2024-04-02 21:47:07.748 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:47:07.748 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.545 s.
+2024-04-02 21:47:11.400 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-02 21:47:28.088 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: It is Love只有那份什么 deine来之但有一种怎么想起来
+2024-04-02 21:47:32.432 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 同時作為金安妮師俗的主獎人之一末將也一直在為培養金安妮的新生代替
+2024-04-02 21:47:41.964 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 持續發光發熱
+2024-04-02 21:50:20.010 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:50:20.010 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.532 s.
+2024-04-02 21:50:31.862 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:50:31.862 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.310 s.
+2024-04-02 21:50:47.004 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-02 21:51:01.020 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 是4的第9集如果有印象的觀眾們可能會記得那集裡面有托爾和艾路馬的打戲
+2024-04-02 21:51:07.696 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-04-02 21:51:17.741 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-04-02 21:51:27.742 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-04-02 21:51:38.293 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 让一个第一次负责分禁的新人化打细的分禁也能侧面看出他能力的强大在闲音第二集中
+2024-04-02 21:51:48.610 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 在这种程度中太甜人的演出能力更是突飞猛进不同于摸将和小穿这样柔和的演出风格太甜人的演出更加华丽包括演出道具的使用场景不一样
+2024-04-02 21:54:49.071 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:54:49.071 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.524 s.
+2024-04-02 21:56:09.954 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:56:09.954 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.309 s.
+2024-04-02 21:56:13.071 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-02 21:56:27.606 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 首次擔任作画监督但最近的作品一直以原画身份参与或许在《精吹3》中也能看到其声音那么各位观众听着盘点了这么多估计还是有疑惑
+2024-04-02 21:56:34.408 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 这样的人数到底是储备充足还是不足呢先说结论如果精吹3确定只有13级的话这样的储备是完全足够的但精安你需要考虑
+2024-04-02 21:58:58.220 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:58:58.221 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.466 s.
+2024-04-02 21:59:35.585 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 21:59:35.585 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.301 s.
+2024-04-02 22:00:31.862 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 22:00:31.863 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.308 s.
+2024-04-02 22:02:19.851 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 22:02:19.852 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.302 s.
+2024-04-02 22:12:48.142 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-02 22:12:48.142 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.329 s.

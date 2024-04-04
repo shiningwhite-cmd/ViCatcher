@@ -47,6 +47,8 @@ class Translator:
     extractor = None
     wiki_researcher = None
     keywords = []
+    this_keyword = ""
+    this_knowledge = ""
 
     def __init__(self, im: Intermediary = None):
         super().__init__()
@@ -69,13 +71,18 @@ class Translator:
             return True
         return False
 
+    def get_this_keyword(self):
+        return self.this_keyword
+
+    def get_this_knowledge(self):
+        return self.this_knowledge
+
     async def run(self):
         """"""
         while True:
-            idea = self.im.get_queue()
-            logger.info(idea)
-
-            if idea is not None:
+            if self.im.queue_is_not_none():
+                idea = self.im.get_queue()
+                # logger.info(idea)
                 et_repeat_time = 0
                 et_rsp = await self.extractor.run(idea)
                 keyword_list = is_valid_json(et_rsp.content)
@@ -101,7 +108,9 @@ class Translator:
                 wr_rsp = await self.wiki_researcher.run(kw)
                 knowledge = wr_rsp.content
 
-                logger.info(knowledge)
+                # logger.info(knowledge)
+                self.this_keyword = kw
+                self.this_knowledge = knowledge
 
                 continue
 

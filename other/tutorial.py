@@ -211,7 +211,7 @@ class OssWatcher(Role):
         name="Codey",
         profile="OssWatcher",
         goal="Generate an insightful GitHub Trending analysis report.",
-        constraints="Only analyze based on the provided GitHub Trending data.",
+        constraints="Only analyze based on the provided GitHub Trending Data.",
     ):
         super().__init__(name=name, profile=profile, goal=goal, constraints=constraints)
         self._init_actions([CrawlOSSTrending, AnalysisOSSTrending])

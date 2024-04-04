@@ -77,7 +77,7 @@ above. The report must meet the following requirements:
 
 - Focus on directly addressing the chosen topic.
 - Ensure a well-structured and in-depth presentation, incorporating relevant facts and figures where available.
-- Present data and findings in an intuitive manner, utilizing feature comparative tables, if applicable.
+- Present Data and findings in an intuitive manner, utilizing feature comparative tables, if applicable.
 - The report should be formatted with Markdown syntax following APA style guidelines.
 - Include all source URLs in APA format at the end of the report.
 """

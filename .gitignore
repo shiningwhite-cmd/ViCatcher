@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 /Action/logs
 config/key.yaml
-/data/research
+/Data
 /Models/macbert4csc-base-chinese
 /Models/whisper
 *.pt

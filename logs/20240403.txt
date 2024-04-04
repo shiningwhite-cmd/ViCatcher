@@ -1,0 +1,418 @@
+2024-04-03 17:15:58.526 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-03 17:15:58.526 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.867 s.
+2024-04-03 17:16:38.141 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-03 17:16:38.141 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.473 s.
+2024-04-03 17:17:46.647 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-03 17:17:46.647 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.301 s.
+2024-04-03 17:18:04.303 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-03 17:18:04.303 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.295 s.
+2024-04-03 17:18:08.045 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-03 17:18:22.197 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-03 17:18:28.568 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-03 17:18:38.805 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: Way that are not too intrusive.
+2024-04-03 17:21:14.140 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:21:14.140 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:21:14.140 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-03 17:21:14.141 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-03 17:21:17.905 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-03 17:21:17.906 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.606 s.
+2024-04-03 17:21:17.913 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:21:17.913 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:21:17.935 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:21:17.935 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:21:20.568 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-03 17:21:36.101 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: AppreciateBeanBeanBeanElastic
+2024-04-03 17:21:40.570 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: AppreciateBeanBeanBe...']
+2024-04-03 17:21:40.570 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 17:21:40.570 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 17:21:40.570 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+AppreciateBeanBeanBeanElastic
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 17:21:41.164 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: elasticpresumably
+2024-04-03 17:21:41.760 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 199, completion_tokens: 10
+2024-04-03 17:21:41.761 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 17:21:41.761 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: elasticpresumably...']
+2024-04-03 17:21:41.761 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 17:21:41.761 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 17:21:41.761 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+elasticpresumably
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 17:21:42.297 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 194, completion_tokens: 7
+2024-04-03 17:21:42.297 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 17:21:42.298 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: presumably...']
+2024-04-03 17:21:42.298 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:21:42.298 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:21:45.390 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 286, completion_tokens: 66
+2024-04-03 17:21:45.390 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 17:21:45.390 | INFO     | Module.TranslateKnowledge:run:103 - In law, a presumption is an inference of a particular fact. There are two types of presumptions: rebuttable and irrebuttable. A rebuttable presumption can be challenged with evidence, shifting the burden of proof, while an irrebuttable presumption cannot be contested. Presumptions may require a triggering predicate fact for application.
+2024-04-03 17:21:45.390 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: elastic...']
+2024-04-03 17:21:45.390 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:21:45.390 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:21:48.211 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 153, completion_tokens: 57
+2024-04-03 17:21:48.211 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 17:21:48.211 | INFO     | Module.TranslateKnowledge:run:103 - Elastic is a term commonly associated with elastomers, used in garments and stretchable fabrics. It refers to materials that have the ability to stretch and return to their original shape. Additionally, elastic can also denote a type of fabric or band that provides flexibility and resilience in various applications.
+2024-04-03 17:21:48.212 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: AppreciateBeanBeanBe...']
+2024-04-03 17:21:48.212 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:21:48.212 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:26:43.353 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:26:43.353 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:26:43.354 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-03 17:26:43.354 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-03 17:26:46.936 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-03 17:26:46.936 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.537 s.
+2024-04-03 17:26:46.943 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:26:46.943 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:26:46.963 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:26:46.963 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:27:05.406 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-03 17:27:20.269 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: accountable
+2024-04-03 17:27:20.407 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: accountable...']
+2024-04-03 17:27:20.407 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 17:27:20.407 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 17:27:20.407 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+accountable
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 17:27:21.909 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 193, completion_tokens: 4
+2024-04-03 17:27:21.910 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 17:27:21.910 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: accountable...']
+2024-04-03 17:27:21.910 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:27:21.910 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:27:25.530 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 340, completion_tokens: 83
+2024-04-03 17:27:25.530 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 17:27:26.409 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 点出以及做话监督两个方面分别判定一下目前精安的人才储备
+2024-04-03 17:27:30.532 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 点出以及做话监督两个方面分别判定一下目前...']
+2024-04-03 17:27:30.532 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 17:27:30.532 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 17:27:30.532 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+点出以及做话监督两个方面分别判定一下目前精安的人才储备
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 17:27:31.618 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 224, completion_tokens: 13
+2024-04-03 17:27:31.618 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 17:27:31.618 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 人才储备...']
+2024-04-03 17:27:31.618 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:27:31.618 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:28:06.210 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:28:06.210 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:28:06.210 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-03 17:28:06.210 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-03 17:28:09.992 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-03 17:28:09.992 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.582 s.
+2024-04-03 17:28:10.000 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:28:10.000 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:28:10.020 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 17:28:10.020 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 17:28:12.920 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-03 17:28:28.112 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 同時也擁有作為頂樑柱應該有的責任感無論是在無本康雄先生去世後毫不猶豫的接過龍女普S監督的重任還是一項毫不吝嗇提
+2024-04-03 17:28:32.939 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 同時也擁有作為頂樑柱應該有的責任感無論是...']
+2024-04-03 17:28:32.939 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 17:28:32.940 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 17:28:32.940 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+同時也擁有作為頂樑柱應該有的責任感無論是在無本康雄先生去世後毫不猶豫的接過龍女普S監督的重任還是一項毫不吝嗇提
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 17:28:34.254 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 其把新人的態度都是很好的佐證可以說是一位實至名歸的動畫大師接著便是金安妮老將北支原孝將先生作為能在19年那場
+2024-04-03 17:28:34.750 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 278, completion_tokens: 12
+2024-04-03 17:28:34.750 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 17:28:34.750 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 其把新人的態度都是很好的佐證可以說是一位...']
+2024-04-03 17:28:34.750 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 17:28:34.750 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 17:28:34.750 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+其把新人的態度都是很好的佐證可以說是一位實至名歸的動畫大師接著便是金安妮老將北支原孝將先生作為能在19年那場
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 17:28:35.656 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 265, completion_tokens: 14
+2024-04-03 17:28:35.656 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 17:28:35.656 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 北支原孝...']
+2024-04-03 17:28:35.656 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:28:35.656 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:28:37.875 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 85, completion_tokens: 83
+2024-04-03 17:28:37.875 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 17:28:37.875 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 金安妮...']
+2024-04-03 17:28:37.875 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:28:37.875 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:28:41.529 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 180, completion_tokens: 85
+2024-04-03 17:28:41.529 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 17:28:41.529 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 龍女普S監督...']
+2024-04-03 17:28:41.529 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:28:41.529 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:28:43.731 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 90, completion_tokens: 79
+2024-04-03 17:28:43.734 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 17:28:44.195 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 大火发生时以55岁的年龄从二楼跳窗逃生的猛男北军校将有着非常强大的化力被动、机械、演技样样精通
+2024-04-03 17:28:48.735 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 大火发生时以55岁的年龄从二楼跳窗逃生的...']
+2024-04-03 17:28:48.735 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 17:28:48.735 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 17:28:48.735 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+大火发生时以55岁的年龄从二楼跳窗逃生的猛男北军校将有着非常强大的化力被动、机械、演技样样精通
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 17:28:50.015 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 253, completion_tokens: 15
+2024-04-03 17:28:50.016 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 17:28:50.016 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 化力被动...']
+2024-04-03 17:28:50.016 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:28:50.016 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:28:53.026 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 85, completion_tokens: 76
+2024-04-03 17:28:53.026 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 17:28:53.026 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 北军校将...']
+2024-04-03 17:28:53.026 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:28:53.026 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 17:28:54.360 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 不upTens Send Girls  simmer
+2024-04-03 17:28:55.583 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 86, completion_tokens: 102
+2024-04-03 17:28:55.583 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 17:28:55.583 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 不upTens Send Girls  ...']
+2024-04-03 17:28:55.583 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 17:28:55.583 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 17:28:55.583 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+不upTens Send Girls  simmer
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 17:28:56.583 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 199, completion_tokens: 9
+2024-04-03 17:28:56.583 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 17:28:56.583 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: simmer...']
+2024-04-03 17:28:56.583 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 17:28:56.583 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 18:21:13.134 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 18:21:13.135 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 18:21:13.135 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-03 18:21:13.135 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-03 18:21:16.923 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-03 18:21:16.924 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.561 s.
+2024-04-03 18:21:16.931 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 18:21:16.931 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 18:21:16.951 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-03 18:21:16.951 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-03 18:21:34.378 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-03 18:21:48.834 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 基本上就能够让你去知道你在使用这个开源模型的过程当中你填一个promo然后你挑那些参数
+2024-04-03 18:21:49.379 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 基本上就能够让你去知道你在使用这个开源模...']
+2024-04-03 18:21:49.379 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 18:21:49.379 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 18:21:49.379 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+基本上就能够让你去知道你在使用这个开源模型的过程当中你填一个promo然后你挑那些参数
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 18:21:50.504 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 231, completion_tokens: 6
+2024-04-03 18:21:50.504 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 18:21:50.504 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 开源模型...']
+2024-04-03 18:21:50.504 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 18:21:50.505 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 18:21:54.624 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 235, completion_tokens: 113
+2024-04-03 18:21:54.624 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 18:21:55.661 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 它是一个怎么样的运作原理你的计算机里面到底发生了些什么样的事情然后让你填那些东西挑了参数最后就能够出一张
+2024-04-03 18:21:59.626 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 它是一个怎么样的运作原理你的计算机里面到...']
+2024-04-03 18:21:59.626 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 18:21:59.626 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 18:21:59.626 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+它是一个怎么样的运作原理你的计算机里面到底发生了些什么样的事情然后让你填那些东西挑了参数最后就能够出一张
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 18:22:01.137 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 249, completion_tokens: 11
+2024-04-03 18:22:01.137 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 18:22:01.137 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 计算机...']
+2024-04-03 18:22:01.137 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 18:22:01.137 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 18:22:04.809 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 217, completion_tokens: 78
+2024-04-03 18:22:04.809 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 18:22:04.809 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 运作原理...']
+2024-04-03 18:22:04.810 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 18:22:04.810 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 18:22:05.072 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 首先是关于深度随时的概念
+2024-04-03 18:22:06.918 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 84, completion_tokens: 73
+2024-04-03 18:22:06.919 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 18:22:06.919 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 首先是关于深度随时的概念...']
+2024-04-03 18:22:06.919 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 18:22:06.919 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 18:22:06.919 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+首先是关于深度随时的概念
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 18:22:07.812 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 207, completion_tokens: 8
+2024-04-03 18:22:07.812 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 18:22:07.812 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 深度随时...']
+2024-04-03 18:22:07.812 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 18:22:07.812 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-03 18:22:10.210 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 86, completion_tokens: 72
+2024-04-03 18:22:10.211 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-03 18:22:15.453 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 在三年没有学习领域之前我说一下我对他的印象可能就是一个比较高大上的这么一种
+2024-04-03 18:22:20.212 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 在三年没有学习领域之前我说一下我对他的印...']
+2024-04-03 18:22:20.212 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-03 18:22:20.212 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-03 18:22:20.212 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+在三年没有学习领域之前我说一下我对他的印象可能就是一个比较高大上的这么一种
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-03 18:22:21.376 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 230, completion_tokens: 11
+2024-04-03 18:22:21.376 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-03 18:22:21.376 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 高大上...']
+2024-04-03 18:22:21.376 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-03 18:22:21.376 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)

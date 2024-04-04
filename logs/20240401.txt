@@ -1,0 +1,296 @@
+2024-04-01 20:16:45.868 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:16:45.868 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:16:45.868 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:16:45.868 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:16:47.559 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:16:47.559 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:18:03.804 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:18:03.804 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:18:03.805 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:18:03.805 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:18:04.430 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:18:04.430 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:18:36.268 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:18:36.269 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:18:36.269 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:18:36.269 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:18:36.868 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:18:36.868 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:32:27.970 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:32:27.971 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:32:27.971 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:32:27.971 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:32:28.600 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:32:28.600 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:33:30.266 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:33:30.266 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:33:30.267 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:33:30.267 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:33:30.884 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:33:30.884 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:35:01.013 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:35:01.013 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:35:01.013 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:35:01.014 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:35:01.633 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:35:01.634 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:35:57.243 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:35:57.244 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:35:57.244 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:35:57.244 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:35:57.863 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:35:57.864 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:36:24.296 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:36:24.296 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:36:24.296 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:36:24.296 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:36:24.908 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:36:24.908 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:41:44.737 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:41:44.737 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:41:44.737 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:41:44.737 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:41:45.335 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:41:45.335 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:44:21.910 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:44:21.910 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 20:44:21.910 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 20:44:21.910 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 20:44:22.514 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 20:44:22.514 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:09:09.982 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:09:09.982 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:09:09.982 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:09:09.983 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:09:10.631 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:09:10.632 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:10:51.721 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:10:51.723 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:10:51.723 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:10:51.723 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:10:52.314 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:10:52.314 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:11:49.788 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:11:49.788 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:11:49.788 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:11:49.788 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:11:50.377 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:11:50.377 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:12:17.434 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 210
+2024-04-01 21:12:17.434 | INFO     | Action.SearchVideo:knowledge_collect:83 - 1. The game took place at Maples Pavilion between Iowa State and Stanford.
+2. Stanford controlled the opening tip-off.
+3. Stanford had a strong start to the game, with Bellinger connecting for the first basket.
+4. Emily Ryan made a significant impact for Iowa State, hitting key shots and leading the team.
+5. The game was closely contested with multiple lead changes.
+6. Aie Crooks and Kiki Iriafen were standout players for Stanford.
+7. The game went into overtime.
+8. Addie Brown made crucial three-pointers for Iowa State.
+9. Stanford ultimately won the game, advancing to the Sweet 16.
+10. Kiki Iriafen had a standout performance, scoring 44 points.
+11. Aie Crooks fouled out of the game but had a strong tournament performance.
+12. Stanford's defense played a key role in the game.
+13. The game was emotional and intense, with both teams giving their all.
+14. Stanford's victory was sealed with a steal in overtime.
+2024-04-01 21:12:25.514 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:12:25.514 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:12:25.514 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:12:25.514 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:12:26.072 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:12:26.072 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:12:33.907 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 217
+2024-04-01 21:12:33.907 | INFO     | Action.SearchVideo:knowledge_collect:83 - 1. The game took place at Maples Pavilion between Iowa State and Stanford.
+2. Stanford controlled the opening tip-off.
+3. The game featured a lot of interior basketball play.
+4. Stanford's player, Erie Offen, showcased an elevated skill set.
+5. The game was the first meeting between Iowa State and Stanford in 15 years.
+6. Stanford had a strong start in their final home game of the season.
+7. Iowa State's player, Bellinger, scored the first basket of the night.
+8. Emily Ryan made an impact with her three-point shooting.
+9. Stanford's player, Kiki Offen, had a standout performance with 44 points.
+10. Iowa State went on a 12-0 run at one point.
+11. Cameron Brink made key plays for Stanford.
+12. There were multiple lead changes throughout the game.
+13. The game went into overtime.
+14. Stanford ultimately won the game and advanced to the Sweet 16.
+15. Kiki Offen and Emily Ryan were key players in the game's outcome.
+2024-04-01 21:14:15.410 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:14:15.410 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:14:15.410 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:14:15.410 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:14:16.023 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:14:16.023 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:14:24.316 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 246
+2024-04-01 21:14:24.316 | INFO     | Action.SearchVideo:knowledge_collect:84 - 1. The game is between Iowa State and Stanford.
+2. Stanford controls the opening tip-off.
+3. Stanford's player Erie Offen has elevated her skill set.
+4. Stanford is off to a great start in their final home game of the season.
+5. Iowa State's player Bellinger connects for the first basket of the night.
+6. Emily Ryan from Iowa State makes a three-pointer to tie the game.
+7. There is a mention of needing to hit 10 threes in the game.
+8. Iowa State goes on a 12-0 run.
+9. Iowa State's player Addie Brown is feeling hot with her shooting.
+10. Stanford's player Cameron Brink scores her first bucket.
+11. Stanford's player Lolo Offen is highlighted for her performance.
+12. Stanford's player KiKi Offen scores multiple points and is a key player for Stanford.
+13. Iowa State's player Emily Ryan is praised for her leadership and shooting.
+14. The game sees multiple lead changes.
+15. The game goes into overtime.
+16. Stanford's player KiKi Offen scores a career-high 44 points.
+17. Stanford wins the game in overtime and advances to the Sweet 16.
+2024-04-01 21:17:12.596 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:17:12.596 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:17:12.596 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:17:12.596 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:17:13.240 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:17:13.241 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:17:21.275 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 272
+2024-04-01 21:17:21.275 | INFO     | Action.SearchVideo:knowledge_collect:84 - 1. The game took place at Maples Pavilion.
+2. Iowa State wore white, while Stanford wore red and gold.
+3. Stanford controlled the opening tip.
+4. The game featured a lot of interior basketball with post play.
+5. Stanford's player, Erie Offen, showcased an elevated skill set.
+6. The game was the first meeting between Iowa State and Stanford in 15 years.
+7. Stanford had a strong start to their final home game of the season.
+8. Bellinger scored the first basket for Iowa State.
+9. Emily Ryan made an impact with her three-point shooting.
+10. Stanford's player, Kiki Offen, had a standout performance with 44 points.
+11. Iowa State went on a 12-0 run.
+12. The game had multiple lead changes.
+13. Emily Ryan set a new career high with 31 points.
+14. The game went into overtime.
+15. Stanford's defense forced Iowa State to take off-balance shots.
+16. Addie Brown hit crucial three-pointers for Iowa State.
+17. Kiki Offen fouled out of the game.
+18. Stanford won the game in overtime, advancing to the Sweet 16.
+19. Kiki Offen was a standout player for Stanford with 40 points.
+20. Stanford survived a tough challenge from Iowa State.
+2024-04-01 21:19:03.609 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:19:03.609 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:19:03.609 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:19:03.610 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:19:04.209 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:19:04.209 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:19:14.299 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 246
+2024-04-01 21:19:14.299 | INFO     | Action.SearchVideo:knowledge_collect:87 - 1. Teams: Iowa State and Stanford
+2. Players: Erie Offen, Emily Ryan, Addie Brown, Cameron Brink, KiKi Iri Offen, Jaylen Brink, Lolo, Audi Crooks
+3. Game Highlights:
+   - Opening tip-off controlled by Stanford
+   - Stanford off to a great start in their final home game of the season
+   - Iowa State and Stanford meeting for the first time in 15 years
+   - Iowa State takes the lead with a 12-0 run
+   - Iowa State's offensive performance and three-point shooting
+   - Lead changes throughout the game
+   - Overtime period
+   - Key plays by players like Emily Ryan, Addie Brown, and Audi Crooks
+   - Stanford wins in overtime, advancing to the Sweet 16
+4. Key Moments:
+   - Emily Ryan's career-high 31 points
+   - Audi Crooks fouling out of the game
+   - Addie Brown's clutch three-pointers
+   - Stanford's defensive plays
+   - Kiki Iri Offen's impressive performance with 44 points
+5. Final Outcome: Stanford wins in overtime, advancing to the Sweet 16
+2024-04-01 21:21:32.011 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:21:32.012 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:21:32.012 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:21:32.012 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:21:32.570 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:21:32.570 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:21:42.483 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 163
+2024-04-01 21:21:42.483 | INFO     | Action.SearchVideo:knowledge_collect:87 - - The game was between Iowa State and Stanford.
+- Stanford controlled the opening tip.
+- Iowa State and Stanford were meeting for the first time in 15 years.
+- Stanford had a strong start to their final home game of the season.
+- Players mentioned include Erie Offen, Emily Ryan, Addie Brown, Cameron Brink, and KiKi Iri Offen.
+- Emily Ryan had a strong performance, scoring a career-high 31 points.
+- KiKi Iri Offen had a standout performance, scoring 44 points.
+- Aie Crooks fouled out of the game.
+- Addie Brown hit crucial three-pointers in the game.
+- The game went into overtime.
+- Stanford won in overtime and advanced to the Sweet 16.
+- The game featured intense emotions and competitive play.
+2024-04-01 21:23:15.213 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:23:15.213 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:23:15.213 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:23:15.213 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:23:15.797 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:23:15.797 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:23:25.123 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 168
+2024-04-01 21:23:25.123 | INFO     | Action.SearchVideo:knowledge_collect:84 - - The game was between Iowa State and Stanford at Maples Pavilion.
+- Stanford controlled the opening tip-off.
+- The game featured a lot of interior basketball with post play and action down low.
+- Stanford had a strong start, with Bellinger connecting for the first basket.
+- Emily Ryan made an impact with her leadership and sharp shooting.
+- Iowa State took the lead at one point with a 12-0 run.
+- Both teams had unexpected offensive contributions.
+- The game had multiple lead changes and tied scores.
+- Emily Ryan had a career-high 31 points.
+- Kiki Iriafen had a standout performance for Stanford with 44 points.
+- The game went into overtime.
+- Addie Brown made crucial three-pointers for Iowa State.
+- Stanford ultimately won the game in overtime, advancing to the Sweet 16.
+2024-04-01 21:23:51.763 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:23:51.763 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:23:51.763 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:23:51.763 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:23:52.363 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:23:52.364 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:24:02.093 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 210
+2024-04-01 21:24:02.093 | INFO     | Action.SearchVideo:knowledge_collect:84 - 1. Iowa State vs. Stanford basketball game at Maples Pavilion
+2. Stanford controls the opening tip-off
+3. Focus on interior basketball and post play
+4. Stanford off to a great start in their final home game of the season
+5. Bellinger scores the first basket for Iowa State
+6. Impressive performance by Aie Crooks and Emily Ryan
+7. Iowa State takes the lead with a 12-0 run
+8. Stanford responds with strong offensive plays
+9. Lead changes throughout the game
+10. Emily Ryan shines with a career-high 31 points
+11. Overtime is forced with the game tied at 76
+12. Stanford wins in overtime with a steal and secures a spot in the Sweet 16
+13. Kiki Iriafen stands out with a 40-point performance
+14. Aie Crooks fouls out of the game
+15. Addie Brown makes crucial three-point shots
+16. Stanford advances to the Sweet 16 with a hard-fought victory
+2024-04-01 21:30:27.861 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:30:27.861 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:30:27.862 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:30:27.862 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:30:28.458 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:30:28.459 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:30:38.066 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 237
+2024-04-01 21:30:38.066 | INFO     | Action.SearchVideo:knowledge_collect:85 - 1. Iowa State and Stanford faced off in a basketball game at Maples Pavilion.
+2. Stanford controlled the opening tip-off.
+3. The game featured a lot of interior basketball play.
+4. Stanford's player, Erie Offen, showcased an elevated skill set.
+5. Stanford had a strong start in their final home game of the season.
+6. Iowa State's player, Bellinger, scored the first basket for the Cyclones.
+7. Emily Ryan made an impact with her three-point shooting for Iowa State.
+8. Stanford's player, Kiki Offen, had a standout performance with 44 points.
+9. Iowa State went on a 12-0 run at one point.
+10. The game had multiple lead changes and tied scores.
+11. Emily Ryan set a new career high with 31 points.
+12. The game went into overtime.
+13. Stanford's defense played a key role in the game.
+14. Addie Brown made crucial three-point shots for Iowa State.
+15. Stanford's Kiki Offen fouled out of the game after a strong performance.
+16. Stanford secured the win in overtime and advanced to the Sweet 16.
+2024-04-01 21:32:41.827 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:32:41.827 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:32:41.827 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-01 21:32:41.827 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-01 21:32:42.429 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-01 21:32:42.429 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-01 21:32:50.361 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2271, completion_tokens: 190
+2024-04-01 21:32:50.361 | INFO     | Action.SearchVideo:knowledge_collect:85 - - The game was between Iowa State and Stanford at Maples Pavilion.
+- Stanford controlled the opening tip-off.
+- The game featured a lot of interior basketball with post play and action down low.
+- Stanford had a strong start to the game, with Bellinger connecting for the first basket.
+- Emily Ryan made an impact for Iowa State with her leadership and three-point shooting.
+- Iowa State went on a 12-0 run at one point.
+- The game had multiple lead changes and was tied several times.
+- Both teams had players stepping up offensively, such as Addie Brown for Iowa State and AR Offen for Stanford.
+- The game went into overtime.
+- Kiki Iriafen had a standout performance for Stanford with 44 points.
+- A key moment was when Kiki Iriafen made a steal off an inbounds pass to secure the win for Stanford.
+- Stanford advanced to the Sweet 16 with the victory.

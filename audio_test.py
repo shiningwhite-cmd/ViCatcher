@@ -6,8 +6,7 @@ from Module.AnalyseAudio import RecordAndAnalyseAudio
 from Module.Intermediary import Intermediary
 
 
-async def main():
-    im = Intermediary()
+async def main(im):
     analysis = RecordAndAnalyseAudio(im=im, record_second=10)
 
     analysis.run()
