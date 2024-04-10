@@ -43,23 +43,38 @@ def get_audio_text():
 
 
 def get_keyword_text():
-    return translator.get_this_keyword()
+    return translator.get_this_keyword(), translator.get_this_knowledge()
 
 
 def get_knowledge_text():
-    return translator.get_this_knowledge()
+    return
 
 
 with gr.Blocks() as demo:
+    chatbot = gr.Chatbot()
     audio_text = gr.Text(label="AudioText")
-    keyword_text = gr.Text(label="Keyword")
-    knowledge_text = gr.Text(label="Knowledge")
+    with gr.Column(scale=4):
+        keyword_text = gr.Text(label="Keyword")
+        knowledge_text = gr.Text(label="Knowledge")
     off_switch = gr.Button(value="Turn off Relay")
-    off_switch.click(start_audio_transcribe, inputs=None, outputs=None, api_name="turn_off")
-    demo.load(get_audio_text, inputs=None, outputs=audio_text, every=1)
-    demo.load(get_keyword_text, inputs=None, outputs=keyword_text, every=1)
-    demo.load(get_knowledge_text, inputs=None, outputs=knowledge_text, every=1)
+
+
+    def respond(chat_history):
+        keyword, knowledge = get_keyword_text()
+        chat_history.append((keyword, knowledge))
+        # time.sleep(2)
+        return chat_history
+
+    def load():
+        start_audio_transcribe()
+        demo.load(respond, inputs=[chatbot], outputs=[chatbot], every=10)
+
+    off_switch.click(load, inputs=None, outputs=None, api_name="turn_off")
+    # demo.load(get_audio_text, inputs=None, outputs=[audio_text], every=1)
+    # demo.load(get_keyword_text, inputs=None, outputs=[keyword_text, knowledge_text], every=1)
     # demo.launch(get_audio_text, outputs=text, every=5)
+
+
 
 # gr.Interface([demo], live=True).launch()
 demo.queue().launch()

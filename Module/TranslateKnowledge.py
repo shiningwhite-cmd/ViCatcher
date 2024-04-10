@@ -47,8 +47,8 @@ class Translator:
     extractor = None
     wiki_researcher = None
     keywords = []
-    this_keyword = ""
-    this_knowledge = ""
+    this_keyword = None
+    this_knowledge = None
 
     def __init__(self, im: Intermediary = None):
         super().__init__()

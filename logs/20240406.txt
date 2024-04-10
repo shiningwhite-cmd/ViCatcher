@@ -1,0 +1,679 @@
+2024-04-06 22:37:59.575 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:37:59.575 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:37:59.575 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-06 22:37:59.575 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-06 22:38:06.233 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-06 22:38:06.234 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.768 s.
+2024-04-06 22:38:06.242 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:38:06.242 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:38:06.263 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:38:06.263 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:38:21.241 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-06 22:38:38.261 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 課程設計讓我多少有些感慨如果當年遇到的這樣的數學老師這個世界上可能會多一個理由難這個章節的主題是理解
+2024-04-06 22:38:41.243 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 課程設計讓我多少有些感慨如果當年遇到的這...']
+2024-04-06 22:38:41.243 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:38:41.243 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:38:41.244 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+課程設計讓我多少有些感慨如果當年遇到的這樣的數學老師這個世界上可能會多一個理由難這個章節的主題是理解
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:38:42.269 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 要回答的問題是深度理解是如何達成的如何更深一些我們都知道深度理解是深度創作的閒提要回答這個問題
+2024-04-06 22:38:42.562 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 262, completion_tokens: 17
+2024-04-06 22:38:42.563 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:38:42.563 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 要回答的問題是深度理解是如何達成的如何更...']
+2024-04-06 22:38:42.563 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:38:42.563 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:38:42.563 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+要回答的問題是深度理解是如何達成的如何更深一些我們都知道深度理解是深度創作的閒提要回答這個問題
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:38:43.757 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 252, completion_tokens: 15
+2024-04-06 22:38:43.757 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:38:43.757 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 深度創作...']
+2024-04-06 22:38:43.757 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:38:43.757 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:38:47.238 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 383, completion_tokens: 99
+2024-04-06 22:38:47.238 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:38:47.238 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 深度理解...']
+2024-04-06 22:38:47.238 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:38:47.238 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:38:49.466 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 85, completion_tokens: 102
+2024-04-06 22:38:49.466 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:38:49.466 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 數學老師...']
+2024-04-06 22:38:49.466 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:38:49.466 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:38:52.440 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我們需要先關注一個更為基本的問題就是什麼是理解當我們理解或者是不理解的時候我們的心智我們的大腦裏面究竟發生了什麼事情
+2024-04-06 22:38:52.588 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 203, completion_tokens: 101
+2024-04-06 22:38:52.588 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:38:52.589 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 我們需要先關注一個更為基本的問題就是什麼...']
+2024-04-06 22:38:52.589 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:38:52.589 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:38:52.589 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+我們需要先關注一個更為基本的問題就是什麼是理解當我們理解或者是不理解的時候我們的心智我們的大腦裏面究竟發生了什麼事情
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:38:53.763 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 272, completion_tokens: 11
+2024-04-06 22:38:53.763 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:38:53.763 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 大腦...']
+2024-04-06 22:38:53.763 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:38:53.763 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:38:56.494 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 283, completion_tokens: 90
+2024-04-06 22:38:56.494 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:38:56.495 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 心智...']
+2024-04-06 22:38:56.495 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:38:56.495 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:38:59.737 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 384, completion_tokens: 105
+2024-04-06 22:38:59.737 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:38:59.737 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 課程設計...']
+2024-04-06 22:38:59.737 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:38:59.737 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:39:02.473 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 探究這個問題在我看來最佳的路徑就是搞清楚記憶和理解之間的關係在上個將結我們講到了
+2024-04-06 22:39:02.610 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.005 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 302, completion_tokens: 90
+2024-04-06 22:39:02.610 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:39:02.610 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 探究這個問題在我看來最佳的路徑就是搞清楚...']
+2024-04-06 22:39:02.610 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:39:02.610 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:39:02.610 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+探究這個問題在我看來最佳的路徑就是搞清楚記憶和理解之間的關係在上個將結我們講到了
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:39:03.661 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.005 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 252, completion_tokens: 10
+2024-04-06 22:39:03.662 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:39:03.662 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 理解...']
+2024-04-06 22:39:03.662 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:39:03.662 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:44:06.028 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:44:06.028 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:44:06.028 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-06 22:44:06.028 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-06 22:44:10.713 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-06 22:44:10.714 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.542 s.
+2024-04-06 22:44:10.722 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:44:10.722 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:44:10.743 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:44:10.743 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:44:38.352 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-06 22:44:53.917 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 理解不等于记忆但理解是以记忆为基础的本章的全部内容就基于这个命题展开
+2024-04-06 22:44:58.365 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 理解不等于记忆但理解是以记忆为基础的本章...']
+2024-04-06 22:44:58.365 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:44:58.365 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:44:58.365 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+理解不等于记忆但理解是以记忆为基础的本章的全部内容就基于这个命题展开
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:44:59.536 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 226, completion_tokens: 9
+2024-04-06 22:44:59.537 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:44:59.537 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 记忆...']
+2024-04-06 22:44:59.537 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:44:59.537 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:44:59.592 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 是因為它多出來的一些東西Understanding的字面意思是站在什麼什麼之下但是根據詞源學Under是在古英語中是在什麼什麼的
+2024-04-06 22:45:03.543 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 190, completion_tokens: 80
+2024-04-06 22:45:03.543 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:03.544 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 是因為它多出來的一些東西Understa...']
+2024-04-06 22:45:03.544 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:45:03.544 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:45:03.544 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+是因為它多出來的一些東西Understanding的字面意思是站在什麼什麼之下但是根據詞源學Under是在古英語中是在什麼什麼的
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:45:04.220 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 263, completion_tokens: 14
+2024-04-06 22:45:04.220 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:45:04.220 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 古英語...']
+2024-04-06 22:45:04.220 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:04.220 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:07.467 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 312, completion_tokens: 109
+2024-04-06 22:45:07.467 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:07.467 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 詞源學...']
+2024-04-06 22:45:07.467 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:07.468 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:09.502 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 之中或之間的意思所以understanding它就意味著我們身處事物之中或者事物之間在中文裡面理就是道理解它有用
+2024-04-06 22:45:10.133 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 85, completion_tokens: 88
+2024-04-06 22:45:10.134 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:10.134 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 之中或之間的意思所以understand...']
+2024-04-06 22:45:10.134 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:45:10.134 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:45:10.134 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+之中或之間的意思所以understanding它就意味著我們身處事物之中或者事物之間在中文裡面理就是道理解它有用
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:45:11.314 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 244, completion_tokens: 8
+2024-04-06 22:45:11.315 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:45:11.315 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 理解...']
+2024-04-06 22:45:11.315 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:11.315 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:14.345 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 436, completion_tokens: 111
+2024-04-06 22:45:14.346 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:14.346 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: understanding...']
+2024-04-06 22:45:14.346 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:14.346 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:18.162 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.004 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 311, completion_tokens: 91
+2024-04-06 22:45:18.162 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:18.162 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 理解...']
+2024-04-06 22:45:18.162 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:18.162 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:19.718 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 牛有刀有角指的就是刨钉解牛的那样的剖息所以理解就是顺着卖礼和条礼进行深入的剖息我们之所以要进入事物之中
+2024-04-06 22:45:21.268 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.005 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 436, completion_tokens: 108
+2024-04-06 22:45:21.268 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:21.269 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 牛有刀有角指的就是刨钉解牛的那样的剖息所...']
+2024-04-06 22:45:21.269 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:45:21.269 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:45:21.269 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+牛有刀有角指的就是刨钉解牛的那样的剖息所以理解就是顺着卖礼和条礼进行深入的剖息我们之所以要进入事物之中
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:45:22.121 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.005 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 254, completion_tokens: 9
+2024-04-06 22:45:22.121 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:45:22.121 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 事物...']
+2024-04-06 22:45:22.121 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:22.121 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:25.658 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.006 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 313, completion_tokens: 119
+2024-04-06 22:45:25.658 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:25.658 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 剖息...']
+2024-04-06 22:45:25.658 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:25.658 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:29.320 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.006 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 183, completion_tokens: 49
+2024-04-06 22:45:29.320 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:29.481 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 最終是為了得到某個東西這個東西其實就是意義意義就是理解比記憶多出來的部分我們聽到一個詞並不領會它的意義
+2024-04-06 22:45:34.321 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 最終是為了得到某個東西這個東西其實就是意...']
+2024-04-06 22:45:34.321 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:45:34.322 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:45:34.322 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+最終是為了得到某個東西這個東西其實就是意義意義就是理解比記憶多出來的部分我們聽到一個詞並不領會它的意義
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:45:35.527 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.007 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 266, completion_tokens: 10
+2024-04-06 22:45:35.527 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:45:35.527 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 記憶...']
+2024-04-06 22:45:35.527 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:35.527 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:39.666 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我們聽到了一番話也不清楚它到底解釋了一件什麼事情我們看到一個數學的公式然後我們清楚每一個符號代表什麼但是一組合起來
+2024-04-06 22:45:40.203 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.008 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 339, completion_tokens: 98
+2024-04-06 22:45:40.204 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:40.204 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 我們聽到了一番話也不清楚它到底解釋了一件...']
+2024-04-06 22:45:40.204 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:45:40.204 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:45:40.204 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+我們聽到了一番話也不清楚它到底解釋了一件什麼事情我們看到一個數學的公式然後我們清楚每一個符號代表什麼但是一組合起來
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:45:41.071 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.008 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 270, completion_tokens: 16
+2024-04-06 22:45:41.071 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:45:41.071 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 符號代表...']
+2024-04-06 22:45:41.071 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:41.071 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:44.732 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.009 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 378, completion_tokens: 122
+2024-04-06 22:45:44.732 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:44.732 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 數學的公式...']
+2024-04-06 22:45:44.732 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:44.732 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:46.781 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.009 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 86, completion_tokens: 92
+2024-04-06 22:45:46.782 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:46.782 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 理解...']
+2024-04-06 22:45:46.782 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:46.782 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:49.814 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我們就不知道這個運算意味著什麼了所以我們必須對這些材料進行更為複雜的加工才能夠獲得那些多出來的意涵
+2024-04-06 22:45:49.996 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.010 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 436, completion_tokens: 115
+2024-04-06 22:45:49.997 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:49.997 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 我們就不知道這個運算意味著什麼了所以我們...']
+2024-04-06 22:45:49.997 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:45:49.997 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:45:49.997 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+我們就不知道這個運算意味著什麼了所以我們必須對這些材料進行更為複雜的加工才能夠獲得那些多出來的意涵
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:45:50.872 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.010 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 268, completion_tokens: 9
+2024-04-06 22:45:50.872 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:45:50.872 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 加工...']
+2024-04-06 22:45:50.872 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:50.872 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:54.548 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.011 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 321, completion_tokens: 141
+2024-04-06 22:45:54.548 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:54.549 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 運算...']
+2024-04-06 22:45:54.549 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:45:54.549 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:45:57.923 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.012 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 371, completion_tokens: 132
+2024-04-06 22:45:57.923 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:45:59.784 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 意義啊解釋啊這些東西我們必須先成為一個基本事實就是面對一個負責的對象我們之所以沒有辦法達成理解一個很基礎性的原因就是我們
+2024-04-06 22:46:02.923 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 意義啊解釋啊這些東西我們必須先成為一個基...']
+2024-04-06 22:46:02.924 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:46:02.924 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:46:02.924 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+意義啊解釋啊這些東西我們必須先成為一個基本事實就是面對一個負責的對象我們之所以沒有辦法達成理解一個很基礎性的原因就是我們
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:46:03.850 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.012 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 276, completion_tokens: 13
+2024-04-06 22:46:03.851 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:46:03.851 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 基礎性...']
+2024-04-06 22:46:03.851 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:03.851 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:07.592 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.013 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 527, completion_tokens: 103
+2024-04-06 22:46:07.592 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:07.592 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 基本事實...']
+2024-04-06 22:46:07.592 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:07.592 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:09.844 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.014 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 86, completion_tokens: 86
+2024-04-06 22:46:09.845 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:10.068 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我們的腦子不夠用更準確地說是我們的工作記憶沒有辦法應對那些更為負責的家工下面這段赫伯特西蒙的對知識的經典定義
+2024-04-06 22:46:14.845 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 我們的腦子不夠用更準確地說是我們的工作記...']
+2024-04-06 22:46:14.845 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:46:14.845 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:46:14.845 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+我們的腦子不夠用更準確地說是我們的工作記憶沒有辦法應對那些更為負責的家工下面這段赫伯特西蒙的對知識的經典定義
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:46:16.386 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.014 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 276, completion_tokens: 21
+2024-04-06 22:46:16.386 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:46:16.387 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 經典定義...']
+2024-04-06 22:46:16.387 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:16.387 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:18.906 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.015 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 87, completion_tokens: 67
+2024-04-06 22:46:18.906 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:18.906 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 赫伯特西蒙...']
+2024-04-06 22:46:18.906 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:18.906 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:20.075 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 被我用来说明工作记忆不足导致的理解困难他说知识的使命就是从所有的逻辑可能性总类之中选出一个其经验可能性较为有的
+2024-04-06 22:46:22.790 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.015 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 323, completion_tokens: 129
+2024-04-06 22:46:22.790 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:22.790 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 被我用来说明工作记忆不足导致的理解困难他...']
+2024-04-06 22:46:22.790 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:46:22.790 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:46:22.790 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+被我用来说明工作记忆不足导致的理解困难他说知识的使命就是从所有的逻辑可能性总类之中选出一个其经验可能性较为有的
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:46:23.863 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.016 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 250, completion_tokens: 14
+2024-04-06 22:46:23.864 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:46:23.864 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 逻辑可能性...']
+2024-04-06 22:46:23.864 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:23.864 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:26.493 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.016 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 85, completion_tokens: 83
+2024-04-06 22:46:26.493 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:26.494 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 工作记忆...']
+2024-04-06 22:46:26.494 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:26.494 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:29.859 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 從而在描述可能性的各辨量之間建立一定的功能聯繫支持的最終目的也是確定過去和現在的已知識時與將來的功能
+2024-04-06 22:46:30.282 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.016 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 235, completion_tokens: 86
+2024-04-06 22:46:30.282 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:30.282 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 從而在描述可能性的各辨量之間建立一定的功...']
+2024-04-06 22:46:30.282 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:46:30.282 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:46:30.282 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+從而在描述可能性的各辨量之間建立一定的功能聯繫支持的最終目的也是確定過去和現在的已知識時與將來的功能
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:46:31.284 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 251, completion_tokens: 16
+2024-04-06 22:46:31.285 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:46:31.285 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 已知識...']
+2024-04-06 22:46:31.285 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:31.285 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:34.640 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 352, completion_tokens: 121
+2024-04-06 22:46:34.640 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:34.640 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 功能聯繫支持...']
+2024-04-06 22:46:34.641 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:34.641 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:37.146 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 88, completion_tokens: 99
+2024-04-06 22:46:37.146 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:39.823 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 而由當前狀況產生的唯一可能性在背景這是不足的情況下很難一次性完全聽懂他說什麼你得知道所有邏輯可能性
+2024-04-06 22:46:42.147 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 而由當前狀況產生的唯一可能性在背景這是不...']
+2024-04-06 22:46:42.147 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:46:42.147 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:46:42.147 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+而由當前狀況產生的唯一可能性在背景這是不足的情況下很難一次性完全聽懂他說什麼你得知道所有邏輯可能性
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:46:43.292 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 259, completion_tokens: 11
+2024-04-06 22:46:43.292 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:46:43.294 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 邏輯...']
+2024-04-06 22:46:43.294 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:43.294 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:47.796 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.020 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 813, completion_tokens: 137
+2024-04-06 22:46:47.796 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:47.796 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 可能性...']
+2024-04-06 22:46:47.796 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:47.797 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:50.169 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 總類是什麼意思還要知道經驗可能性角位有限的詞論是什麼意思同時還要理解在前者之中選出後者意味著什麼為什麼選出後者意味著什麼
+2024-04-06 22:46:51.265 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.020 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 212, completion_tokens: 108
+2024-04-06 22:46:51.265 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:51.265 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 總類是什麼意思還要知道經驗可能性角位有限...']
+2024-04-06 22:46:51.265 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:46:51.265 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:46:51.265 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+總類是什麼意思還要知道經驗可能性角位有限的詞論是什麼意思同時還要理解在前者之中選出後者意味著什麼為什麼選出後者意味著什麼
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:46:52.296 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.021 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 286, completion_tokens: 14
+2024-04-06 22:46:52.296 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:46:52.296 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 詞論...']
+2024-04-06 22:46:52.297 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:52.297 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:55.218 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.021 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 194, completion_tokens: 91
+2024-04-06 22:46:55.219 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:46:55.219 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 總類...']
+2024-04-06 22:46:55.219 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:46:55.219 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:46:58.480 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.022 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 300, completion_tokens: 100
+2024-04-06 22:46:58.481 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:47:00.056 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 就能在描述可能性的各辨量之间建立一定的功能联系功能联系又是一种什么样的联系在我们形成理解的时候
+2024-04-06 22:47:03.482 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 就能在描述可能性的各辨量之间建立一定的功...']
+2024-04-06 22:47:03.482 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:47:03.483 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:47:03.483 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+就能在描述可能性的各辨量之间建立一定的功能联系功能联系又是一种什么样的联系在我们形成理解的时候
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:47:04.438 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.022 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 235, completion_tokens: 9
+2024-04-06 22:47:04.438 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:47:04.438 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 辨量...']
+2024-04-06 22:47:04.440 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:47:04.440 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:47:09.052 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.023 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 298, completion_tokens: 91
+2024-04-06 22:47:09.052 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:47:09.052 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 可能性...']
+2024-04-06 22:47:09.052 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:47:09.052 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:47:10.010 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 所有的相關要素都需要被我們帶進工作記憶之中進行加工但是工作記憶是有限的呀有一種說法是我們只能同時
+2024-04-06 22:47:12.441 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.023 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 212, completion_tokens: 95
+2024-04-06 22:47:12.441 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:47:12.441 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 所有的相關要素都需要被我們帶進工作記憶之...']
+2024-04-06 22:47:12.441 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-06 22:47:12.441 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-06 22:47:12.441 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+所有的相關要素都需要被我們帶進工作記憶之中進行加工但是工作記憶是有限的呀有一種說法是我們只能同時
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-06 22:47:14.001 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 251, completion_tokens: 15
+2024-04-06 22:47:14.001 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-06 22:47:14.002 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 相關要素...']
+2024-04-06 22:47:14.002 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:47:14.002 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:47:16.417 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 85, completion_tokens: 90
+2024-04-06 22:47:16.417 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-06 22:47:16.417 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 工作記憶...']
+2024-04-06 22:47:16.418 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-06 22:47:16.418 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-06 22:47:54.956 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:47:54.957 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:47:54.957 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-06 22:47:54.957 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-06 22:47:58.524 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-06 22:47:58.524 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.544 s.
+2024-04-06 22:47:58.532 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:47:58.532 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:47:58.552 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:47:58.552 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:50:25.286 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:50:25.287 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:50:25.287 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-06 22:50:25.287 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-06 22:50:28.448 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-06 22:50:28.449 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.306 s.
+2024-04-06 22:50:28.455 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:50:28.455 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-06 22:50:28.476 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-06 22:50:28.476 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI

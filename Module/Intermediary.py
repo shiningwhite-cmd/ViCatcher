@@ -10,7 +10,7 @@ class Intermediary:
     """"""
     text_queue: any = None
     text_queue_len: int = 0
-    last_item: str = ""
+    last_item: str = None
 
     def __init__(self):
         super().__init__()
@@ -41,6 +41,6 @@ class Intermediary:
 
         return False
 
-    def get_last_item(self) -> str:
+    def get_last_item(self):
 
         return self.last_item
