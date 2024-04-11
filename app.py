@@ -5,10 +5,14 @@ import time
 import streamlit as st
 from streamlit_extras.badges import badge
 from streamlit_extras.colored_header import colored_header
+from streamlit_extras.stylable_container import stylable_container
+from streamlit_extras.grid import grid
+from streamlit_extras.row import row
 
 from Module.AnalyseAudio import RecordAndAnalyseAudio
 from Module.TranslateKnowledge import Translator
 from Module.Intermediary import Intermediary
+from Action.SearchVideo import YoutubeVideoSearch
 
 im = Intermediary()
 analysis = RecordAndAnalyseAudio(im=im, record_second=10)
@@ -54,18 +58,27 @@ def get_keyword_text():
     ke = translator.get_this_keyword() if translator.get_this_keyword() else "Not Keyword Yet"
     kn = translator.get_this_knowledge() if translator.get_this_knowledge() else "Not Knowledge Yet"
 
-    text_f = """<div style="background-color: #f0f0f5; border: 2px solid #333; border-radius: 10px; padding: 10px;">
-    
-#### {ke}
+#     text_f = """<div style="background-color: #f0f0f5; border: 2px solid #333; border-radius: 10px; padding: 10px;">
+#
+# #### {ke}
+#
+# {kn}
+#
+# </div>
+# """
+    text_f = """#### {ke}
 
 {kn}
-
-</div>
+\n
 """
 
     text = text_f.format(ke=ke, kn=kn)
     return text
 
+def search_youtube(input: str):
+    video_results = YoutubeVideoSearch().search_youtube_video(input)
+
+    return video_results
 
 
 # 设置页面布局以开启超宽显示模式
@@ -74,8 +87,23 @@ st.set_page_config(layout="wide")
 # 侧边栏
 with st.sidebar:
     st.title("Test APP")
-    badge(type="pypi", name="streamlit")
-    badge(type="github", name="shiningwhite-cmd/KnowledgeTranslator")
+    sc1, sc2 = st.columns(2)
+    with sc1:
+        badge(type="pypi", name="streamlit")
+    with sc2:
+        badge(type="github", name="shiningwhite-cmd/KnowledgeTranslator")
+
+    siderbar_grid = grid(1, vertical_align="bottom")
+
+    with siderbar_grid.expander(" **:dizzy: Search for more youtube video** "):
+        # 创建一个文本输入框，用于接收搜索关键词
+        search_term = st.text_input('Search for youtube videos:')
+
+        if search_term is not None:
+            results = search_youtube(search_term)
+            for r in results:
+                st.write(r['title'])
+
 
 # 创建两列布局
 col1, col2 = st.columns([3, 2])
@@ -103,14 +131,13 @@ with col1:
         # 创建一个文本输入框, YouTube 视频的 URL
         youtube_id = st.text_input("Youtube ID", initial_id)
 
-        s_b, g_b = st.columns(2)
+        v_b = row(2)
 
-        with s_b:
-            # 创建一个按钮，当点击时更新iframe的src
-            if st.button("Search Video", key=100):
-                youtube_url = "https://www.youtube.com/embed/" + youtube_id
-        with g_b:
-            st.link_button("Go to the Link", "https://www.youtube.com/watch?v=" + youtube_id)
+        # 创建一个按钮，当点击时更新iframe的src
+        if v_b.button("Search Video", key=100):
+            youtube_url = "https://www.youtube.com/embed/" + youtube_id
+            st.toast('Searching this video...', icon='😍')
+        v_b.link_button("Go to the Link", "https://www.youtube.com/watch?v=" + youtube_id)
 
     # 更新iframe的src属性以加载新的视频
     html = iframe_html.format(url=youtube_url if youtube_url else initial_url)
@@ -125,22 +152,28 @@ with col2:
         description="",
         color_name="red-70",
     )
-    knowledge_container = st.container()
-    # 隔出空行
-    st.write("")
+    knowledge_container = stylable_container(
+        key="container_with_border",
+        css_styles="""
+        {
+            border: 1px solid rgba(49, 51, 63, 0.2);
+            border-radius: 0.5rem;
+            padding: calc(1em - 1px)
+        }
+        """,
+    )
     text_container = st.container()
     tick_element = st.empty()
     button_container = st.container()
 
-    c1, c2 = button_container.columns(2)
-    with c2:
-        st.button("Reset", type="primary")
-    with c1:
-        if st.button('Say hello'):
+    with button_container:
+        k_b = row(2)
+        if k_b.button('👾 Say hello'):
             # t = threading.Thread(target=start_audio_transcribe)
             # threads.append(t)
             # t.start()
             pass
+        k_b.button("Reset", type="primary")
 
     with text_container.expander(" **:joy: Recognized Audio is Shown Here** ", expanded=True):
         st.markdown(get_audio_text())

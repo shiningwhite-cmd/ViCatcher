@@ -8,6 +8,7 @@ from __future__ import annotations
 import asyncio
 import requests
 import os
+from typing import List
 
 import time
 from metagpt.actions import Action
@@ -30,7 +31,7 @@ Here's your organized knowledge:
 
 
 class YoutubeVideoSearch(Action):
-    json_list = []
+    json_list: List[str] = []
     @staticmethod
     def download_video_srt(video_id: str) -> any:
         # 视频的YouTube ID
