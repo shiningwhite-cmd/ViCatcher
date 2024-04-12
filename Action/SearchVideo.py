@@ -8,6 +8,7 @@ from __future__ import annotations
 import asyncio
 import requests
 import os
+import re
 from typing import List
 
 import time
@@ -17,6 +18,7 @@ from metagpt.logs import logger
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_search import YoutubeSearch
 import json
+from keybert import KeyBERT
 
 FOLDER_PATH = "Data/FavoriteFolder/"
 DATA_FORMAT = ".json"
@@ -29,9 +31,27 @@ Organize the content of the article below into points of storage
 Here's your organized knowledge:
 """
 
+GOAL_COLLECT = """# Requirement
+Now you are watching a video for learning, and the main context of this video will provided in the "Context" section.\
+You should use the main context to develop learning goals for this video learning. The goals you develop should include \
+"What you want to learn" and "What knowledge you can learn in this video". Please present the goals in the format \
+found in the "Format" section. Present the final result, the goals you develop, in the "Goals" section.
+
+# Context
+{context}
+
+# Format
+- (First Goal ...)
+- (Second Goal ...)
+- ...
+
+# Goals 
+"""
+
 
 class YoutubeVideoSearch(Action):
     json_list: List[str] = []
+
     @staticmethod
     def download_video_srt(video_id: str) -> any:
         # 视频的YouTube ID
@@ -55,7 +75,7 @@ class YoutubeVideoSearch(Action):
         return results
 
     @staticmethod
-    def safe_into_json(context: str, file_name: str, video_id: str):
+    def save_into_json(context: str, file_name: str, video_id: str):
         # 创建一个包含文本信息的字典
         data = {
             "video_id": video_id,
@@ -102,7 +122,6 @@ class YoutubeVideoSearch(Action):
 
         if keyword in data_list:
             pass
-        
 
     async def knowledge_collect(self, keyword: str, video_id: str, context: str):
         prompt = KNOWLEDGE_TRANSFER.format(context=context)
@@ -111,7 +130,42 @@ class YoutubeVideoSearch(Action):
 
         logger.info(knowledge)
 
-        self.safe_into_json(knowledge, keyword, video_id)
+        self.save_into_json(knowledge, keyword, video_id)
+
+    async def current_video_info(self, video_id: str):
+        srt = self.download_video_srt(video_id)
+        context = self.arrange_srt_into_text(srt)
+        signs = self.sign_collect(context)
+        goals = await self.goal_collect(context)
+
+        return signs, goals
+
+    async def goal_collect(self, context: str):
+        prompt = GOAL_COLLECT.format(context=context)
+
+        goals_str = await self.llm.aask(prompt) + "\n"
+
+        goals = re.findall(r'- (.*)\n', goals_str)
+
+        r = 0
+        while goals is None:
+            goals_str = await self.llm.aask(prompt)
+            goals = re.findall(r'- (.*)\n', goals_str)
+            r = r + 1
+            if r > 4:
+                logger.info("Fail to collect goals")
+                return None
+
+        return goals
+
+    def sign_collect(self, context: str):
+        kb = KeyBERT("Models/MiniLM-L6-v2")
+        signs_list = kb.extract_keywords(context, keyphrase_ngram_range=(1, 2))
+
+        signs = [item[0] for item in signs_list]
+
+        return signs
+
 
 
 

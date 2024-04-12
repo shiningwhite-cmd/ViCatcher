@@ -1,39 +1,26 @@
+# Streamlit Timeline Component Example
+
 import streamlit as st
-from streamlit_extras.stylable_container import stylable_container
+from streamlit_timeline import timeline
 
-with stylable_container(
-        key="green_button",
-        css_styles="""
-        button {
-            background-color: green;
-            color: white;
-            border-radius: 20px;
-        }
-        """,
-):
-    st.button("Green button")
+import asyncio
+from Action.SearchVideo import YoutubeVideoSearch
 
-st.button("Normal button")
+ys = YoutubeVideoSearch()
+#
+srt = ys.download_video_srt(video_id="pxI0I3NX3K0")
+#
+# print(ys.arrange_srt_into_text(srt))
 
-with stylable_container(
-        key="container_with_border",
-        css_styles="""
-        {
-            border: 1px solid rgba(49, 51, 63, 0.2);
-            border-radius: 0.5rem;
-            padding: calc(1em - 1px)
-        }
-        """,
-):
-    st.markdown("This is a container with a border.")
+# ys.get_json_list()
 
-st.info(
-    """
-    Need a feature that's not on here?
-    [Let us know by opening a GitHub issue!](https://github.com/streamlit/streamlit/issues)
-    """,
-    icon="👾",
-)
 
-st.caption('This is a string that explains something above.')
-st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
+# use full page width
+st.set_page_config(page_title="Timeline Example", layout="wide")
+
+# load data
+with open('example.json', "r") as f:
+    data = f.read()
+
+# render timeline
+timeline(data, height=800)

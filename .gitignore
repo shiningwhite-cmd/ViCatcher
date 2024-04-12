@@ -161,6 +161,5 @@ cython_debug/
 /Action/logs
 config/key.yaml
 /Data
-/Models/macbert4csc-base-chinese
-/Models/whisper
+/Models
 *.pt
