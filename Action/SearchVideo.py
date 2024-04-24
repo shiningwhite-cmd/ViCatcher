@@ -17,8 +17,13 @@ from metagpt.logs import logger
 
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_search import YoutubeSearch
+import youtube_dl
 import json
+import nltk
 from keybert import KeyBERT
+from transformers import BertModel, BertTokenizer
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 FOLDER_PATH = "Data/FavoriteFolder/"
 DATA_FORMAT = ".json"
@@ -31,10 +36,17 @@ Organize the content of the article below into points of storage
 Here's your organized knowledge:
 """
 
+PRE_CONCEPT_SEARCH = """
+Now I am searching for study material on topic {topic}. I want to get more background concepts and \
+upper conceptual knowledge about topic {topic}. Your suggested keywords must conceptually include topic {topic}. 
+For example, when the user's search term is "C# language", your suggested keyword could be "advanced programming language" \
+or "programming language". Please suggest me a keyword that matches the criteria: 
+"""
+
 GOAL_COLLECT = """# Requirement
 Now you are watching a video for learning, and the main context of this video will provided in the "Context" section.\
-You should use the main context to develop learning goals for this video learning. The goals you develop should include \
-"What you want to learn" and "What knowledge you can learn in this video". Please present the goals in the format \
+You should use the main context to develop learning goals for this video learning. The goals you develop should include\
+ "What you want to learn" and "What knowledge you can learn in this video". Please present the goals in the format \
 found in the "Format" section. Present the final result, the goals you develop, in the "Goals" section.
 
 # Context
@@ -43,9 +55,71 @@ found in the "Format" section. Present the final result, the goals you develop, 
 # Format
 - (First Goal ...)
 - (Second Goal ...)
+- (Third Goal ...)
+- (Forth Goal ...)
 - ...
 
 # Goals 
+"""
+
+# CONCEPT_COLLECT = """# Requirement
+# Now you are watching a video to learn something about {topic}, and the main context of this video will provided \
+# in "Context" section. You should use the context to extract the main concepts included in this video learning. \
+# Please present the goals in the format found in "Format" section. \
+# Present the final result, the goals you develop, in the "Goals" section.
+#
+# # Context
+# {context}
+#
+# # Format
+# - (First Concept ...)
+# - (Second Concept ...)
+# - (Third Concept ...)
+# - (Forth Concept ...)
+# - ...
+#
+# # Concepts
+# """
+#
+# """The concepts you develop should include "The main knowledge in the topic {topic}" and \
+# "The main knowledge you can learn in this video". """
+
+SUMMARY_COLLECT = """# Context
+{context}
+
+# Requirement
+Now you are watching a video to learn something about {topic}, and the main context of this video will provided \
+in "Context" section. You should use the context to make a point-by-point summary for this video learning. \
+Be careful to reflect the subjective content of learning, i.e. the video is to be the "subject" of our learning. \
+Please present the goals in the format found in "Format" section. 
+
+# Format
+- (First Point ...)
+- (Second Point ...)
+- (Third Point ...)
+- (Forth Point ...)
+- ...
+"""
+
+CONCEPT_COLLECT = """# Summary
+{summary}
+
+# Requirement
+Now you are watching a video to learn something about {topic}, and the main summary of this video will provided \
+in "Summary" section. You need to extract the key concepts involved within this video using the provided summary. \
+Key concepts refer to specialized vocabulary or expertise that is mentioned and has relevance to the topic {topic}. \
+The concept takes the form of a ** noun phrase ** containing the "subject" of learning. This noun phrase will show \
+the ** highlight you can learn from this video ** . You need to make the narrative as concise as possible, \
+for example, if a video on learning to code summarizes the point as 'Control flow with if statements and loops', \
+you can just simplify it to 'if statements and loops' because 'if statements and loops' is a noun phrase \
+that refers to a type of program syntax Please present the goals in the format found in "Format" section. 
+
+# Format
+- (First Key concepts ...)
+- (Second Key concepts ...)
+- (Third Key concepts ...)
+- (Forth Key concepts ...)
+- ...
 """
 
 
@@ -55,17 +129,23 @@ class YoutubeVideoSearch(Action):
     @staticmethod
     def download_video_srt(video_id: str) -> any:
         # 视频的YouTube ID
-        transcript_list = YouTubeTranscriptApi.get_transcript(video_id=video_id, languages=['en', 'zh-Hans'])
-
-        return transcript_list
+        try:
+            transcript_list = YouTubeTranscriptApi.get_transcript(video_id=video_id)
+        except Exception:
+            logger.info(Exception)
+            return
+        else:
+            return transcript_list
 
     @staticmethod
     def arrange_srt_into_text(srt):
-        text = ""
-        for clip in srt:
-            text = text + clip['text']
+        if srt is not None:
+            text = ""
+            for clip in srt:
+                text = text + clip['text']
+            return text
 
-        return text
+        return
 
     @staticmethod
     def search_youtube_video(keyword: str, max_results: int = 5):
@@ -73,6 +153,18 @@ class YoutubeVideoSearch(Action):
         results = YoutubeSearch(keyword, max_results=max_results).to_dict()
 
         return results
+
+    @staticmethod
+    def get_title_from_id(video_id: str) -> str:
+        # 使用youtube-dl获取视频信息
+        ydl_opts = {}
+        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            video_info = ydl.extract_info(f'https://www.youtube.com/watch?v={video_id}', download=False)
+
+        # 获取视频标题
+        video_title = video_info.get('title', None)
+
+        return video_title
 
     @staticmethod
     def save_into_json(context: str, file_name: str, video_id: str):
@@ -100,6 +192,75 @@ class YoutubeVideoSearch(Action):
             with open(file_path, 'w') as file:
                 json.dump([data], file, indent=4)
 
+    @staticmethod
+    def dict_merge(dict1: {}, dict2: {}, similarity: int = 0.6):
+
+        # 加载预训练的BERT模型和分词器
+        tokenizer = BertTokenizer.from_pretrained("Models/bert-base-uncased", local_files_only=True)
+        model = BertModel.from_pretrained("Models/bert-base-uncased", local_files_only=True)
+
+        # 将两个字典合并为一个
+        merged_dict = {**dict1, **dict2}
+        merged_list = list(merged_dict)
+
+        # 获取每个词汇的BERT嵌入
+        embeddings = []
+        for word in merged_list:
+            inputs = tokenizer(word, return_tensors='pt')
+            outputs = model(**inputs)
+            embeddings.append(outputs.last_hidden_state.mean(dim=1).squeeze().detach().numpy())
+
+        # 计算余弦相似度
+        similarity_matrix = cosine_similarity(embeddings)
+
+        # 创建一个字典来存储相似词汇的分组
+        similar_words = {}
+        ori_dict = {}
+
+        # 遍历相似度矩阵，找到相似的词汇
+        for i in range(len(merged_list)):
+            ori_dict[merged_list[i]] = merged_dict[merged_list[i]]
+            for j in range(i + 1, len(merged_list)):
+                if similarity_matrix[i][j] > similarity:  # 假设相似度阈值为0.9
+                    if merged_list[i] not in similar_words:
+                        similar_words[merged_list[i]] = [merged_list[j]]
+                        if merged_dict[merged_list[j]] not in ori_dict[merged_list[i]]:
+                            ori_dict[merged_list[i]].extend(merged_dict[merged_list[j]])
+                    else:
+                        similar_words[merged_list[i]].append(merged_list[j])
+                        if merged_dict[merged_list[j]] not in ori_dict[merged_list[i]]:
+                            ori_dict[merged_list[i]].extend(merged_dict[merged_list[j]])
+
+        # 创建一个新的列表，只保留每个组中的一个词汇
+        final_list = list(similar_words.keys())
+        final_ori_dict = {}
+        for f in final_list:
+            final_ori_dict[f] = list(set(ori_dict[f]))
+
+        # 输出最终的列表
+        return final_ori_dict
+
+    @staticmethod
+    def truncate_text_by_token_count(text: str, max_tokens):
+        # 使用NLTK库的word_tokenize函数对文本进行令牌化
+        tokens = nltk.word_tokenize(text)
+        logger.info(len(tokens))
+        if len(tokens) > max_tokens:
+            text_list = []
+            t = 0
+            while t < len(tokens):
+                if len(tokens) > t + max_tokens:
+                    truncated_tokens = tokens[t:max_tokens]  # 如果令牌数量超过目标数量，则截取部分令牌
+                else:
+                    truncated_tokens = tokens[t:]  # 如果令牌数量超过目标数量，则截取部分令牌
+
+                truncated_text = ' '.join(truncated_tokens)  # 将截取后的令牌重新组合成文本
+                text_list.append(truncated_text)
+                t = t + max_tokens
+            return text_list
+        else:
+            return [text]  # 如果令牌数量未超过目标数量，则返回原始文本
+
     def get_json_list(self):
         # 文件夹路径
         dir_path = FOLDER_PATH
@@ -122,6 +283,15 @@ class YoutubeVideoSearch(Action):
 
         if keyword in data_list:
             pass
+
+    async def search_youtube_video_of_pre_concept(self, keyword: str, max_results: int = 3):
+        prompt = PRE_CONCEPT_SEARCH.format(topic=keyword)
+        k_result = await self.llm.aask(prompt)
+
+        # 返回一个字典
+        results = YoutubeSearch(k_result, max_results=max_results).to_dict()
+
+        return results
 
     async def knowledge_collect(self, keyword: str, video_id: str, context: str):
         prompt = KNOWLEDGE_TRANSFER.format(context=context)
@@ -159,13 +329,73 @@ class YoutubeVideoSearch(Action):
         return goals
 
     def sign_collect(self, context: str):
-        kb = KeyBERT("Models/MiniLM-L6-v2")
-        signs_list = kb.extract_keywords(context, keyphrase_ngram_range=(1, 2))
+        if context is not None:
+            kb = KeyBERT("Models/MiniLM-L6-v2")
+            signs_list = kb.extract_keywords(
+                context,
+                keyphrase_ngram_range=(1, 3),
+                use_maxsum=True,
+                nr_candidates=20,
+                diversity=0.9,
+                top_n=15)
 
-        signs = [item[0] for item in signs_list]
+            signs = [item[0] for item in signs_list]
 
-        return signs
+            return signs
 
+        return
 
+    async def concept_collect(self, topic: str, contexts: [str], video_id: str):
+        summarys = ""
+        for context in contexts:
+            s_prompt = SUMMARY_COLLECT.format(topic=topic, context=context)
 
+            summary = await self.llm.aask(s_prompt)
+            summarys = summarys + summary + "\n"
 
+        # concepts = []
+        c_prompt = CONCEPT_COLLECT.format(topic=topic, summary=summarys)
+
+        concepts_str = await self.llm.aask(c_prompt) + "\n"
+
+        concepts_list = re.findall(r'- (.*)\n', concepts_str)
+        concepts = {}
+        for c in concepts_list:
+            concepts[c] = [video_id]
+
+        # r = 0
+        # while concepts is None:
+        #     concepts_str = await self.llm.aask(prompt)
+        #     concepts = re.findall(r'- (.*)\n', concepts_str)
+        #     r = r + 1
+        #     if r > 4:
+        #         logger.info("Fail to collect goals")
+        #         return None
+
+        time.sleep(10)
+
+        return concepts
+
+    async def collect_video_concept(self, keyword: str, max_results: int = 5, max_tokens: int = 11499):
+        search_video_match = {}
+        video = self.search_youtube_video(keyword, max_results=1)
+        p_video = await self.search_youtube_video_of_pre_concept(keyword, max_results=1)
+
+        video.extend(p_video)
+
+        for v in video:
+            search_video_match[v['id']] = v['title']
+
+        cs = []
+        final_dict = {}
+        for v in video:
+            srt = self.download_video_srt(video_id=v['id'])
+            srt_text = self.arrange_srt_into_text(srt)
+            srt_text = self.truncate_text_by_token_count(srt_text, max_tokens)
+            cs.append(await self.concept_collect(keyword, srt_text, v['id']))
+            if len(cs) == 1:
+                final_dict = cs[0]
+            else:
+                final_dict = self.dict_merge(final_dict, cs[len(cs) - 1])
+
+        return final_dict, search_video_match

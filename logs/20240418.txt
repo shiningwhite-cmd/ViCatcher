@@ -1,0 +1,237 @@
+2024-04-18 10:03:40.002 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:03:40.002 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:03:40.002 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-18 10:03:40.002 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-18 10:03:46.791 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:03:46.791 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.545 s.
+2024-04-18 10:03:46.802 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:03:46.802 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:03:46.822 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:03:46.822 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:03:46.843 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:03:46.843 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:03:56.700 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 80
+2024-04-18 10:05:55.882 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:05:55.882 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:05:55.882 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-18 10:05:55.882 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-18 10:06:00.988 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:06:00.988 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.431 s.
+2024-04-18 10:06:00.988 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:00.997 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:01.014 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:01.014 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:01.030 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:01.030 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:10.664 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 67
+2024-04-18 10:06:18.056 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:06:18.057 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.493 s.
+2024-04-18 10:06:18.057 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:18.058 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:18.071 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:18.073 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:18.087 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:18.089 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:20.159 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:06:20.159 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.400 s.
+2024-04-18 10:06:20.159 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:20.159 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:20.173 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:20.174 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:20.187 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:06:20.188 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:06:24.189 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 96, completion_tokens: 7
+2024-04-18 10:06:27.205 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 83
+2024-04-18 10:06:29.821 | INFO     | Action.SearchVideo:truncate_text_by_token_count:246 - 8531
+2024-04-18 10:06:34.864 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.054 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 99
+2024-04-18 10:06:37.826 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.071 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10812, completion_tokens: 344
+2024-04-18 10:06:42.767 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.072 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 574, completion_tokens: 44
+2024-04-18 10:06:55.198 | INFO     | Action.SearchVideo:truncate_text_by_token_count:246 - 3461
+2024-04-18 10:07:00.369 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.079 | Max budget: $10.000 | Current cost: $0.007, prompt_tokens: 4486, completion_tokens: 150
+2024-04-18 10:07:01.472 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.079 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 380, completion_tokens: 39
+2024-04-18 10:07:12.293 | INFO     | __main__:collect_video_concept:79 - {'**Introduction to Python Programming**': ['Gm72cIo9_58', 'kqtD5dpn9C8'], '**Setting Up Python Environment**': ['Gm72cIo9_58', 'kqtD5dpn9C8'], '**Variables and Data Types**': ['Gm72cIo9_58', 'kqtD5dpn9C8'], '**Input and Output**': ['kqtD5dpn9C8'], '**Control Structures**': ['kqtD5dpn9C8'], '**Lists and Tuples**': ['kqtD5dpn9C8'], 'Popularity of Python in various domains': ['Gm72cIo9_58'], 'Programming paradigms in Python': ['Gm72cIo9_58'], 'Mixing and matching programming paradigms': ['Gm72cIo9_58']}
+2024-04-18 10:08:33.639 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:08:33.639 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.554 s.
+2024-04-18 10:08:33.639 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:33.639 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:33.654 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:33.654 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:33.670 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:33.671 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:43.397 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.097 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 109
+2024-04-18 10:08:57.433 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:08:57.433 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.562 s.
+2024-04-18 10:08:57.434 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:57.438 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:57.457 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:57.460 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:57.475 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:57.481 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:57.960 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:08:57.960 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.599 s.
+2024-04-18 10:08:57.960 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:57.962 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:57.985 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:57.987 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.012 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:08:58.012 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.633 s.
+2024-04-18 10:08:58.012 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.013 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.016 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.018 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.034 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.035 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.243 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.245 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.499 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:08:58.499 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.751 s.
+2024-04-18 10:08:58.499 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.501 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.514 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.515 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.528 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.529 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.951 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:08:58.951 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 1.578 s.
+2024-04-18 10:08:58.951 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.962 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.971 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.971 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:08:58.989 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:08:58.990 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:09:07.526 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.115 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 71
+2024-04-18 10:09:37.206 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:09:37.206 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.472 s.
+2024-04-18 10:09:37.207 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:09:37.207 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:09:37.222 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:09:37.223 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:09:37.237 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:09:37.238 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:09:37.253 | INFO     | __main__:APP:157 - lhwclsrszDI
+2024-04-18 10:09:46.309 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.133 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 96
+2024-04-18 10:09:55.612 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:09:55.612 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.538 s.
+2024-04-18 10:09:55.612 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:09:55.614 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:09:55.628 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:09:55.628 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:09:55.631 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:09:55.631 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:09:55.658 | INFO     | __main__:APP:157 - lhwclsrszDI
+2024-04-18 10:10:05.713 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.151 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 88
+2024-04-18 10:10:51.592 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:10:51.592 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.269 s.
+2024-04-18 10:10:51.592 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:10:51.592 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:10:51.614 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:10:51.615 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:10:51.628 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:10:51.629 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:11:00.587 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.169 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 76
+2024-04-18 10:12:48.182 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:12:48.182 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.503 s.
+2024-04-18 10:12:48.182 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:12:48.184 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:12:48.198 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:12:48.199 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:12:48.212 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:12:48.213 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:12:57.097 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.187 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 86
+2024-04-18 10:13:33.786 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:13:33.786 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.489 s.
+2024-04-18 10:13:33.786 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:13:33.787 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:13:33.802 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:13:33.802 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:13:33.816 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:13:33.816 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:13:44.164 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.205 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 115
+2024-04-18 10:15:39.578 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:15:39.578 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.737 s.
+2024-04-18 10:15:39.578 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:15:39.580 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:15:39.593 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:15:39.594 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:15:39.609 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:15:39.609 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:15:48.580 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.222 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 67
+2024-04-18 10:16:56.370 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:16:56.370 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.290 s.
+2024-04-18 10:16:56.370 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:16:56.371 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:16:56.385 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:16:56.385 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:16:56.394 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:16:56.394 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:17:05.448 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.240 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 55
+2024-04-18 10:18:26.130 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:18:26.130 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.672 s.
+2024-04-18 10:18:26.130 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:26.131 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:26.145 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:26.145 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:26.156 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:26.156 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:32.456 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:18:32.456 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.285 s.
+2024-04-18 10:18:32.456 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:32.456 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:32.472 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:32.472 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:32.482 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:32.482 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:35.566 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.258 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 77
+2024-04-18 10:18:36.129 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:18:36.129 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.322 s.
+2024-04-18 10:18:36.129 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:36.130 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:36.146 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:36.147 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:36.162 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:18:36.162 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:18:40.086 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.258 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 96, completion_tokens: 7
+2024-04-18 10:18:41.360 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.276 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 62
+2024-04-18 10:18:45.327 | INFO     | Action.SearchVideo:truncate_text_by_token_count:246 - 8531
+2024-04-18 10:18:48.447 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.294 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 54
+2024-04-18 10:18:54.296 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.311 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10812, completion_tokens: 390
+2024-04-18 10:18:55.819 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.312 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 620, completion_tokens: 64
+2024-04-18 10:19:08.172 | INFO     | Action.SearchVideo:truncate_text_by_token_count:246 - 3461
+2024-04-18 10:19:12.710 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.319 | Max budget: $10.000 | Current cost: $0.007, prompt_tokens: 4486, completion_tokens: 207
+2024-04-18 10:19:14.213 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.320 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 437, completion_tokens: 47
+2024-04-18 10:19:24.779 | INFO     | __main__:collect_video_concept:79 - {'**Introduction to Python Programming**': ['Gm72cIo9_58', 'kqtD5dpn9C8'], '**Setting Up Python Environment**': ['Gm72cIo9_58', 'kqtD5dpn9C8'], '**Variables and Data Types**': ['Gm72cIo9_58', 'kqtD5dpn9C8'], '**Control Structures - If Statements**': ['Gm72cIo9_58', 'kqtD5dpn9C8'], '**Control Structures - Loops**': ['kqtD5dpn9C8'], '**Lists and Tuples**': ['kqtD5dpn9C8'], '**Functions and Methods**': ['Gm72cIo9_58', 'kqtD5dpn9C8'], '**Advanced Concepts**': ['kqtD5dpn9C8'], '**Additional Resources**': ['kqtD5dpn9C8'], 'Python programming paradigms': ['Gm72cIo9_58'], 'Mixing and matching programming paradigms': ['Gm72cIo9_58'], 'Applying programming paradigms in machine learning and data manipulation': ['Gm72cIo9_58'], 'Transitioning to functional programming for data pre-processing': ['Gm72cIo9_58']}
+2024-04-18 10:19:34.117 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:19:34.117 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.702 s.
+2024-04-18 10:19:34.117 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:19:34.119 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:19:34.133 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:19:34.134 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:19:34.148 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:19:34.149 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:19:44.006 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.338 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 124
+2024-04-18 10:20:31.709 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:20:31.709 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.498 s.
+2024-04-18 10:20:31.710 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:20:31.710 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:20:31.724 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:20:31.725 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:20:31.739 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:20:31.740 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:20:41.090 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.356 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 74
+2024-04-18 10:22:05.682 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-18 10:22:05.682 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.529 s.
+2024-04-18 10:22:05.682 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:22:05.683 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:22:05.697 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:22:05.697 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:22:05.711 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-18 10:22:05.712 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:22:14.849 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.374 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 79
+2024-04-18 10:22:50.837 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-18 10:22:50.837 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:22:50.837 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-18 10:22:50.837 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-18 10:23:24.163 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-18 10:23:24.163 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-18 10:23:24.163 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-18 10:23:24.163 | DEBUG    | metagpt.config:__init__:85 - Config loading done.

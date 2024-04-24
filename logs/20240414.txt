@@ -1,0 +1,238 @@
+2024-04-14 10:33:46.129 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:33:46.129 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:33:46.130 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:33:46.130 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:33:56.360 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:33:56.360 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:34:08.089 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10787, completion_tokens: 177
+2024-04-14 10:34:10.430 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 309, completion_tokens: 131
+2024-04-14 10:36:04.995 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:36:04.995 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:36:04.995 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:36:04.995 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:36:13.093 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:36:13.093 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:36:29.733 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10787, completion_tokens: 545
+2024-04-14 10:36:31.613 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 677, completion_tokens: 68
+2024-04-14 10:36:48.076 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAILLM.acompletion_text' after 10.704(s), this was the 1st time calling it.
+2024-04-14 10:37:02.280 | WARNING  | tenacity.after:log_it:44 - Finished call to 'metagpt.provider.openai_api.OpenAILLM.acompletion_text' after 24.907(s), this was the 2nd time calling it.
+2024-04-14 10:38:49.796 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-16k-turbo
+2024-04-14 10:38:49.796 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:38:49.796 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:38:49.797 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:38:56.439 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-16k-turbo
+2024-04-14 10:38:56.439 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:39:16.053 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-16k-turbo
+2024-04-14 10:39:16.053 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:39:16.053 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:39:16.053 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:39:22.550 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-16k-turbo
+2024-04-14 10:39:22.550 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:41:01.477 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:41:01.477 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:41:01.477 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:41:01.477 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:41:08.134 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:41:08.135 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:46:27.999 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:46:27.999 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:46:28.000 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:46:28.000 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:46:34.469 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:46:34.469 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:47:06.528 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:47:06.528 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:47:06.528 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:47:06.528 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:47:12.730 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:47:12.730 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:50:48.346 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:50:48.346 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:50:48.346 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:50:48.346 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:50:57.549 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:50:57.549 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:51:34.286 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:51:34.286 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:51:34.286 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:51:34.286 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:51:40.797 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:51:40.799 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:52:11.709 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:52:11.709 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:52:11.709 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:52:11.710 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:52:17.957 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-16k
+2024-04-14 10:52:17.957 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:52:54.128 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:52:54.128 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:52:54.128 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:52:54.129 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:53:00.376 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:53:00.376 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:53:41.991 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:53:41.991 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:53:41.991 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:53:41.992 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:53:49.868 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:53:49.868 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:54:10.097 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:54:10.097 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:54:10.097 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 10:54:10.097 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 10:54:17.289 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 10:54:17.290 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 10:54:28.708 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.024, prompt_tokens: 15514, completion_tokens: 155
+2024-04-14 10:54:30.339 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 287, completion_tokens: 76
+2024-04-14 10:54:35.052 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.025 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 291, completion_tokens: 86
+2024-04-14 10:54:36.407 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.025 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 218, completion_tokens: 62
+2024-04-14 11:04:48.538 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:04:48.538 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:04:48.539 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 11:04:48.539 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 11:04:54.830 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:04:54.830 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:05:16.445 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.024, prompt_tokens: 15514, completion_tokens: 188
+2024-04-14 11:05:18.301 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 320, completion_tokens: 81
+2024-04-14 11:05:23.908 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.025 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 291, completion_tokens: 177
+2024-04-14 11:05:25.145 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.026 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 309, completion_tokens: 45
+2024-04-14 11:09:37.584 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:09:37.584 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:09:37.584 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 11:09:37.584 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 11:09:43.866 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:09:43.866 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:09:58.082 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.024, prompt_tokens: 15514, completion_tokens: 153
+2024-04-14 11:09:59.563 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 285, completion_tokens: 62
+2024-04-14 11:10:06.910 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.025 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 291, completion_tokens: 141
+2024-04-14 11:10:08.003 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.025 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 273, completion_tokens: 52
+2024-04-14 11:10:29.956 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:10:29.956 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:10:29.956 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 11:10:29.956 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 11:10:36.183 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:10:36.184 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:11:29.963 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:11:29.963 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:11:29.963 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 11:11:29.963 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 11:11:36.206 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:11:36.206 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:11:46.726 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:11:46.726 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:11:46.726 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 11:11:46.726 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 11:11:52.965 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 11:11:52.965 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 11:12:05.740 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.024, prompt_tokens: 15514, completion_tokens: 184
+2024-04-14 11:12:07.933 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 109, completion_tokens: 129
+2024-04-14 11:12:10.100 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.024 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 109, completion_tokens: 119
+2024-04-14 11:12:14.070 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.048 | Max budget: $10.000 | Current cost: $0.023, prompt_tokens: 15187, completion_tokens: 141
+2024-04-14 11:12:16.162 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.049 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 706, completion_tokens: 72
+2024-04-14 11:12:21.123 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.049 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 291, completion_tokens: 116
+2024-04-14 11:12:22.831 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.050 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 248, completion_tokens: 65
+2024-04-14 14:37:13.993 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:37:13.994 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:37:13.994 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 14:37:13.994 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 14:37:25.433 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:37:25.433 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:38:46.096 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:38:46.096 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:38:46.096 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 14:38:46.096 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 14:38:52.527 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:38:52.527 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:46:16.757 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:46:16.757 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:46:16.758 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 14:46:16.758 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 14:46:23.409 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:46:23.409 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:46:28.415 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:46:28.415 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:46:28.415 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 14:46:28.416 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 14:46:34.756 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:46:34.756 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:47:04.032 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:47:04.032 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 14:47:04.033 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 14:47:04.033 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 14:47:10.662 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 14:47:10.663 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 15:55:28.967 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 15:55:28.967 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 15:55:28.967 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 15:55:28.967 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 15:58:45.499 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 15:58:45.499 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 15:58:45.500 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 15:58:45.500 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 15:59:08.105 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 15:59:08.105 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 15:59:08.106 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 15:59:08.106 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:00:00.578 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:00:00.579 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:00:00.579 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:00:00.579 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:05:10.136 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:05:10.137 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:05:10.137 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:05:10.137 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:05:17.285 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:05:17.285 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:05:30.273 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 163
+2024-04-14 16:05:31.618 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 311, completion_tokens: 49
+2024-04-14 16:05:39.240 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.024, prompt_tokens: 15540, completion_tokens: 113
+2024-04-14 16:05:41.184 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 72
+2024-04-14 16:05:42.904 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 77
+2024-04-14 16:05:45.942 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.064 | Max budget: $10.000 | Current cost: $0.023, prompt_tokens: 15213, completion_tokens: 99
+2024-04-14 16:05:47.445 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.065 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 509, completion_tokens: 63
+2024-04-14 16:17:34.286 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:17:34.286 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:17:34.287 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:17:34.287 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:17:36.705 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:17:36.705 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:17:50.310 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:17:50.310 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:17:50.310 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:17:50.310 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:17:53.871 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:17:53.872 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:18:18.028 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:18:18.028 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:18:18.028 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:18:18.028 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:18:20.431 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:18:20.431 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:18:34.222 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:18:34.223 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:18:34.223 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:18:34.223 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:18:36.363 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:18:36.363 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:18:50.099 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:18:50.099 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:18:50.099 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:18:50.099 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:18:52.237 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:18:52.237 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:19:41.919 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:19:41.920 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:19:41.920 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:19:41.920 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:19:48.278 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:19:48.279 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:20:14.181 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 609
+2024-04-14 16:20:18.085 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:20:18.087 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:20:18.087 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-14 16:20:18.087 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-14 16:20:25.346 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-14 16:20:25.346 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-14 16:20:37.335 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 198
+2024-04-14 16:20:39.159 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 346, completion_tokens: 81
+2024-04-14 16:20:44.172 | INFO     | Action.SearchVideo:download_video_srt:120 - <class 'Exception'>

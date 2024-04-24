@@ -1,0 +1,826 @@
+2024-04-15 09:21:48.370 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 09:21:48.370 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 09:21:48.370 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 09:21:48.370 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 09:21:58.009 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 09:21:58.009 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 09:22:25.948 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 09:22:25.948 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 09:22:25.948 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 09:22:25.948 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 09:22:32.369 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 09:22:32.369 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 09:22:41.802 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 158
+2024-04-15 09:22:42.984 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 325, completion_tokens: 35
+2024-04-15 09:27:33.065 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 09:27:33.065 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 09:27:33.065 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 09:27:33.065 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 09:27:39.344 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 09:27:39.345 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 09:27:50.322 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 224
+2024-04-15 09:27:51.122 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 456, completion_tokens: 29
+2024-04-15 09:31:38.232 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 09:31:38.232 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 09:31:38.232 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 09:31:38.232 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 09:31:44.559 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 09:31:44.559 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 09:31:58.225 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 239
+2024-04-15 09:31:59.522 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 471, completion_tokens: 42
+2024-04-15 09:32:08.262 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14439, completion_tokens: 262
+2024-04-15 09:32:09.884 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 76
+2024-04-15 09:32:11.946 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 108
+2024-04-15 09:32:17.365 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 306
+2024-04-15 09:32:20.603 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.048 | Max budget: $10.000 | Current cost: $0.006, prompt_tokens: 4081, completion_tokens: 175
+2024-04-15 09:32:21.853 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.050 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1159, completion_tokens: 47
+2024-04-15 10:54:49.639 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 10:54:49.639 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 10:54:49.639 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 10:54:49.639 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 10:54:57.919 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 10:54:57.919 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 10:55:09.637 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 230
+2024-04-15 10:55:11.006 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 462, completion_tokens: 45
+2024-04-15 10:55:16.863 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.039 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14439, completion_tokens: 105
+2024-04-15 10:55:18.772 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 103
+2024-04-15 10:55:20.541 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 88
+2024-04-15 10:55:22.817 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 129
+2024-04-15 10:55:28.894 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.047 | Max budget: $10.000 | Current cost: $0.007, prompt_tokens: 4081, completion_tokens: 280
+2024-04-15 10:55:31.016 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.049 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 937, completion_tokens: 88
+2024-04-15 10:56:47.400 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 10:56:47.400 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 10:56:47.400 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 10:56:47.400 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 10:56:53.688 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 10:56:53.688 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 10:57:03.367 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.016 | Max budget: $10.000 | Current cost: $0.016, prompt_tokens: 10813, completion_tokens: 139
+2024-04-15 10:57:04.231 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 371, completion_tokens: 28
+2024-04-15 10:57:08.943 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 317, completion_tokens: 137
+2024-04-15 10:57:10.062 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 369, completion_tokens: 31
+2024-04-15 11:33:17.931 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 11:33:17.932 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 11:33:17.932 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 11:33:17.932 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 11:33:24.620 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 11:33:24.620 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 11:33:34.901 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 216
+2024-04-15 11:33:35.655 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 448, completion_tokens: 20
+2024-04-15 11:33:41.554 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.039 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14439, completion_tokens: 81
+2024-04-15 11:33:43.055 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 76
+2024-04-15 11:33:44.745 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 67
+2024-04-15 11:33:46.679 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 91
+2024-04-15 11:33:49.184 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.047 | Max budget: $10.000 | Current cost: $0.006, prompt_tokens: 4081, completion_tokens: 129
+2024-04-15 11:33:50.285 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.048 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 676, completion_tokens: 32
+2024-04-15 14:09:52.169 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:09:52.169 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:09:52.170 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 14:09:52.170 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 14:09:58.395 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:09:58.395 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:10:13.371 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:10:13.371 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:10:13.371 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 14:10:13.371 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 14:10:19.958 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:10:19.958 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:10:31.486 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 249
+2024-04-15 14:10:32.917 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 481, completion_tokens: 50
+2024-04-15 14:10:39.392 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.039 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14439, completion_tokens: 113
+2024-04-15 14:10:41.316 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 120
+2024-04-15 14:10:43.133 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 87
+2024-04-15 14:10:45.133 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 127
+2024-04-15 14:10:48.556 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.047 | Max budget: $10.000 | Current cost: $0.007, prompt_tokens: 4081, completion_tokens: 204
+2024-04-15 14:10:49.785 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.049 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 883, completion_tokens: 48
+2024-04-15 14:11:01.511 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.071 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14362, completion_tokens: 315
+2024-04-15 14:11:03.666 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.071 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 121
+2024-04-15 14:11:05.843 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.072 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 107
+2024-04-15 14:11:08.075 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.072 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 126
+2024-04-15 14:11:13.577 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.080 | Max budget: $10.000 | Current cost: $0.008, prompt_tokens: 4626, completion_tokens: 353
+2024-04-15 14:11:15.369 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.082 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1254, completion_tokens: 38
+2024-04-15 14:13:56.205 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:13:56.205 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:13:56.205 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 14:13:56.205 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 14:14:02.472 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:14:02.472 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:14:19.794 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 298
+2024-04-15 14:14:20.845 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 530, completion_tokens: 32
+2024-04-15 14:14:37.660 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14439, completion_tokens: 91
+2024-04-15 14:14:39.522 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 109
+2024-04-15 14:14:41.100 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 97
+2024-04-15 14:14:44.745 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 132
+2024-04-15 14:14:47.814 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.047 | Max budget: $10.000 | Current cost: $0.006, prompt_tokens: 4081, completion_tokens: 183
+2024-04-15 14:14:48.851 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.049 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 844, completion_tokens: 45
+2024-04-15 14:14:59.251 | INFO     | __main__:main:59 - {'Python programming basics': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Data types and variables': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Functions and methods': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Operators and decision-making': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Loops and iteration': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Lists and tuples': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Variables, data types, and operators': ['rfscVS0vtbw'], 'Control flow structures (loops and conditional statements)': ['rfscVS0vtbw'], 'Functions and modules organization': ['rfscVS0vtbw'], 'Classes and inheritance in Python': ['rfscVS0vtbw']}
+2024-04-15 14:16:15.817 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:16:15.818 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:16:15.818 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 14:16:15.818 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 14:16:22.075 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:16:22.075 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:16:35.388 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 382
+2024-04-15 14:16:36.981 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 614, completion_tokens: 22
+2024-04-15 14:16:53.924 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14439, completion_tokens: 138
+2024-04-15 14:16:55.679 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 67
+2024-04-15 14:16:57.911 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 101
+2024-04-15 14:16:59.674 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 76
+2024-04-15 14:17:02.228 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.047 | Max budget: $10.000 | Current cost: $0.006, prompt_tokens: 4081, completion_tokens: 145
+2024-04-15 14:17:03.277 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.049 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 759, completion_tokens: 30
+2024-04-15 14:17:22.116 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.071 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14362, completion_tokens: 201
+2024-04-15 14:17:24.425 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.071 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 126
+2024-04-15 14:17:26.033 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.071 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 86
+2024-04-15 14:17:27.763 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.072 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 99
+2024-04-15 14:17:32.324 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.079 | Max budget: $10.000 | Current cost: $0.008, prompt_tokens: 4626, completion_tokens: 290
+2024-04-15 14:17:33.522 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.081 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1034, completion_tokens: 52
+2024-04-15 14:19:44.941 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:19:44.942 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:19:44.942 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 14:19:44.942 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 14:19:51.497 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:19:51.497 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:19:56.677 | INFO     | __main__:truncate_text_by_token_count:24 - 8531
+2024-04-15 14:20:02.285 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 226
+2024-04-15 14:20:03.587 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 458, completion_tokens: 33
+2024-04-15 14:20:16.725 | INFO     | __main__:truncate_text_by_token_count:24 - 55558
+2024-04-15 14:20:20.486 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.039 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14439, completion_tokens: 131
+2024-04-15 14:20:22.474 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 108
+2024-04-15 14:20:24.418 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.040 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 111
+2024-04-15 14:20:26.476 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.041 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 127
+2024-04-15 14:20:29.438 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.047 | Max budget: $10.000 | Current cost: $0.006, prompt_tokens: 4081, completion_tokens: 149
+2024-04-15 14:20:31.239 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.048 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 858, completion_tokens: 57
+2024-04-15 14:20:44.095 | INFO     | __main__:truncate_text_by_token_count:24 - 150
+2024-04-15 14:20:47.276 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.049 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 317, completion_tokens: 132
+2024-04-15 14:20:48.768 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.050 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 364, completion_tokens: 36
+2024-04-15 14:21:02.581 | INFO     | __main__:truncate_text_by_token_count:24 - 56144
+2024-04-15 14:21:07.888 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.072 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14362, completion_tokens: 223
+2024-04-15 14:21:09.414 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.072 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 93
+2024-04-15 14:21:13.709 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.073 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 257
+2024-04-15 14:21:15.770 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.073 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 95
+2024-04-15 14:21:19.185 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.081 | Max budget: $10.000 | Current cost: $0.007, prompt_tokens: 4626, completion_tokens: 204
+2024-04-15 14:21:20.200 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.082 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1104, completion_tokens: 25
+2024-04-15 14:21:33.269 | INFO     | __main__:truncate_text_by_token_count:24 - 1753
+2024-04-15 14:21:37.853 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.086 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2256, completion_tokens: 258
+2024-04-15 14:21:38.818 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.087 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 490, completion_tokens: 36
+2024-04-15 14:21:52.074 | INFO     | __main__:truncate_text_by_token_count:24 - 4355
+2024-04-15 14:21:56.379 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.095 | Max budget: $10.000 | Current cost: $0.008, prompt_tokens: 5033, completion_tokens: 206
+2024-04-15 14:21:57.100 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.096 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 438, completion_tokens: 21
+2024-04-15 14:22:10.365 | INFO     | __main__:truncate_text_by_token_count:24 - 908
+2024-04-15 14:22:14.206 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.098 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1232, completion_tokens: 161
+2024-04-15 14:22:15.196 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.099 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 393, completion_tokens: 36
+2024-04-15 14:22:28.320 | INFO     | __main__:truncate_text_by_token_count:24 - 675
+2024-04-15 14:22:31.522 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.100 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1042, completion_tokens: 154
+2024-04-15 14:22:32.651 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.101 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 386, completion_tokens: 34
+2024-04-15 14:22:47.539 | INFO     | __main__:truncate_text_by_token_count:24 - 97227
+2024-04-15 14:25:46.856 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:25:46.856 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:25:46.856 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 14:25:46.856 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 14:25:53.139 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:25:53.139 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:25:58.725 | INFO     | __main__:truncate_text_by_token_count:24 - 8531
+2024-04-15 14:26:03.532 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 193
+2024-04-15 14:26:04.714 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 425, completion_tokens: 30
+2024-04-15 14:26:17.920 | INFO     | __main__:truncate_text_by_token_count:24 - 55558
+2024-04-15 14:26:22.305 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.037 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12771, completion_tokens: 130
+2024-04-15 14:26:24.830 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.037 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 151
+2024-04-15 14:26:27.214 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.038 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 126
+2024-04-15 14:26:30.064 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.038 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 162
+2024-04-15 14:26:37.271 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.055 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10784, completion_tokens: 409
+2024-04-15 14:26:39.127 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.057 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1210, completion_tokens: 80
+2024-04-15 14:26:49.602 | INFO     | __main__:main:60 - {'Python programming basics': ['rfscVS0vtbw', 'kqtD5dpn9C8'], 'Variables and data types': ['rfscVS0vtbw', 'kqtD5dpn9C8'], 'Decision-making with if statements': ['rfscVS0vtbw', 'kqtD5dpn9C8'], 'Working with lists and tuples': ['rfscVS0vtbw', 'kqtD5dpn9C8'], 'Using the range function': ['rfscVS0vtbw', 'kqtD5dpn9C8'], 'Input from user using the `input` function': ['rfscVS0vtbw'], 'Variables, data types, and basic operations in Python': ['rfscVS0vtbw'], 'Conditional statements and loops in Python': ['rfscVS0vtbw'], 'Functions, modules, and libraries in Python': ['rfscVS0vtbw'], 'Using external modules in Python': ['rfscVS0vtbw'], 'Classes and objects in Python': ['rfscVS0vtbw'], 'Building a multiple choice quiz in Python': ['rfscVS0vtbw'], 'Class functions and inheritance in Python': ['rfscVS0vtbw']}
+2024-04-15 14:27:34.625 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:27:34.626 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:27:34.626 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 14:27:34.626 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 14:27:40.907 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:27:40.907 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:27:46.343 | INFO     | __main__:truncate_text_by_token_count:24 - 8531
+2024-04-15 14:27:50.812 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:27:50.813 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:27:50.813 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 14:27:50.813 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 14:27:57.220 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 14:27:57.220 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 14:27:59.721 | INFO     | __main__:main:47 - [{'id': 'kqtD5dpn9C8', 'thumbnails': ['https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBZsA0F-g6xPNiHwjpHkONxlfJw7A', 'https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAlOSbnBnoUI-N9v2_o-DYUecBN7A'], 'title': 'Python for Beginners - Learn Python in 1 Hour', 'long_desc': None, 'channel': 'Programming with Mosh', 'duration': '1:00:06', 'views': '16,414,026 views', 'publish_time': '3 years ago', 'url_suffix': '/watch?v=kqtD5dpn9C8&pp=ygUPUHl0aG9uIExlYXJuaW5n'}, {'id': 'rfscVS0vtbw', 'thumbnails': ['https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBMTDTxhB7lRS3cLHa0VziCNbe6bA', 'https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXvMQE_gOpCIBH9cq305MHOUlgIg'], 'title': 'Learn Python - Full Course for Beginners [Tutorial]', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '4:26:52', 'views': '43,709,776 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=rfscVS0vtbw&pp=ygUPUHl0aG9uIExlYXJuaW5n'}, {'id': 'fabelAs_m08', 'thumbnails': ['https://i.ytimg.com/vi/fabelAs_m08/hq720.jpg?sqp=-oaymwE9COgCEMoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AdoHgALQBYoCDAgAEAEYYiBiKGIwDw==&rs=AOn4CLDZXeZy-1cbw8I1Ona6_-_qtTovlA', 'https://i.ytimg.com/vi/fabelAs_m08/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4AdoHgALQBYoCDAgAEAEYYiBiKGIwDw==&rs=AOn4CLBIPExRaH9mbz3QO6zozl8JKjIU7A'], 'title': 'Learn Python in 59.001 seconds', 'long_desc': None, 'channel': 'Code Pointers', 'duration': '0:59', 'views': '2,267,188 views', 'publish_time': '1 year ago', 'url_suffix': '/watch?v=fabelAs_m08&pp=ygUPUHl0aG9uIExlYXJuaW5n'}, {'id': '_uQrJ0TkZlc', 'thumbnails': ['https://i.ytimg.com/vi/_uQrJ0TkZlc/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCV2bObSGBM98CKjJSctya8dGMPDw', 'https://i.ytimg.com/vi/_uQrJ0TkZlc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBzxHQjj_9xpSxgV1w6-XmWU4N11A'], 'title': 'Python Tutorial - Python Full Course for Beginners', 'long_desc': None, 'channel': 'Programming with Mosh', 'duration': '6:14:07', 'views': '38,377,710 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=_uQrJ0TkZlc&pp=ygUPUHl0aG9uIExlYXJuaW5n'}, {'id': 'tvNBf-C0Dy8', 'thumbnails': ['https://i.ytimg.com/vi/tvNBf-C0Dy8/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAzHQ6bQSBRieTXdq_xl3YcWfNJAg', 'https://i.ytimg.com/vi/tvNBf-C0Dy8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB6mB40HZOfYNoJfJYTRFsiYYPcSA'], 'title': 'The Truth About Learning Python in 2024', 'long_desc': None, 'channel': 'Internet Made Coder', 'duration': '9:38', 'views': '53,351 views', 'publish_time': '3 weeks ago', 'url_suffix': '/watch?v=tvNBf-C0Dy8&pp=ygUPUHl0aG9uIExlYXJuaW5n'}, {'id': 'mRMmlo_Uqcs', 'thumbnails': ['https://i.ytimg.com/vi/mRMmlo_Uqcs/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBwnZ66E_B6aXGEIHlU1Sio1-lFQw', 'https://i.ytimg.com/vi/mRMmlo_Uqcs/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBlfHPCPIXn-NJ0FlL6DgTM6BGDdw'], 'title': 'you need to learn Python RIGHT NOW!! // EP 1', 'long_desc': None, 'channel': 'NetworkChuck', 'duration': '17:42', 'views': '2,247,639 views', 'publish_time': '2 years ago', 'url_suffix': '/watch?v=mRMmlo_Uqcs&pp=ygUPUHl0aG9uIExlYXJuaW5n'}, {'id': 'XKHEtdqhLK8', 'thumbnails': ['https://i.ytimg.com/vi/XKHEtdqhLK8/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDspVYmNKP6JQ6dn7TtjO6aoRUPsQ', 'https://i.ytimg.com/vi/XKHEtdqhLK8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDZXeDMHps0-LlCaYuEZYFhFv4l0g'], 'title': 'Python Full Course for free 🐍', 'long_desc': None, 'channel': 'Bro Code', 'duration': '12:00:00', 'views': '17,041,785 views', 'publish_time': '3 years ago', 'url_suffix': '/watch?v=XKHEtdqhLK8&pp=ygUPUHl0aG9uIExlYXJuaW5n'}, {'id': 'JR4wn8gFSok', 'thumbnails': ['https://i.ytimg.com/vi/JR4wn8gFSok/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAASZwl63f641UVqpjRBcy6K9_rCQ', 'https://i.ytimg.com/vi/JR4wn8gFSok/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC6qwq1c6HWZPXtUgLgNXr8zQ6MtQ'], 'title': 'Python Full Course for Beginners | Learn Python Tutorial | NareshIT', 'long_desc': None, 'channel': 'Naresh i Technologies', 'duration': '7:12', 'views': '641 views', 'publish_time': '1 day ago', 'url_suffix': '/watch?v=JR4wn8gFSok&pp=ygUPUHl0aG9uIExlYXJuaW5n'}]
+2024-04-15 14:28:02.496 | INFO     | __main__:truncate_text_by_token_count:24 - 8531
+2024-04-15 14:28:08.303 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 269
+2024-04-15 14:28:09.300 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 501, completion_tokens: 26
+2024-04-15 14:28:22.444 | INFO     | __main__:truncate_text_by_token_count:24 - 55558
+2024-04-15 14:28:25.462 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.037 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12771, completion_tokens: 80
+2024-04-15 14:28:26.973 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.037 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 72
+2024-04-15 14:28:29.068 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.038 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 102
+2024-04-15 14:28:30.704 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.038 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 82
+2024-04-15 14:28:35.088 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.055 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10784, completion_tokens: 201
+2024-04-15 14:28:36.239 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.056 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 769, completion_tokens: 47
+2024-04-15 14:28:49.064 | INFO     | __main__:truncate_text_by_token_count:24 - 150
+2024-04-15 14:28:52.208 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.057 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 317, completion_tokens: 141
+2024-04-15 14:28:53.493 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.057 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 373, completion_tokens: 18
+2024-04-15 14:29:07.168 | INFO     | __main__:truncate_text_by_token_count:24 - 56144
+2024-04-15 14:29:12.600 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.077 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12745, completion_tokens: 172
+2024-04-15 14:29:15.712 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.077 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 180
+2024-04-15 14:29:18.513 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.078 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 169
+2024-04-15 14:29:20.488 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.078 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 94
+2024-04-15 14:29:24.577 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.095 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 11117, completion_tokens: 203
+2024-04-15 14:29:25.756 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.097 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1050, completion_tokens: 38
+2024-04-15 14:29:38.745 | INFO     | __main__:truncate_text_by_token_count:24 - 1753
+2024-04-15 14:29:42.629 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.101 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2256, completion_tokens: 207
+2024-04-15 14:29:43.835 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.101 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 439, completion_tokens: 32
+2024-04-15 14:29:57.234 | INFO     | __main__:truncate_text_by_token_count:24 - 4355
+2024-04-15 14:30:02.172 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.109 | Max budget: $10.000 | Current cost: $0.008, prompt_tokens: 5033, completion_tokens: 224
+2024-04-15 14:30:02.944 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.110 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 456, completion_tokens: 17
+2024-04-15 14:30:17.513 | INFO     | __main__:truncate_text_by_token_count:24 - 97227
+2024-04-15 14:30:24.701 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.133 | Max budget: $10.000 | Current cost: $0.023, prompt_tokens: 14893, completion_tokens: 250
+2024-04-15 14:30:26.698 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.133 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 101
+2024-04-15 14:30:28.460 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.134 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 88
+2024-04-15 14:30:31.291 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.134 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 152
+2024-04-15 14:30:33.558 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.135 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 110
+2024-04-15 14:30:36.375 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.135 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 191
+2024-04-15 14:30:38.107 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.136 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 89
+2024-04-15 14:30:42.273 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.136 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 255
+2024-04-15 14:30:53.687 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.148 | Max budget: $10.000 | Current cost: $0.011, prompt_tokens: 6942, completion_tokens: 393
+2024-04-15 14:30:54.734 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.150 | Max budget: $10.000 | Current cost: $0.003, prompt_tokens: 1861, completion_tokens: 29
+2024-04-15 14:31:07.810 | INFO     | __main__:truncate_text_by_token_count:24 - 675
+2024-04-15 14:31:10.226 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.152 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1042, completion_tokens: 127
+2024-04-15 14:31:11.302 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.153 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 359, completion_tokens: 31
+2024-04-15 14:31:22.074 | INFO     | __main__:main:61 - {'Python programming fundamentals': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', 'fabelAs_m08', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'kqtD5dpn9C8'], 'Variable manipulation and data types': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', 'fabelAs_m08', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'kqtD5dpn9C8'], 'Conditional statements and decision-making': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', 'fabelAs_m08', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'kqtD5dpn9C8'], 'Data structures: lists and tuples': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', 'fabelAs_m08', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'kqtD5dpn9C8'], 'Using `input()` function for user input': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'fabelAs_m08'], 'Basics of Python programming language': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'fabelAs_m08'], 'Managing external modules with `pip`': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'fabelAs_m08'], 'Creating classes and objects in Python': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'fabelAs_m08'], 'Inheritance in Python': ['rfscVS0vtbw', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'fabelAs_m08'], 'Variables and data types': ['mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'fabelAs_m08'], 'Functions and arguments': ['mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'fabelAs_m08'], 'Conditional statements': ['mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok', 'fabelAs_m08'], '**Python basics and fundamental concepts**': ['mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok'], '**String manipulation and formatting**': ['mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok'], '**Conditional statements and decision-making**': ['mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8'], '**Functions and modular programming**': ['mRMmlo_Uqcs', 'tvNBf-C0Dy8', '_uQrJ0TkZlc', 'XKHEtdqhLK8', 'JR4wn8gFSok'], 'Industry applications of Python': ['JR4wn8gFSok', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', 'XKHEtdqhLK8'], 'Trends influencing Python demand': ['JR4wn8gFSok', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', 'XKHEtdqhLK8'], 'Essential skills for Python developers': ['JR4wn8gFSok', 'mRMmlo_Uqcs', 'tvNBf-C0Dy8', 'XKHEtdqhLK8'], 'Python basics': ['JR4wn8gFSok', 'mRMmlo_Uqcs', 'XKHEtdqhLK8'], 'String manipulation': ['JR4wn8gFSok', 'mRMmlo_Uqcs', 'XKHEtdqhLK8'], 'Hands-on coding exercises': ['JR4wn8gFSok', 'mRMmlo_Uqcs', 'XKHEtdqhLK8'], 'Python programming basics': ['JR4wn8gFSok', 'XKHEtdqhLK8'], 'Data types and variables': ['JR4wn8gFSok', 'XKHEtdqhLK8'], 'Control structures (if statements, loops)': ['JR4wn8gFSok', 'XKHEtdqhLK8'], 'Full stack Python course': ['JR4wn8gFSok'], 'Core Python': ['JR4wn8gFSok'], 'Advanced Python': ['JR4wn8gFSok'], 'UI tools': ['JR4wn8gFSok'], 'Web application frameworks': ['JR4wn8gFSok'], 'Databases': ['JR4wn8gFSok']}
+2024-04-15 20:03:43.052 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:03:43.053 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:03:43.054 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 20:03:43.054 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 20:03:51.288 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:03:51.299 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.609 s.
+2024-04-15 20:03:51.307 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:03:51.308 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:03:51.327 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:03:51.328 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:03:51.342 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:03:51.345 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:04:03.752 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 67
+2024-04-15 20:04:05.518 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:04:05.518 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.549 s.
+2024-04-15 20:04:05.518 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:04:05.519 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:04:05.534 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:04:05.536 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:04:05.550 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:04:05.551 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:04:14.951 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 89
+2024-04-15 20:04:22.109 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:04:22.109 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.516 s.
+2024-04-15 20:04:22.109 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:04:22.111 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:04:22.126 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:04:22.126 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:04:22.142 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:04:22.143 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:04:28.921 | INFO     | Action.SearchVideo:truncate_text_by_token_count:225 - 164028
+2024-04-15 20:04:33.020 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.054 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 91
+2024-04-15 20:04:33.323 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.076 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14472, completion_tokens: 115
+2024-04-15 20:04:35.337 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.076 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 78
+2024-04-15 20:06:42.793 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:06:42.794 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:06:42.795 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 20:06:42.795 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 20:06:48.152 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:06:48.152 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.528 s.
+2024-04-15 20:06:48.160 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:06:48.161 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:06:48.182 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:06:48.184 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:06:48.200 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:06:48.200 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:06:57.366 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 71
+2024-04-15 20:07:00.037 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:07:00.037 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.529 s.
+2024-04-15 20:07:00.037 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:00.038 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:00.052 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:00.053 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:00.066 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:00.068 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:09.044 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 71
+2024-04-15 20:07:10.841 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:07:10.842 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.534 s.
+2024-04-15 20:07:10.842 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:10.843 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:10.858 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:10.858 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:10.873 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:10.874 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:20.495 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.054 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 105
+2024-04-15 20:07:25.034 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:07:25.034 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.613 s.
+2024-04-15 20:07:25.035 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:25.035 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:25.050 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:25.051 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:25.066 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:07:25.067 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:07:32.295 | INFO     | Action.SearchVideo:truncate_text_by_token_count:225 - 164028
+2024-04-15 20:07:34.383 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.071 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 69
+2024-04-15 20:07:36.635 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.093 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14472, completion_tokens: 125
+2024-04-15 20:07:38.314 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.094 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 98
+2024-04-15 20:07:40.570 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.094 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 119
+2024-04-15 20:07:43.524 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.095 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 131
+2024-04-15 20:07:48.098 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.095 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 254
+2024-04-15 20:07:52.229 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.096 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 219
+2024-04-15 20:07:54.238 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.096 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 100
+2024-04-15 20:07:57.450 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.097 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 184
+2024-04-15 20:07:59.167 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.097 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 72
+2024-04-15 20:08:01.019 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.098 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 98
+2024-04-15 20:09:51.289 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:09:51.291 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:09:51.292 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 20:09:51.292 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 20:09:55.897 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:09:55.897 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.298 s.
+2024-04-15 20:09:55.903 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:09:55.905 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:09:55.924 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:09:55.925 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:09:55.939 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:09:55.941 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:10:05.560 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 99
+2024-04-15 20:10:06.406 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:10:06.406 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.650 s.
+2024-04-15 20:10:06.406 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:10:06.407 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:10:06.425 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:10:06.425 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:10:06.433 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:10:06.434 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.524 s.
+2024-04-15 20:10:06.434 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:10:06.434 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:10:06.442 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:10:06.442 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:10:06.449 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:10:06.449 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:10:06.635 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:10:06.637 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:10:13.764 | INFO     | Action.SearchVideo:truncate_text_by_token_count:225 - 164028
+2024-04-15 20:10:16.129 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 91
+2024-04-15 20:10:17.420 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.058 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14472, completion_tokens: 103
+2024-04-15 20:10:22.209 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.058 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 250
+2024-04-15 20:10:26.537 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.059 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 246
+2024-04-15 20:10:31.013 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.059 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 76
+2024-04-15 20:10:32.635 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.060 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 85
+2024-04-15 20:10:34.934 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.060 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 102
+2024-04-15 20:10:38.377 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.061 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 166
+2024-04-15 20:10:40.317 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.061 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 83
+2024-04-15 20:10:43.623 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.062 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 187
+2024-04-15 20:10:46.629 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.062 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 186
+2024-04-15 20:10:48.449 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.063 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 92
+2024-04-15 20:10:51.662 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.063 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 167
+2024-04-15 20:10:54.582 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.064 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 161
+2024-04-15 20:10:56.550 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.064 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 84
+2024-04-15 20:10:58.874 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.070 | Max budget: $10.000 | Current cost: $0.006, prompt_tokens: 3910, completion_tokens: 104
+2024-04-15 20:11:00.124 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.074 | Max budget: $10.000 | Current cost: $0.004, prompt_tokens: 2322, completion_tokens: 36
+2024-04-15 20:11:12.547 | INFO     | Action.SearchVideo:truncate_text_by_token_count:225 - 395
+2024-04-15 20:11:15.862 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.075 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 642, completion_tokens: 141
+2024-04-15 20:11:16.999 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.076 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 371, completion_tokens: 40
+2024-04-15 20:11:31.018 | INFO     | Action.SearchVideo:truncate_text_by_token_count:225 - 56144
+2024-04-15 20:11:34.791 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.095 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12744, completion_tokens: 100
+2024-04-15 20:11:36.812 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.095 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 99
+2024-04-15 20:11:38.619 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.096 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 70
+2024-04-15 20:11:41.548 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.096 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 160
+2024-04-15 20:11:46.217 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.113 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 11116, completion_tokens: 214
+2024-04-15 20:11:47.580 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.115 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 873, completion_tokens: 49
+2024-04-15 20:12:01.487 | INFO     | Action.SearchVideo:truncate_text_by_token_count:225 - 55558
+2024-04-15 20:12:05.456 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.134 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12770, completion_tokens: 123
+2024-04-15 20:12:08.783 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.135 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 204
+2024-04-15 20:12:11.451 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.135 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 152
+2024-04-15 20:12:16.184 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.136 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 172
+2024-04-15 20:12:21.006 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.152 | Max budget: $10.000 | Current cost: $0.016, prompt_tokens: 10783, completion_tokens: 142
+2024-04-15 20:12:22.270 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.154 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1023, completion_tokens: 33
+2024-04-15 20:22:13.175 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:22:13.177 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:22:13.177 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 20:22:13.177 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 20:22:17.842 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:22:17.842 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.324 s.
+2024-04-15 20:22:17.849 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:22:17.852 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:22:17.872 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:22:17.873 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:22:17.892 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:22:17.893 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:22:26.855 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 78
+2024-04-15 20:23:23.965 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:23:23.966 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.609 s.
+2024-04-15 20:23:23.966 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:23:23.967 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:23:23.981 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:23:23.982 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:23:23.995 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:23:23.996 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:23:24.527 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:23:24.528 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.273 s.
+2024-04-15 20:23:24.528 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:23:24.528 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:23:24.543 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:23:24.544 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:23:24.560 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:23:24.562 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:23:29.409 | INFO     | Action.SearchVideo:truncate_text_by_token_count:225 - 2646
+2024-04-15 20:23:34.670 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 53
+2024-04-15 20:23:35.691 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.054 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 116
+2024-04-15 20:23:36.662 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.059 | Max budget: $10.000 | Current cost: $0.005, prompt_tokens: 3139, completion_tokens: 345
+2024-04-15 20:23:41.745 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.060 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 577, completion_tokens: 41
+2024-04-15 20:23:53.270 | INFO     | Action.SearchVideo:download_video_srt:126 - <class 'Exception'>
+2024-04-15 20:27:16.049 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:27:16.049 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.666 s.
+2024-04-15 20:27:16.049 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:27:16.050 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:27:16.064 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:27:16.065 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:27:16.079 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:27:16.080 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:27:20.970 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 2646
+2024-04-15 20:27:25.024 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.078 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 56
+2024-04-15 20:27:28.497 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.083 | Max budget: $10.000 | Current cost: $0.005, prompt_tokens: 3139, completion_tokens: 356
+2024-04-15 20:27:33.407 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.084 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 588, completion_tokens: 30
+2024-04-15 20:27:45.046 | INFO     | Action.SearchVideo:download_video_srt:126 - <class 'Exception'>
+2024-04-15 20:28:53.800 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:28:53.800 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.294 s.
+2024-04-15 20:28:53.800 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:28:53.801 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:28:53.815 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:28:53.816 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:28:53.830 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:28:53.832 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:28:56.356 | INFO     | __main__:collect_video_concept:57 - [{'id': 'qOeyKJXmAzI', 'thumbnails': ['https://i.ytimg.com/vi/qOeyKJXmAzI/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAfdSl0PTJcQoram6tUFklvGtyybQ', 'https://i.ytimg.com/vi/qOeyKJXmAzI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAUBZRAP6Yy3KuRI8aefRqY9cXv5A'], 'title': 'Advanced RAG techniques', 'long_desc': None, 'channel': 'Streamlit', 'duration': 0, 'views': 0, 'publish_time': 0, 'url_suffix': '/watch?v=qOeyKJXmAzI&pp=ygUJc3RyZWFtbGl0'}, {'id': 'D0D4Pa22iG0', 'thumbnails': ['https://i.ytimg.com/vi/D0D4Pa22iG0/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD-Dvw_XwCOg5xwoo5f2p2KlE8omg', 'https://i.ytimg.com/vi/D0D4Pa22iG0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBqH1mZdNrZB4b5tDjIoN1ViTnc0Q'], 'title': 'Streamlit: The Fastest Way To Build Python Apps?', 'long_desc': None, 'channel': 'pixegami', 'duration': '11:57', 'views': '34,172 views', 'publish_time': '4 months ago', 'url_suffix': '/watch?v=D0D4Pa22iG0&pp=ygUJc3RyZWFtbGl0'}, {'id': 'VqgUkExPvLY', 'thumbnails': ['https://i.ytimg.com/vi/VqgUkExPvLY/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCQSp6VRXazLtckXeLM_ecK2zKRwg', 'https://i.ytimg.com/vi/VqgUkExPvLY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBb77Kmmb8QsV6j1HJ9Vr_GMdYltg'], 'title': 'Build a Website in only 12 minutes using Python & Streamlit', 'long_desc': None, 'channel': 'Coding Is Fun', 'duration': '12:48', 'views': '489,611 views', 'publish_time': '2 years ago', 'url_suffix': '/watch?v=VqgUkExPvLY&pp=ygUJc3RyZWFtbGl0'}, {'id': 'asFqpMDSPdM', 'thumbnails': ['https://i.ytimg.com/vi/asFqpMDSPdM/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAnULFfa_hMVsDYJYHe6jXpyTjUTw', 'https://i.ytimg.com/vi/asFqpMDSPdM/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDb5bOkCW1cBmcIkUv4AYriYRVuyA'], 'title': 'Crafting a Dashboard App in Python using Streamlit', 'long_desc': None, 'channel': 'Streamlit', 'duration': '36:47', 'views': '27,582 views', 'publish_time': '4 months ago', 'url_suffix': '/watch?v=asFqpMDSPdM&pp=ygUJc3RyZWFtbGl0'}]
+2024-04-15 20:28:57.851 | INFO     | Action.SearchVideo:download_video_srt:126 - <class 'Exception'>
+2024-04-15 20:29:02.769 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.102 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 69
+2024-04-15 20:29:33.431 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:29:33.431 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.708 s.
+2024-04-15 20:29:33.431 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:29:33.432 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:29:33.448 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:29:33.449 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:29:33.463 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:29:33.464 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:29:35.842 | INFO     | __main__:collect_video_concept:57 - [{'id': 'D0D4Pa22iG0', 'thumbnails': ['https://i.ytimg.com/vi/D0D4Pa22iG0/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD-Dvw_XwCOg5xwoo5f2p2KlE8omg', 'https://i.ytimg.com/vi/D0D4Pa22iG0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBqH1mZdNrZB4b5tDjIoN1ViTnc0Q'], 'title': 'Streamlit: The Fastest Way To Build Python Apps?', 'long_desc': None, 'channel': 'pixegami', 'duration': '11:57', 'views': '34,172 views', 'publish_time': '4 months ago', 'url_suffix': '/watch?v=D0D4Pa22iG0&pp=ygUJc3RyZWFtbGl0'}, {'id': 'qOeyKJXmAzI', 'thumbnails': ['https://i.ytimg.com/vi/qOeyKJXmAzI/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAfdSl0PTJcQoram6tUFklvGtyybQ', 'https://i.ytimg.com/vi/qOeyKJXmAzI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAUBZRAP6Yy3KuRI8aefRqY9cXv5A'], 'title': 'Advanced RAG techniques', 'long_desc': None, 'channel': 'Streamlit', 'duration': 0, 'views': 0, 'publish_time': 0, 'url_suffix': '/watch?v=qOeyKJXmAzI&pp=ygUJc3RyZWFtbGl0'}, {'id': 'VqgUkExPvLY', 'thumbnails': ['https://i.ytimg.com/vi/VqgUkExPvLY/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCQSp6VRXazLtckXeLM_ecK2zKRwg', 'https://i.ytimg.com/vi/VqgUkExPvLY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBb77Kmmb8QsV6j1HJ9Vr_GMdYltg'], 'title': 'Build a Website in only 12 minutes using Python & Streamlit', 'long_desc': None, 'channel': 'Coding Is Fun', 'duration': '12:48', 'views': '489,612 views', 'publish_time': '2 years ago', 'url_suffix': '/watch?v=VqgUkExPvLY&pp=ygUJc3RyZWFtbGl0'}, {'id': 'asFqpMDSPdM', 'thumbnails': ['https://i.ytimg.com/vi/asFqpMDSPdM/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAnULFfa_hMVsDYJYHe6jXpyTjUTw', 'https://i.ytimg.com/vi/asFqpMDSPdM/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDb5bOkCW1cBmcIkUv4AYriYRVuyA'], 'title': 'Crafting a Dashboard App in Python using Streamlit', 'long_desc': None, 'channel': 'Streamlit', 'duration': '36:47', 'views': '27,582 views', 'publish_time': '4 months ago', 'url_suffix': '/watch?v=asFqpMDSPdM&pp=ygUJc3RyZWFtbGl0'}]
+2024-04-15 20:29:38.266 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 2646
+2024-04-15 20:29:42.744 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.120 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 85
+2024-04-15 20:29:44.245 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.125 | Max budget: $10.000 | Current cost: $0.005, prompt_tokens: 3139, completion_tokens: 312
+2024-04-15 20:29:49.329 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.126 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 544, completion_tokens: 39
+2024-04-15 20:30:00.820 | INFO     | Action.SearchVideo:download_video_srt:126 - <class 'Exception'>
+2024-04-15 20:30:35.004 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:30:35.004 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.545 s.
+2024-04-15 20:30:35.004 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:30:35.005 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:30:35.020 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:30:35.020 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:30:35.036 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:30:35.037 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:30:37.367 | INFO     | __main__:collect_video_concept:57 - [{'id': 'D0D4Pa22iG0', 'thumbnails': ['https://i.ytimg.com/vi/D0D4Pa22iG0/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD-Dvw_XwCOg5xwoo5f2p2KlE8omg', 'https://i.ytimg.com/vi/D0D4Pa22iG0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBqH1mZdNrZB4b5tDjIoN1ViTnc0Q'], 'title': 'Streamlit: The Fastest Way To Build Python Apps?', 'long_desc': None, 'channel': 'pixegami', 'duration': '11:57', 'views': '34,172 views', 'publish_time': '4 months ago', 'url_suffix': '/watch?v=D0D4Pa22iG0&pp=ygUJc3RyZWFtbGl0'}, {'id': 'qOeyKJXmAzI', 'thumbnails': ['https://i.ytimg.com/vi/qOeyKJXmAzI/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAfdSl0PTJcQoram6tUFklvGtyybQ', 'https://i.ytimg.com/vi/qOeyKJXmAzI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAUBZRAP6Yy3KuRI8aefRqY9cXv5A'], 'title': 'Advanced RAG techniques', 'long_desc': None, 'channel': 'Streamlit', 'duration': 0, 'views': 0, 'publish_time': 0, 'url_suffix': '/watch?v=qOeyKJXmAzI&pp=ygUJc3RyZWFtbGl0'}, {'id': 'VqgUkExPvLY', 'thumbnails': ['https://i.ytimg.com/vi/VqgUkExPvLY/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCQSp6VRXazLtckXeLM_ecK2zKRwg', 'https://i.ytimg.com/vi/VqgUkExPvLY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBb77Kmmb8QsV6j1HJ9Vr_GMdYltg'], 'title': 'Build a Website in only 12 minutes using Python & Streamlit', 'long_desc': None, 'channel': 'Coding Is Fun', 'duration': '12:48', 'views': '489,612 views', 'publish_time': '2 years ago', 'url_suffix': '/watch?v=VqgUkExPvLY&pp=ygUJc3RyZWFtbGl0'}, {'id': 'asFqpMDSPdM', 'thumbnails': ['https://i.ytimg.com/vi/asFqpMDSPdM/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAnULFfa_hMVsDYJYHe6jXpyTjUTw', 'https://i.ytimg.com/vi/asFqpMDSPdM/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDb5bOkCW1cBmcIkUv4AYriYRVuyA'], 'title': 'Crafting a Dashboard App in Python using Streamlit', 'long_desc': None, 'channel': 'Streamlit', 'duration': '36:47', 'views': '27,582 views', 'publish_time': '4 months ago', 'url_suffix': '/watch?v=asFqpMDSPdM&pp=ygUJc3RyZWFtbGl0'}]
+2024-04-15 20:30:39.818 | INFO     | Action.SearchVideo:truncate_text_by_token_count:228 - 2646
+2024-04-15 20:30:44.139 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.144 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 62
+2024-04-15 20:30:47.659 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.149 | Max budget: $10.000 | Current cost: $0.005, prompt_tokens: 3139, completion_tokens: 391
+2024-04-15 20:30:52.794 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.150 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 623, completion_tokens: 39
+2024-04-15 20:31:04.343 | INFO     | Action.SearchVideo:download_video_srt:126 - <class 'Exception'>
+2024-04-15 20:32:17.345 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:17.345 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:17.346 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 20:32:17.346 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 20:32:22.591 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:32:22.591 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.324 s.
+2024-04-15 20:32:22.599 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:22.600 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:22.618 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:22.619 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:22.633 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:22.635 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:30.380 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:32:30.380 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.681 s.
+2024-04-15 20:32:30.380 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:30.382 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:30.400 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:30.400 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:30.415 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:30.417 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:30.417 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:32:30.418 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.645 s.
+2024-04-15 20:32:30.418 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:30.419 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:30.614 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:30.621 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:30.636 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:32:30.637 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:32:31.201 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 58
+2024-04-15 20:32:33.265 | INFO     | __main__:collect_video_concept:57 - [{'id': 'nLRL_NcnK-4', 'thumbnails': ['https://i.ytimg.com/vi/nLRL_NcnK-4/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBs7LmMlarLgPBZ6_u5lOHZYmkSKg', 'https://i.ytimg.com/vi/nLRL_NcnK-4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBIiplx1v7oSy09BOWZ-bm-nWerWQ'], 'title': 'Harvard CS50’s Introduction to Programming with Python – Full University Course', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '15:57:48', 'views': '4,003,177 views', 'publish_time': '11 months ago', 'url_suffix': '/watch?v=nLRL_NcnK-4&pp=ygUGcHl0aG9u'}, {'id': '_uQrJ0TkZlc', 'thumbnails': ['https://i.ytimg.com/vi/_uQrJ0TkZlc/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCV2bObSGBM98CKjJSctya8dGMPDw', 'https://i.ytimg.com/vi/_uQrJ0TkZlc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBzxHQjj_9xpSxgV1w6-XmWU4N11A'], 'title': 'Python Tutorial - Python Full Course for Beginners', 'long_desc': None, 'channel': 'Programming with Mosh', 'duration': '6:14:07', 'views': '38,381,426 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=_uQrJ0TkZlc&pp=ygUGcHl0aG9u'}, {'id': 'rfscVS0vtbw', 'thumbnails': ['https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBMTDTxhB7lRS3cLHa0VziCNbe6bA', 'https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXvMQE_gOpCIBH9cq305MHOUlgIg'], 'title': 'Learn Python - Full Course for Beginners [Tutorial]', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '4:26:52', 'views': '43,711,761 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=rfscVS0vtbw&pp=ygUGcHl0aG9u'}, {'id': 'x7X9w_GIm1s', 'thumbnails': ['https://i.ytimg.com/vi/x7X9w_GIm1s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAvYG37H2X92J5jU1AOEkdXJPrNxQ', 'https://i.ytimg.com/vi/x7X9w_GIm1s/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAsizIWdTugnGtsd_zrYrN6LaqYlQ'], 'title': 'Python in 100 Seconds', 'long_desc': None, 'channel': 'Fireship', 'duration': '2:24', 'views': '2,395,425 views', 'publish_time': '2 years ago', 'url_suffix': '/watch?v=x7X9w_GIm1s&pp=ygUGcHl0aG9u'}]
+2024-04-15 20:32:37.514 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 164028
+2024-04-15 20:32:40.384 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 123
+2024-04-15 20:32:43.249 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.058 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14472, completion_tokens: 107
+2024-04-15 20:32:45.011 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.058 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 77
+2024-04-15 20:32:47.075 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.058 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 102
+2024-04-15 20:32:49.432 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.059 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 114
+2024-04-15 20:32:51.621 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.059 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 111
+2024-04-15 20:32:55.436 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.060 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 194
+2024-04-15 20:32:57.805 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.060 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 128
+2024-04-15 20:33:00.197 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.061 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 103
+2024-04-15 20:33:02.214 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.061 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 113
+2024-04-15 20:33:04.507 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.062 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 106
+2024-04-15 20:33:06.409 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.062 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 100
+2024-04-15 20:33:10.479 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.063 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 164
+2024-04-15 20:33:13.003 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.063 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 121
+2024-04-15 20:33:16.155 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.064 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 189
+2024-04-15 20:33:18.803 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.070 | Max budget: $10.000 | Current cost: $0.006, prompt_tokens: 3910, completion_tokens: 104
+2024-04-15 20:33:20.306 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.073 | Max budget: $10.000 | Current cost: $0.003, prompt_tokens: 2063, completion_tokens: 36
+2024-04-15 20:33:33.619 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 56144
+2024-04-15 20:33:37.847 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.092 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12744, completion_tokens: 99
+2024-04-15 20:33:40.291 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.093 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 120
+2024-04-15 20:33:43.003 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.093 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 135
+2024-04-15 20:33:44.902 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.093 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 86
+2024-04-15 20:33:50.863 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.111 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 11116, completion_tokens: 273
+2024-04-15 20:33:52.169 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.112 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 943, completion_tokens: 47
+2024-04-15 20:34:06.025 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 55558
+2024-04-15 20:34:10.119 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.132 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12770, completion_tokens: 111
+2024-04-15 20:34:12.774 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.132 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 132
+2024-04-15 20:34:14.521 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.132 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 75
+2024-04-15 20:34:17.436 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.133 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 137
+2024-04-15 20:34:22.143 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.149 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10783, completion_tokens: 243
+2024-04-15 20:34:23.687 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.151 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 928, completion_tokens: 66
+2024-04-15 20:34:36.818 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 395
+2024-04-15 20:34:40.218 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.152 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 642, completion_tokens: 121
+2024-04-15 20:34:41.436 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.153 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 351, completion_tokens: 32
+2024-04-15 20:46:55.610 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:46:55.610 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.504 s.
+2024-04-15 20:46:55.610 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:46:55.611 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:46:55.625 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:46:55.626 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:46:55.640 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:46:55.642 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:46:58.266 | INFO     | __main__:collect_video_concept:57 - [{'id': 'nLRL_NcnK-4', 'thumbnails': ['https://i.ytimg.com/vi/nLRL_NcnK-4/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBs7LmMlarLgPBZ6_u5lOHZYmkSKg', 'https://i.ytimg.com/vi/nLRL_NcnK-4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBIiplx1v7oSy09BOWZ-bm-nWerWQ'], 'title': 'Harvard CS50’s Introduction to Programming with Python – Full University Course', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '15:57:48', 'views': '4,003,273 views', 'publish_time': '11 months ago', 'url_suffix': '/watch?v=nLRL_NcnK-4&pp=ygUGcHl0aG9u'}, {'id': 'x7X9w_GIm1s', 'thumbnails': ['https://i.ytimg.com/vi/x7X9w_GIm1s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAvYG37H2X92J5jU1AOEkdXJPrNxQ', 'https://i.ytimg.com/vi/x7X9w_GIm1s/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAsizIWdTugnGtsd_zrYrN6LaqYlQ'], 'title': 'Python in 100 Seconds', 'long_desc': None, 'channel': 'Fireship', 'duration': '2:24', 'views': '2,395,434 views', 'publish_time': '2 years ago', 'url_suffix': '/watch?v=x7X9w_GIm1s&pp=ygUGcHl0aG9u'}]
+2024-04-15 20:47:02.491 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 164028
+2024-04-15 20:47:05.129 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.171 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 73
+2024-04-15 20:47:06.699 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.193 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14472, completion_tokens: 121
+2024-04-15 20:47:10.580 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.193 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 99
+2024-04-15 20:47:12.253 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.193 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 92
+2024-04-15 20:47:14.009 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.194 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 84
+2024-04-15 20:47:15.990 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.194 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 103
+2024-04-15 20:47:18.176 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.195 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 112
+2024-04-15 20:47:20.180 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.195 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 107
+2024-04-15 20:47:23.216 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.195 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 142
+2024-04-15 20:47:25.327 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.196 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 86
+2024-04-15 20:47:28.041 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.196 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 134, completion_tokens: 157
+2024-04-15 20:47:31.690 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.197 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 111
+2024-04-15 20:47:33.730 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.197 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 98
+2024-04-15 20:47:36.083 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.198 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 132
+2024-04-15 20:47:38.329 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.198 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 86
+2024-04-15 20:47:41.112 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.204 | Max budget: $10.000 | Current cost: $0.006, prompt_tokens: 3910, completion_tokens: 142
+2024-04-15 20:47:42.131 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.207 | Max budget: $10.000 | Current cost: $0.003, prompt_tokens: 1902, completion_tokens: 31
+2024-04-15 20:47:54.680 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 395
+2024-04-15 20:48:00.625 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.209 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 642, completion_tokens: 318
+2024-04-15 20:48:01.623 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.210 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 548, completion_tokens: 23
+2024-04-15 20:48:59.564 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:48:59.565 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.580 s.
+2024-04-15 20:48:59.565 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:48:59.565 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:48:59.581 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:48:59.582 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:48:59.597 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:48:59.597 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:49:02.266 | INFO     | __main__:collect_video_concept:57 - [{'id': 'nLRL_NcnK-4', 'thumbnails': ['https://i.ytimg.com/vi/nLRL_NcnK-4/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBs7LmMlarLgPBZ6_u5lOHZYmkSKg', 'https://i.ytimg.com/vi/nLRL_NcnK-4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBIiplx1v7oSy09BOWZ-bm-nWerWQ'], 'title': 'Harvard CS50’s Introduction to Programming with Python – Full University Course', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '15:57:48', 'views': '4,003,273 views', 'publish_time': '11 months ago', 'url_suffix': '/watch?v=nLRL_NcnK-4&pp=ygUGcHl0aG9u'}, {'id': '_uQrJ0TkZlc', 'thumbnails': ['https://i.ytimg.com/vi/_uQrJ0TkZlc/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCV2bObSGBM98CKjJSctya8dGMPDw', 'https://i.ytimg.com/vi/_uQrJ0TkZlc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBzxHQjj_9xpSxgV1w6-XmWU4N11A'], 'title': 'Python Tutorial - Python Full Course for Beginners', 'long_desc': None, 'channel': 'Programming with Mosh', 'duration': '6:14:07', 'views': '38,381,566 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=_uQrJ0TkZlc&pp=ygUGcHl0aG9u'}]
+2024-04-15 20:49:06.635 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 164028
+2024-04-15 20:49:09.659 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.228 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 114
+2024-04-15 20:49:10.840 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.249 | Max budget: $10.000 | Current cost: $0.022, prompt_tokens: 14472, completion_tokens: 117
+2024-04-15 20:49:13.317 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.250 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 133
+2024-04-15 20:49:15.372 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.250 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 102
+2024-04-15 20:49:15.725 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:49:15.725 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.525 s.
+2024-04-15 20:49:15.725 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:49:15.726 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:49:15.740 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:49:15.740 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:49:15.754 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:49:15.755 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:49:17.418 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.251 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 138
+2024-04-15 20:49:18.445 | INFO     | __main__:collect_video_concept:57 - [{'id': 'nLRL_NcnK-4', 'thumbnails': ['https://i.ytimg.com/vi/nLRL_NcnK-4/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBs7LmMlarLgPBZ6_u5lOHZYmkSKg', 'https://i.ytimg.com/vi/nLRL_NcnK-4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBIiplx1v7oSy09BOWZ-bm-nWerWQ'], 'title': 'Harvard CS50’s Introduction to Programming with Python – Full University Course', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '15:57:48', 'views': '4,003,273 views', 'publish_time': '11 months ago', 'url_suffix': '/watch?v=nLRL_NcnK-4&pp=ygUGcHl0aG9u'}, {'id': 'x7X9w_GIm1s', 'thumbnails': ['https://i.ytimg.com/vi/x7X9w_GIm1s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAvYG37H2X92J5jU1AOEkdXJPrNxQ', 'https://i.ytimg.com/vi/x7X9w_GIm1s/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAsizIWdTugnGtsd_zrYrN6LaqYlQ'], 'title': 'Python in 100 Seconds', 'long_desc': None, 'channel': 'Fireship', 'duration': '2:24', 'views': '2,395,437 views', 'publish_time': '2 years ago', 'url_suffix': '/watch?v=x7X9w_GIm1s&pp=ygUGcHl0aG9u'}]
+2024-04-15 20:49:19.089 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.251 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 134, completion_tokens: 85
+2024-04-15 20:49:39.145 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:49:39.148 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:49:39.148 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 20:49:39.149 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 20:50:21.578 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:21.579 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:21.580 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 20:50:21.580 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 20:50:25.972 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:50:25.972 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.336 s.
+2024-04-15 20:50:25.979 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:25.980 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:26.001 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:26.002 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:26.017 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:26.017 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:36.555 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 128
+2024-04-15 20:50:37.182 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:50:37.182 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 1.111 s.
+2024-04-15 20:50:37.182 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:37.183 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:37.197 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:37.199 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:37.211 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:50:37.211 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.809 s.
+2024-04-15 20:50:37.211 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:37.212 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:37.214 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:37.214 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:37.227 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:37.228 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:37.419 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:50:37.420 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:50:39.869 | INFO     | __main__:collect_video_concept:57 - [{'id': 'kqtD5dpn9C8', 'thumbnails': ['https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBZsA0F-g6xPNiHwjpHkONxlfJw7A', 'https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAlOSbnBnoUI-N9v2_o-DYUecBN7A'], 'title': 'Python for Beginners - Learn Python in 1 Hour', 'long_desc': None, 'channel': 'Programming with Mosh', 'duration': '1:00:06', 'views': '16,417,584 views', 'publish_time': '3 years ago', 'url_suffix': '/watch?v=kqtD5dpn9C8&pp=ygUPcHl0aG9uIGxlYXJuaW5n'}, {'id': 'rfscVS0vtbw', 'thumbnails': ['https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBMTDTxhB7lRS3cLHa0VziCNbe6bA', 'https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXvMQE_gOpCIBH9cq305MHOUlgIg'], 'title': 'Learn Python - Full Course for Beginners [Tutorial]', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '4:26:52', 'views': '43,711,904 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=rfscVS0vtbw&pp=ygUPcHl0aG9uIGxlYXJuaW5n'}]
+2024-04-15 20:50:42.639 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 8531
+2024-04-15 20:50:47.544 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 129
+2024-04-15 20:50:48.628 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.052 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 156
+2024-04-15 20:50:53.741 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.053 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 388, completion_tokens: 28
+2024-04-15 20:51:07.395 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 55558
+2024-04-15 20:51:12.878 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.073 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12771, completion_tokens: 164
+2024-04-15 20:51:15.360 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.073 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 118
+2024-04-15 20:51:17.391 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.073 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 96
+2024-04-15 20:51:20.021 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.074 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 124
+2024-04-15 20:51:25.746 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.091 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10784, completion_tokens: 236
+2024-04-15 20:51:27.353 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.092 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 970, completion_tokens: 70
+2024-04-15 20:51:38.080 | INFO     | __main__:collect_video_concept:71 - {'Python programming basics': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Data types and variables': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Decision making with if statements': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Iteration with loops': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Lists and tuples': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Python basics and fundamentals': ['rfscVS0vtbw'], 'Working with variables, strings, and numbers in Python': ['rfscVS0vtbw'], 'Importance of modules and libraries in Python programming': ['rfscVS0vtbw'], 'Using classes and objects for program organization and power': ['rfscVS0vtbw'], 'Interactive programming with classes, functions, and quizzes': ['rfscVS0vtbw'], 'Inheritance for code reusability and customization': ['rfscVS0vtbw']}
+2024-04-15 20:58:49.250 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 20:58:49.250 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.429 s.
+2024-04-15 20:58:49.250 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:58:49.251 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:58:49.266 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:58:49.267 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:58:49.282 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 20:58:49.283 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 20:58:51.828 | INFO     | __main__:collect_video_concept:57 - [{'id': 'kqtD5dpn9C8', 'thumbnails': ['https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBZsA0F-g6xPNiHwjpHkONxlfJw7A', 'https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAlOSbnBnoUI-N9v2_o-DYUecBN7A'], 'title': 'Python for Beginners - Learn Python in 1 Hour', 'long_desc': None, 'channel': 'Programming with Mosh', 'duration': '1:00:06', 'views': '16,417,643 views', 'publish_time': '3 years ago', 'url_suffix': '/watch?v=kqtD5dpn9C8&pp=ygUPcHl0aG9uIGxlYXJuaW5n'}, {'id': 'rfscVS0vtbw', 'thumbnails': ['https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBMTDTxhB7lRS3cLHa0VziCNbe6bA', 'https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXvMQE_gOpCIBH9cq305MHOUlgIg'], 'title': 'Learn Python - Full Course for Beginners [Tutorial]', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '4:26:52', 'views': '43,711,932 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=rfscVS0vtbw&pp=ygUPcHl0aG9uIGxlYXJuaW5n'}]
+2024-04-15 20:58:54.749 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 8531
+2024-04-15 20:58:58.952 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.110 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 84
+2024-04-15 20:59:00.391 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.127 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 192
+2024-04-15 20:59:05.169 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.127 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 424, completion_tokens: 32
+2024-04-15 20:59:18.327 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 55558
+2024-04-15 20:59:22.871 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.147 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12771, completion_tokens: 150
+2024-04-15 20:59:26.552 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.147 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 202
+2024-04-15 20:59:30.478 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.148 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 211
+2024-04-15 20:59:33.596 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.149 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 135, completion_tokens: 173
+2024-04-15 20:59:42.940 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.166 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10784, completion_tokens: 401
+2024-04-15 20:59:44.307 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.168 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1369, completion_tokens: 47
+2024-04-15 20:59:54.839 | INFO     | __main__:collect_video_concept:71 - {'Python programming basics': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Variables and data manipulation': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Conditional statements (if statements)': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Loops (while loops and for loops)': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Lists and tuples': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Working with variables and data types': ['rfscVS0vtbw'], 'Using external modules for enhanced functionality': ['rfscVS0vtbw'], 'Classes and objects in Python': ['rfscVS0vtbw'], 'Inheritance in Python': ['rfscVS0vtbw']}
+2024-04-15 21:02:16.716 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:02:16.716 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.288 s.
+2024-04-15 21:02:16.716 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:02:16.717 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:02:16.732 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:02:16.733 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:02:16.747 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:02:16.748 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:02:25.550 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.185 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 55
+2024-04-15 21:03:23.307 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:03:23.307 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.451 s.
+2024-04-15 21:03:23.307 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:23.308 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:23.324 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:23.325 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:23.340 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:23.341 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:32.873 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.203 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 94
+2024-04-15 21:03:34.376 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:03:34.376 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.302 s.
+2024-04-15 21:03:34.376 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:34.377 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:34.391 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:34.392 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:34.406 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:34.407 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:36.173 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:03:36.173 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.307 s.
+2024-04-15 21:03:36.175 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:36.175 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:36.188 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:36.189 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:36.204 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:36.204 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:44.206 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.221 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 63
+2024-04-15 21:03:47.946 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.239 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 122
+2024-04-15 21:03:51.977 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:03:51.977 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.496 s.
+2024-04-15 21:03:51.977 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:51.978 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:51.992 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:51.993 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:03:52.007 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:03:52.008 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:04:01.150 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.257 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 53
+2024-04-15 21:04:06.154 | INFO     | __main__:APP:254 - kqtD5dpn9C8
+2024-04-15 21:04:06.156 | INFO     | __main__:APP:254 - rfscVS0vtbw
+2024-04-15 21:04:06.157 | INFO     | __main__:APP:254 - kqtD5dpn9C8
+2024-04-15 21:06:56.022 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:06:56.022 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.290 s.
+2024-04-15 21:06:56.022 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:06:56.024 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:06:56.049 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:06:56.050 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:06:56.064 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:06:56.064 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:07:06.187 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.275 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 68
+2024-04-15 21:08:01.545 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:08:01.545 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.561 s.
+2024-04-15 21:08:01.545 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:01.546 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:01.561 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:01.562 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:01.576 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:01.577 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:09.637 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:08:09.637 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.378 s.
+2024-04-15 21:08:09.637 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:09.638 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:09.653 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:09.654 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:09.670 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:09.671 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:09.957 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:08:09.957 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.561 s.
+2024-04-15 21:08:09.957 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:09.958 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:09.973 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:09.973 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:09.988 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:09.990 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:11.180 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.293 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 117
+2024-04-15 21:08:13.141 | INFO     | __main__:collect_video_concept:57 - [{'id': 'kqtD5dpn9C8', 'thumbnails': ['https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBZsA0F-g6xPNiHwjpHkONxlfJw7A', 'https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAlOSbnBnoUI-N9v2_o-DYUecBN7A'], 'title': 'Python for Beginners - Learn Python in 1 Hour', 'long_desc': None, 'channel': 'Programming with Mosh', 'duration': '1:00:06', 'views': '16,417,713 views', 'publish_time': '3 years ago', 'url_suffix': '/watch?v=kqtD5dpn9C8&pp=ygUPcHl0aG9uIGxlYXJuaW5n'}, {'id': 'rfscVS0vtbw', 'thumbnails': ['https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBMTDTxhB7lRS3cLHa0VziCNbe6bA', 'https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXvMQE_gOpCIBH9cq305MHOUlgIg'], 'title': 'Learn Python - Full Course for Beginners [Tutorial]', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '4:26:52', 'views': '43,711,976 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=rfscVS0vtbw&pp=ygUPcHl0aG9uIGxlYXJuaW5n'}]
+2024-04-15 21:08:16.269 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 8531
+2024-04-15 21:08:20.810 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.311 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 117
+2024-04-15 21:08:21.318 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.327 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10813, completion_tokens: 176
+2024-04-15 21:08:26.547 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.328 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 408, completion_tokens: 42
+2024-04-15 21:08:31.366 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:08:31.366 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.604 s.
+2024-04-15 21:08:31.366 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:31.368 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:31.383 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:31.385 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:31.400 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:31.401 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:37.869 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:08:37.869 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.327 s.
+2024-04-15 21:08:37.870 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:37.870 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:37.888 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:37.890 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:37.905 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:37.906 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:38.631 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:08:38.631 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 1.088 s.
+2024-04-15 21:08:38.632 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:38.633 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:38.648 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:38.649 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:38.663 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:08:38.665 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:08:39.835 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 55558
+2024-04-15 21:08:40.740 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.346 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 73
+2024-04-15 21:08:41.002 | INFO     | __main__:collect_video_concept:57 - [{'id': 'kqtD5dpn9C8', 'thumbnails': ['https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBZsA0F-g6xPNiHwjpHkONxlfJw7A', 'https://i.ytimg.com/vi/kqtD5dpn9C8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAlOSbnBnoUI-N9v2_o-DYUecBN7A'], 'title': 'Python for Beginners - Learn Python in 1 Hour', 'long_desc': None, 'channel': 'Programming with Mosh', 'duration': '1:00:06', 'views': '16,417,713 views', 'publish_time': '3 years ago', 'url_suffix': '/watch?v=kqtD5dpn9C8&pp=ygUPcHl0aG9uIGxlYXJuaW5n'}, {'id': 'rfscVS0vtbw', 'thumbnails': ['https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBMTDTxhB7lRS3cLHa0VziCNbe6bA', 'https://i.ytimg.com/vi/rfscVS0vtbw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXvMQE_gOpCIBH9cq305MHOUlgIg'], 'title': 'Learn Python - Full Course for Beginners [Tutorial]', 'long_desc': None, 'channel': 'freeCodeCamp.org', 'duration': '4:26:52', 'views': '43,711,976 views', 'publish_time': '5 years ago', 'url_suffix': '/watch?v=rfscVS0vtbw&pp=ygUPcHl0aG9uIGxlYXJuaW5n'}]
+2024-04-15 21:08:43.863 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 8531
+2024-04-15 21:08:45.205 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.365 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12771, completion_tokens: 162
+2024-04-15 21:08:46.994 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.366 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 76
+2024-04-15 21:08:47.215 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.384 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 88
+2024-04-15 21:08:48.008 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.400 | Max budget: $10.000 | Current cost: $0.016, prompt_tokens: 10813, completion_tokens: 120
+2024-04-15 21:08:48.791 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.400 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 65
+2024-04-15 21:08:50.722 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.401 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 105
+2024-04-15 21:08:52.708 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.401 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 352, completion_tokens: 21
+2024-04-15 21:08:54.657 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.418 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10784, completion_tokens: 205
+2024-04-15 21:08:57.365 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.419 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 845, completion_tokens: 71
+2024-04-15 21:09:05.864 | INFO     | Action.SearchVideo:truncate_text_by_token_count:226 - 55558
+2024-04-15 21:09:08.086 | INFO     | __main__:collect_video_concept:71 - {'Variables, data types, control structures': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Lists and tuples in Python': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Loops: for loops and while loops': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Range function in Python': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Immutability of tuples and differences from lists': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'User input handling in Python': ['rfscVS0vtbw'], 'Python programming basics': ['rfscVS0vtbw'], 'Importance of indentation in Python': ['rfscVS0vtbw'], 'Variables, data types, and control structures in Python': ['rfscVS0vtbw'], 'Using external modules in Python': ['rfscVS0vtbw'], 'Classes and objects in Python': ['rfscVS0vtbw'], 'Creating programs with classes, functions, and loops': ['rfscVS0vtbw'], 'Class functions and inheritance in Python': ['rfscVS0vtbw']}
+2024-04-15 21:09:10.318 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.439 | Max budget: $10.000 | Current cost: $0.019, prompt_tokens: 12771, completion_tokens: 150
+2024-04-15 21:09:12.554 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.439 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 108
+2024-04-15 21:09:14.289 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.440 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 70
+2024-04-15 21:09:16.259 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.440 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 135, completion_tokens: 102
+2024-04-15 21:09:20.887 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.457 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10784, completion_tokens: 222
+2024-04-15 21:09:22.721 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.458 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 884, completion_tokens: 41
+2024-04-15 21:09:33.104 | INFO     | __main__:collect_video_concept:71 - {'Python programming fundamentals': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Data types and operators': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Conditional statements and loops': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Lists and tuples': ['kqtD5dpn9C8', 'rfscVS0vtbw'], 'Python basics and fundamental concepts': ['rfscVS0vtbw'], 'Working with variables, data types, and operations': ['rfscVS0vtbw'], 'Control structures like if statements and loops': ['rfscVS0vtbw'], 'Functions and modules usage': ['rfscVS0vtbw']}
+2024-04-15 21:10:48.974 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-15 21:10:48.974 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.499 s.
+2024-04-15 21:10:48.974 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:10:48.975 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:10:48.990 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:10:48.991 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:10:49.007 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:10:49.008 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:11:14.339 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:11:14.341 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:11:14.342 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 21:11:14.342 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 21:11:38.423 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:11:38.425 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:11:38.426 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 21:11:38.426 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 21:12:00.327 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:12:00.328 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:12:00.329 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 21:12:00.329 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-15 21:12:28.896 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-15 21:12:28.899 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-15 21:12:28.900 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-15 21:12:28.900 | DEBUG    | metagpt.config:__init__:85 - Config loading done.

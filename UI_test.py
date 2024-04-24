@@ -1,26 +1,22 @@
-# Streamlit Timeline Component Example
-
 import streamlit as st
-from streamlit_timeline import timeline
 
-import asyncio
-from Action.SearchVideo import YoutubeVideoSearch
+# 假设这是你的Intermediary类
+class Intermediary:
+    def __init__(self):
+        self.value = 0
 
-ys = YoutubeVideoSearch()
-#
-srt = ys.download_video_srt(video_id="pxI0I3NX3K0")
-#
-# print(ys.arrange_srt_into_text(srt))
+# 检查st.session_state中是否存在intermediary变量
+if 'intermediary' not in st.session_state:
+    st.session_state.intermediary = Intermediary()
 
-# ys.get_json_list()
+# 访问和更新intermediary变量
+def update_intermediary():
+    st.session_state.intermediary.value += 1
 
+# 显示intermediary变量的值
+st.write('Intermediary value:', st.session_state.intermediary.value)
 
-# use full page width
-st.set_page_config(page_title="Timeline Example", layout="wide")
+# 增加intermediary变量的按钮
+st.button('Update Intermediary', on_click=update_intermediary)
 
-# load data
-with open('example.json', "r") as f:
-    data = f.read()
-
-# render timeline
-timeline(data, height=800)
+st.button('Update Interme')

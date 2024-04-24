@@ -1,0 +1,160 @@
+2024-04-13 20:39:03.872 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 20:39:03.872 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:39:03.874 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 20:39:03.874 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 20:39:15.291 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 20:39:15.291 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:39:22.719 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.016 | Max budget: $10.000 | Current cost: $0.016, prompt_tokens: 10814, completion_tokens: 34
+2024-04-13 20:39:22.720 | INFO     | __main__:main:44 - ['Learn how to use the range function in Python to generate a sequence of numbers.', 'Understand the difference between tuples and lists in Python, and how tuples are immutable.']
+2024-04-13 20:40:15.299 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 20:40:15.299 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:40:15.299 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 20:40:15.299 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 20:40:22.616 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 20:40:22.616 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:40:29.626 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.016 | Max budget: $10.000 | Current cost: $0.016, prompt_tokens: 10825, completion_tokens: 63
+2024-04-13 20:40:29.626 | INFO     | __main__:main:44 - ['Learn how to use the range function in Python to generate a sequence of numbers.', 'Understand the concept of tuples in Python and how they differ from lists.', 'Explore the immutability of tuples and how to use them effectively in programming.', 'Gain knowledge on methods available for tuples such as count and index.']
+2024-04-13 20:41:35.062 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-4-turbo
+2024-04-13 20:41:35.062 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:41:35.062 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 20:41:35.062 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 20:41:41.697 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-4-turbo
+2024-04-13 20:41:41.697 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:42:02.939 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-4-turbo. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-04-13 20:42:02.952 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000018F9DC3FED0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-4-turbo', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-4-turbo'
+
+2024-04-13 20:42:02.952 | INFO     | __main__:main:44 - ['Understand the basics of Python programming and its syntax.', 'Learn how to install Python and set up a development environment using PyCharm.', 'Gain knowledge on how to write and execute a simple Python program, including the use of print statements and comments.', 'Understand the concept of variables in Python and learn how to declare and use them effectively.', 'Learn about different data types in Python including integers, floats, strings, and booleans, and how to convert between these types.', 'Understand the use of basic arithmetic, comparison, and logical operators in Python.', 'Learn how to control the flow of a Python program using conditional statements like if, elif, and else.', 'Understand how to use loops in Python, specifically while loops and for loops, to repeat actions.', 'Learn about Python data structures such as lists and tuples, including how to create, access, and manipulate them.', 'Understand the concept of functions in Python, how to define them, and how to pass information to and from them.', 'Gain knowledge on more complex Python concepts such as file handling, error handling, and object-oriented programming.', 'Learn how to use Python for practical applications like web development, automation, and simple game development.', 'Understand how to use Python libraries and frameworks such as Django for web development and other common libraries for data science and machine learning.', 'Develop the ability to write clean, readable, and efficient Python code that adheres to standard coding conventions.', 'Prepare to build a portfolio of Python projects to showcase skills to potential employers or for personal development.']
+2024-04-13 20:44:58.203 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-4-turbo-2024-04-09
+2024-04-13 20:44:58.203 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:44:58.203 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 20:44:58.203 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 20:45:05.188 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-4-turbo-2024-04-09
+2024-04-13 20:45:05.189 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:45:19.312 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-4-turbo-2024-04-09. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-04-13 20:45:19.313 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000002B0E6204350>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-4-turbo-2024-04-09', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-4-turbo-2024-04-09'
+
+2024-04-13 20:45:19.313 | INFO     | __main__:main:44 - ['Understand the basics of Python programming and its syntax.', 'Learn how to install Python and set up a development environment using PyCharm.', 'Gain knowledge on how to write and execute simple Python programs, including using print statements and handling user input.', 'Explore Python data types such as integers, floats, strings, and booleans, and learn how to convert between these types.', 'Understand how to use control structures in Python including if statements, loops (while and for), and how to handle sequences with lists and tuples.', 'Learn about Python functions and methods, and how to define and call functions to organize code into reusable blocks.', 'Discover how to work with Python libraries for various applications such as web development, automation, and data science.', 'Gain insights into error handling in Python to manage exceptions and bugs in code effectively.', 'Understand the concept of object-oriented programming in Python, including classes and objects, to structure code for larger projects.', 'Learn best practices for writing clean, readable, and efficient Python code.']
+2024-04-13 20:46:57.121 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-4-0125-preview
+2024-04-13 20:46:57.121 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:46:57.121 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 20:46:57.121 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 20:47:04.006 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-4-0125-preview
+2024-04-13 20:47:04.006 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 20:47:25.651 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-4-0125-preview. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-04-13 20:47:25.652 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000002384906B9D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-4-0125-preview', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-4-0125-preview'
+
+2024-04-13 20:47:25.652 | INFO     | __main__:main:44 - ['(Understand the basics of Python programming) I want to learn the foundational concepts of Python programming, including syntax, data types, and basic operations. This video will provide a comprehensive introduction to Python, suitable for complete beginners with no prior knowledge in programming.', "(Apply Python in various fields) I aim to understand how Python can be applied in different domains such as data science, machine learning, web development, and automation. The video will showcase Python's versatility and its application in building projects like websites with Django and automating repetitive tasks.", '(Set up Python development environment) I want to learn how to set up a Python development environment, including installing Python and a code editor (PyCharm). This knowledge is crucial for starting to write and execute Python code on my own computer.', '(Write and run Python code) I aim to write my first Python program by following the tutorial. This includes learning how to use the print function, declaring variables, and understanding basic data types in Python. Running a simple "Hello World" program will be my first step into Python programming.', "(Understand and use Python data types and structures) I want to learn about Python's different data types and structures, such as strings, integers, floats, and booleans, and how to use them in Python programs. This includes performing operations with these types and understanding Python's type conversion functions.", '(Control flow in Python) I aim to understand how to control the flow of a Python program using if statements, loops (while and for), and conditional expressions. This will enable me to write more complex and dynamic Python scripts.', '(Work with Python lists and tuples) I want to learn how to create, access, modify, and manipulate Python lists and tuples. Understanding these data structures will allow me to handle collections of data in my Python programs.', '(Perform input and output operations in Python) I aim to learn how to perform input and output operations in Python, including reading user input and displaying output on the terminal. This skill is essential for creating interactive Python programs.', '(Apply Python in building a simple application) I want to apply the knowledge gained from this video to build a simple Python application, such as a weight converter tool. This project will help consolidate my learning and give me practical experience in Python programming.', '(Explore advanced Python topics) I aim to get an introduction to more advanced Python topics such as object-oriented programming, working with external libraries, and web development with Django. This will prepare me for further learning and more complex Python projects.']
+2024-04-13 22:11:00.570 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:11:00.570 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:11:00.570 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:11:00.570 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:11:07.422 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:11:07.422 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:13:19.934 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:13:19.934 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:13:19.934 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:13:19.934 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:13:26.993 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:13:26.994 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:15:13.193 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:15:13.193 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:15:13.194 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:15:13.194 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:15:19.671 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:15:19.671 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:19:22.709 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:19:22.709 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:19:22.709 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:19:22.709 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:19:29.402 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:19:29.402 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:21:26.459 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:21:26.459 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:21:26.459 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:21:26.459 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:21:33.073 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:21:33.074 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:22:34.359 | INFO     | Action.SearchVideo:download_video_srt:63 - <class 'Exception'>
+2024-04-13 22:25:04.418 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:25:04.418 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:25:04.419 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:25:04.419 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:25:10.981 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:25:10.981 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:28:01.242 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:28:01.242 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:28:01.242 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:28:01.242 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:28:08.126 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:28:08.126 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:29:42.487 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:29:42.487 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:29:42.487 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:29:42.487 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:29:52.189 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:29:52.189 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:37:03.860 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:37:03.860 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:37:03.860 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:37:03.860 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:37:10.669 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:37:10.669 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:37:30.290 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:37:30.290 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:37:30.290 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:37:30.290 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:37:37.519 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:37:37.520 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:46:35.223 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:46:35.223 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:46:35.224 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:46:35.224 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:46:42.117 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:46:42.118 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:47:43.966 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:47:43.966 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:47:43.966 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:47:43.966 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:47:50.542 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:47:50.542 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:48:25.791 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:48:25.791 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:48:25.791 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:48:25.792 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:48:32.249 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:48:32.250 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:48:49.055 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.016 | Max budget: $10.000 | Current cost: $0.016, prompt_tokens: 10833, completion_tokens: 111
+2024-04-13 22:50:31.108 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:50:31.108 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:50:31.108 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-13 22:50:31.108 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-13 22:50:37.897 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-13 22:50:37.897 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-13 22:50:53.554 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.017 | Max budget: $10.000 | Current cost: $0.017, prompt_tokens: 10805, completion_tokens: 262

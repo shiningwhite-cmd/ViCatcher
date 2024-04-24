@@ -341,3 +341,406 @@ your result is (no more than 2 keywords):
 2024-04-12 11:55:48.909 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
 2024-04-12 11:55:58.587 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
 2024-04-12 11:55:58.981 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 14:29:32.092 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:29:32.093 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:29:32.094 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 14:29:32.094 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 14:29:42.810 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:29:42.810 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.518 s.
+2024-04-12 14:29:42.817 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:29:42.818 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:29:42.837 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:29:42.839 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:29:42.853 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:29:42.855 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:30:49.278 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:30:49.278 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.309 s.
+2024-04-12 14:30:49.278 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:30:49.279 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:30:49.294 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:30:49.296 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:30:49.309 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:30:49.311 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:32:20.552 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:32:20.553 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.411 s.
+2024-04-12 14:32:20.553 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:32:20.554 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:32:20.569 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:32:20.569 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:32:20.584 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:32:20.585 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:32:50.602 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:32:50.602 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.611 s.
+2024-04-12 14:32:50.602 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:32:50.603 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:32:50.619 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:32:50.620 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:32:50.634 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:32:50.635 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:33:16.318 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:33:16.318 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.365 s.
+2024-04-12 14:33:16.318 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:33:16.320 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:33:16.340 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:33:16.341 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:33:16.356 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:33:16.357 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:33:26.531 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11799, completion_tokens: 89
+2024-04-12 14:33:47.058 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:33:47.058 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.622 s.
+2024-04-12 14:33:47.058 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:33:47.060 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:33:47.074 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:33:47.075 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:33:47.088 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:33:47.089 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:33:57.011 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11799, completion_tokens: 91
+2024-04-12 14:37:05.777 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:37:05.777 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.592 s.
+2024-04-12 14:37:05.778 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:37:05.779 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:37:05.792 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:37:05.793 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:37:05.807 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:37:05.808 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:37:20.422 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.054 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11799, completion_tokens: 81
+2024-04-12 14:38:06.645 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:38:06.646 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.475 s.
+2024-04-12 14:38:06.646 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:38:06.647 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:38:06.661 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:38:06.662 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:38:06.677 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:38:06.678 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:38:16.455 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.071 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11799, completion_tokens: 79
+2024-04-12 14:39:14.962 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:39:14.962 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.556 s.
+2024-04-12 14:39:14.963 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:39:14.963 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:39:14.978 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:39:14.980 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:39:14.993 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:39:14.993 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:39:27.903 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.089 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11799, completion_tokens: 96
+2024-04-12 14:41:23.693 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:41:23.693 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.282 s.
+2024-04-12 14:41:23.694 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:41:23.695 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:41:23.709 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:41:23.711 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:41:23.724 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:41:23.725 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:41:37.532 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.107 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11799, completion_tokens: 162
+2024-04-12 14:43:33.288 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:43:33.288 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.444 s.
+2024-04-12 14:43:33.288 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:43:33.289 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:43:33.302 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:43:33.303 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:43:33.317 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:43:33.318 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:45:49.828 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 14:45:49.828 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.570 s.
+2024-04-12 14:45:49.829 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:45:49.829 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:45:49.844 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:45:49.844 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:45:49.858 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 14:45:49.859 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 14:46:00.450 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.125 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11799, completion_tokens: 106
+2024-04-12 19:09:19.378 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:09:19.378 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:09:19.378 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 19:09:19.378 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 19:09:28.481 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 19:09:28.481 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.593 s.
+2024-04-12 19:09:28.497 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:09:28.497 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:09:28.529 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:09:28.534 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:09:28.545 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:09:28.545 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:10:14.057 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 19:10:14.057 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.712 s.
+2024-04-12 19:10:14.057 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:10:14.057 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:10:14.089 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:10:14.092 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:10:14.105 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:10:14.115 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:10:29.726 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.018 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 79
+2024-04-12 19:11:05.439 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 19:11:05.439 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.597 s.
+2024-04-12 19:11:05.439 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:11:05.439 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:11:05.470 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:11:05.470 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:11:05.486 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:11:05.486 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:11:23.910 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-12 19:11:26.904 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 19:11:26.904 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.633 s.
+2024-04-12 19:11:26.904 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:11:26.904 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:11:26.935 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:11:26.938 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:11:26.951 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:11:26.951 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:11:31.749 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.036 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 79
+2024-04-12 19:11:37.992 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.054 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 87
+2024-04-12 19:11:39.201 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 19:11:43.912 | DEBUG    | metagpt.roles.role:run:479 - Johnson(Extractor): no news. waiting.
+2024-04-12 19:11:44.542 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 19:11:55.647 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: Streaml has a custom component library that allows you to extend Streamlite.People build everything like web camera quarters and drawing tools and it really extends.
+2024-04-12 19:12:18.509 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: What you can do withStreamlet and all of the apps you can make.So the community has made how you groups can create environments who deserve NewS到
+2024-04-12 19:12:23.657 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 19:12:23.657 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.388 s.
+2024-04-12 19:12:23.657 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:12:23.657 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:12:23.675 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:12:23.681 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:12:23.700 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:12:23.706 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:12:34.914 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 和 語言I've also got3030
+2024-04-12 19:12:43.052 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.072 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 84
+2024-04-12 19:12:46.153 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 19:12:46.153 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.929 s.
+2024-04-12 19:12:46.153 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:12:46.160 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:12:46.192 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:12:46.198 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:12:46.284 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:12:46.295 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:12:53.352 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 使得不同平台的應體鎖寒スタン如果要不 Because of that就迎來 Library就會加入陶酷包括研究有沒有興趣然後我們再看看
+2024-04-12 19:12:53.687 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 19:12:54.173 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-04-12 19:13:09.714 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: So anything you know.That's all.
+2024-04-12 19:13:12.789 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我們會看到很多不同的社群網站讓我們看到很多不同的社群網站讓我們看到很多不同的社群網站所以我們想建立更多的社群網站所以我們想建立更多的社群網站
+2024-04-12 19:13:16.562 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: A.I. and building chat bots in itand also using streamlet to evaluatebuilding your LLM and doing things with itto do really amazing things with computer visionto make it
+2024-04-12 19:13:39.557 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 不用说察ー所以全部你们手里的找UE的三位为什么你loud所以只有ár也 boî我对你好的我都
+2024-04-12 19:13:41.983 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 也有很多技術這也是一個需要我認為,如果有人在家裡工作要有這些技術我們會看到很多隊伍在世界中建造技術設計他們需要
+2024-04-12 19:13:46.942 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 是很重要的在你使用的資料和你的愛情項目當然我們也很喜歡看到他們有很多人在我們的社群網站上傳請繼續分享
+2024-04-12 19:14:07.022 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  lendt
+2024-04-12 19:14:22.107 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  لكن請服務公司會面對影片更投閒
+2024-04-12 19:14:22.377 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝
+2024-04-12 19:14:37.162 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 大家 can.soDamn.ogo.n.go.mint.mint.go.mint.go.
+2024-04-12 19:14:52.787 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 下一步我们也会介绍一下教会的 soda所以 主要是
+2024-04-12 19:14:53.612 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: Please kick us off and tell us about improvements to production ready workflows.Hi, how's it going? I'm Josh.
+2024-04-12 19:14:56.337 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我是StreetMillet Open Source Team我已經在StreetMillet工作了18個月你們可以看到我的貓在影片的背景
+2024-04-12 19:15:16.302 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我们的design 2014会下期, 愿意做到我们更有那种更有意义的背景我们现在就怎样最 pigb Dripping作品我们的想法是我们希望能有维 hasta的吸引我们的 assessed来个更シ日本的时候看苏杰麋成好这是没有冷却的
+2024-04-12 19:15:33.351 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 在 asp 我也可以做 нов過來的C at ãreald發揮的承發現這就嘛如果更新一票
+2024-04-12 19:15:34.112 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: Expiration app.It's got hundreds of lines of code with lots of data, charts, data frames, and
+2024-04-12 19:15:35.324 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 19:15:45.559 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 19:15:55.520 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 19:16:03.801 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 19:16:03.801 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.410 s.
+2024-04-12 19:16:03.801 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:16:03.816 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:16:03.832 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:16:03.832 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:16:03.864 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:16:03.864 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:16:05.422 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 19:16:14.369 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-12 19:16:14.369 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.459 s.
+2024-04-12 19:16:14.369 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:16:14.369 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:16:14.384 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:16:14.400 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:16:14.415 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 19:16:14.422 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 19:16:15.517 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-04-12 19:16:19.326 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-04-12 19:16:30.641 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  theta
+2024-04-12 19:16:32.592 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.089 | Max budget: $10.000 | Current cost: $0.018, prompt_tokens: 11810, completion_tokens: 78
+2024-04-12 19:17:14.695 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: GMW Lost
+2024-04-12 19:17:35.184 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 请不吝点赞 订阅 转发 打赏 打赏打赏谢谢大家
+2024-04-12 19:17:39.336 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 请不吝点赞 订阅 转发 打赏 打赏打赏谢...']
+2024-04-12 19:17:39.336 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-12 19:17:39.337 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-12 19:17:39.343 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+请不吝点赞 订阅 转发 打赏 打赏打赏谢谢大家
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-12 19:17:41.268 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.090 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 223, completion_tokens: 5
+2024-04-12 19:17:41.270 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-12 19:17:41.270 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 打赏...']
+2024-04-12 19:17:41.273 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-12 19:17:41.273 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-12 19:18:03.819 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.090 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 269, completion_tokens: 96
+2024-04-12 19:18:03.825 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-12 19:18:21.384 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 從換言之,都還能發送更多認定發放的類別يم一如同樣相對了請留意
+2024-04-12 19:18:23.832 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 從換言之,都還能發送更多認定發放的類別ي...']
+2024-04-12 19:18:23.832 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-12 19:18:23.832 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-12 19:18:23.834 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+從換言之,都還能發送更多認定發放的類別يم一如同樣相對了請留意
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-12 19:18:25.035 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.091 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 236, completion_tokens: 10
+2024-04-12 19:18:25.035 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-12 19:18:25.035 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 發放...']
+2024-04-12 19:18:25.035 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-12 19:18:25.035 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-12 19:18:25.815 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: Exploration app has got hundreds of lines of code with lots of data charts data frames and other interactive elements like dynamic forms.Now, even with caching and
+2024-04-12 19:18:29.367 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.091 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 212, completion_tokens: 55
+2024-04-12 19:18:29.374 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-12 19:18:29.376 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: Exploration app has ...']
+2024-04-12 19:18:29.376 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-04-12 19:18:29.376 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-04-12 19:18:29.376 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+Exploration app has got hundreds of lines of code with lots of data charts data frames and other interactive elements like dynamic forms.Now, even with caching and
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-04-12 19:18:29.947 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.091 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 221, completion_tokens: 9
+2024-04-12 19:18:29.948 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-04-12 19:18:29.948 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: interactive elements...']
+2024-04-12 19:18:29.948 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-12 19:18:29.948 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-12 19:18:41.669 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.092 | Max budget: $10.000 | Current cost: $0.001, prompt_tokens: 321, completion_tokens: 97
+2024-04-12 19:18:41.669 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-04-12 19:18:41.675 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: Exploration app...']
+2024-04-12 19:18:41.675 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-04-12 19:18:41.675 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-04-12 19:18:43.946 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 这次转 and造行表明 Yep desc соверш与没有许多该
+2024-04-12 19:19:09.318 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 構思在個人夥伴和生肖我們先來說在小粉丝和電腦中大家一起轉播現在我們第二個
+2024-04-12 19:19:37.605 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 例如在發力量及ructive elements是簡單的因此 groupe 珍藏 再發力量跟儀物我們再次避開它的頻率會到VDL大家都看到了一整小時現在有很多新手稿
+2024-04-12 19:19:55.756 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 也是温群的與對抗 emo 系列其他技術呈現 同時也使得
+2024-04-12 19:20:50.868 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 和不用更慢的時期這個問題是百分之十的屆時速度unn mi5JioJioJioJioJioJioJioJioJioJioJioJio
+2024-04-12 19:21:12.972 | WARNING  | metagpt.utils.common:wrapper:506 - There is a exception in role's execution, in order to resume, we delete the newest role communication message in the role's memory.
+2024-04-12 19:21:15.425 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 因此,無論是類反版壇,這個也不是例如經過另外一個級證,例如類反版壇在於人們聯繫在F Pic appeared過了職權的議題之後 following question長檔,你溪車上全水,我去左閘,他扭了很多樁我想,現在我看下去,你的前果 confident伺候不錯.
+2024-04-12 19:21:33.685 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 平靜的高位置对于潮 new principles 是秘密reg manifested
+2024-04-12 19:21:58.527 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 引致企業皮骨 CC设定企業型彩团发动工程我和我的企业 是最],,的辛苦了全PS黎网最恨而激励 mate整个字幕还没有上期做了印象只好我是吴汤你一个国H豪有一所就是三第三这个一金你东西
+2024-04-12 19:22:04.457 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 原先模仿本者的 tied還爾
+2024-04-12 19:22:08.325 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  Radiation 學習,經過德國早映消療這個每晨條約 bedroom
+2024-04-12 19:22:17.556 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  chances ofXp 현재信中
+2024-04-12 19:22:53.390 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 那你
+2024-04-12 19:23:01.807 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 很多 chartsand normally whenever I make an updateit will re update both of these chartswhich is pretty slowso now
+2024-04-12 19:23:14.485 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: Edorge 替司放 flag我七五月日下午我們希望收到更多 Steve在S시魔上18 cake是募集做我們也希望多多祝我也謝謝我們謝謝多多謝謝謝謝謝謝
+2024-04-12 19:23:51.835 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 那就要再提升對台的常態是很慢的所以現在反映了我改變一張非常重要的額外
+2024-04-12 19:23:54.389 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 只有帳戶需要更新不更新所有的帳戶
+2024-04-12 19:23:54.995 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 隔�液的方式是根據圖片指指令和解消
+2024-04-12 19:24:24.275 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我可以再補正短硬的案件是信息就是按照词AT慢点大膽这么如果这次你是否有严重对焦什么天使何解揚你我的
+2024-04-12 19:24:25.915 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: selectionor I might want to apply some
+2024-04-12 19:24:32.365 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我們稍後就開始帶來我建議自己這些同事
+2024-04-12 19:24:47.861 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: A versitne af humoron es ast Gift agile br tumAva subAvo
+2024-04-12 19:25:01.635 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: ortI might want to apply some validationbefore I submit the form.
+2024-04-12 19:25:11.435 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 还可以看到自己在 Rising Validation 前发布大家都很 translator
+2024-04-12 19:25:36.908 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 就是我们自己已经形成了 新カード克结的确利新 electoral iRambo 9新 beds
+2024-04-12 19:25:41.885 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 您可以做到这些设计时,您可以在设计中发布您可以在设计时发布您可以在设计时发布您可以在设计时发布
+2024-04-12 19:25:45.405 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: Fragment called run every and I'm really excited about this.So basically when you set this argument, it will cause the fragment to actually rerun and update.
+2024-04-12 19:26:05.645 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 贍 placed right to beNational
+2024-04-12 19:26:12.065 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 到你准备准备我们也有提到一个计划在《STXperimental Fragment》叫做《Run Every》我真的很期待这一幕
+2024-04-12 19:26:18.020 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 于是运动制动举行时 Kanal苹果需要主请然后利用你不 Oj手机成全一个
+2024-04-12 19:26:50.228 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 所以大家意想一下剛才提的其實是藝人改版版面是uzure第一次播放遊戲即使你可以做得太可愛音質感也看不懂而且可能會很艱難而是 super 耐用會你猜到你們的嘴 Government為什麼 loves用政府你舉行這個!?如果想要更衝突那一定我會個別
+2024-04-12 19:27:25.918 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我可以使用企划,支撂以及其他方面的 oil 項確認也須要心弟使用通訊卡 meetings 上影
+2024-04-12 19:27:29.352 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  and this is especially useful if you are streaming some updates from a running data pipeline, getting the latest stock prices, or if you have some job that you're monitoring and you want to
+2024-04-12 19:27:48.766 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 请愿看更多 should グッワッh9 8etchudand就是
+2024-04-12 19:27:57.985 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 售票配織和行门或者你的努力在導遊或 machstata
+2024-04-12 19:28:26.535 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 歡迎旁邊的人謝謝我們這些稒職大變這邊有 Kristin-------------------------------- Raptors Greetings si Si Si Si Si Si
+2024-04-12 19:28:32.384 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 现在将我给我准备另好的ire could you introduce how to use your experience了清开吊键的ham sensation大 hit
+2024-04-12 19:29:03.066 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 用程式改善公共�なんか哪來解決細長建設我們那我們決定粵勢蘋桃打給試試四四索但是和說史加加加
+2024-04-12 19:29:05.909 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 喏
+2024-04-12 19:29:17.790 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: So with ST query programs, I can actually control the UI of the app based on this URL and prepopulate the information that I need.
+2024-04-12 19:29:31.719 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我知道那很多我的 users are very busy, and they want to open the app exactly to the context that's relevant to them.So with SD query programs, I can actually control the UI.
+2024-04-12 19:29:37.584 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: I will provide the app based on this URLand pre-populate the information that I need.
+2024-04-12 22:53:13.126 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:53:13.126 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:53:13.126 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 22:53:13.127 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 22:53:24.216 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:53:24.216 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:53:58.361 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:53:58.362 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:53:58.362 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 22:53:58.362 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 22:54:05.165 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:54:05.165 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:54:11.335 | INFO     | __main__:main:19 - <coroutine object YoutubeVideoSearch.goal_collect at 0x000001FC6900DA40>
+2024-04-12 22:54:22.812 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:54:22.812 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:54:22.812 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 22:54:22.812 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 22:54:29.210 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:54:29.210 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:54:36.058 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.016 | Max budget: $10.000 | Current cost: $0.016, prompt_tokens: 10825, completion_tokens: 66
+2024-04-12 22:54:36.058 | INFO     | __main__:main:19 - ['Learn how to use the range function in Python to generate a sequence of numbers.', 'Understand the difference between lists and tuples in Python, specifically focusing on the immutability of tuples.', 'Explore the methods available for tuples, such as count and index.', 'Gain knowledge on when to use tuples over lists in Python programming.']
+2024-04-12 22:56:33.231 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:56:33.231 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:56:33.232 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 22:56:33.232 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 22:56:39.876 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:56:39.877 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:57:31.436 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:57:31.436 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:57:31.436 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 22:57:31.436 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 22:57:37.963 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:57:37.964 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:57:48.847 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.003, prompt_tokens: 1426, completion_tokens: 217
+2024-04-12 22:57:48.847 | INFO     | __main__:main:26 - ['**Goal 1: Understand the purpose of the `range` function in Python**', 'Learn how the `range` function creates a sequence of numbers.', 'Understand how the `range` function is commonly used in for loops to iterate a certain number of times.', '**Goal 2: Learn the parameters of the `range` function**', 'Understand the significance of the start and stop parameters in the `range` function.', 'Explore how the default values work when parameters are not explicitly provided.', '**Goal 3: Explore the step parameter in the `range` function**', 'Learn how to change the step between numbers in a sequence using the `range` function.', 'Understand how to iterate over a sequence with a specified step value.', '**Goal 4: Discover limitations and special cases of the `range` function**', 'Understand that the `range` function only works with integers and does not support floating-point numbers.', 'Explore the usage of negative numbers and how they can be incorporated into the `range` function.']
+2024-04-12 22:58:46.052 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:58:46.052 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:58:46.053 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 22:58:46.053 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 22:58:52.566 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 22:58:52.566 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 22:59:01.229 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.003 | Max budget: $10.000 | Current cost: $0.003, prompt_tokens: 1426, completion_tokens: 220
+2024-04-12 22:59:01.229 | INFO     | __main__:main:44 - ['**Goal 1: Understand the purpose of the `range` function in Python**', 'Learn how the `range` function creates a sequence of numbers.', 'Understand how the `range` function is commonly used in for loops to iterate a certain number of times.', '**Goal 2: Explore the parameters of the `range` function**', 'Learn about the start and stop parameters of the `range` function.', 'Understand how the default step between numbers is 1 and how it can be modified.', '**Goal 3: Experiment with different scenarios using the `range` function**', 'Learn how to use the `range` function without passing the start parameter.', 'Explore changing the step parameter in the `range` function to create sequences with different intervals.', '**Goal 4: Understand limitations and best practices of using the `range` function**', 'Learn that the `range` function only works for integers and cannot accept floating-point numbers.', 'Understand the importance of practicing and experimenting with the `range` function to enhance programming skills.']
+2024-04-12 23:00:56.153 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 23:00:56.153 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 23:00:56.153 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 23:00:56.153 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 23:01:04.799 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 23:01:04.799 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 23:01:24.912 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 23:01:24.912 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 23:01:24.913 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-12 23:01:24.913 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-12 23:01:31.479 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo
+2024-04-12 23:01:31.480 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-12 23:01:36.800 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.002 | Max budget: $10.000 | Current cost: $0.002, prompt_tokens: 1092, completion_tokens: 59
+2024-04-12 23:01:36.801 | INFO     | __main__:main:44 - ['Understand the syntactic differences between lists and tuples in Python.', 'Learn the functional differences between lists and tuples, specifically focusing on mutability.', 'Be able to differentiate between mutable and immutable data structures in Python.', 'Understand practical use cases for lists and tuples based on their mutability properties.']
