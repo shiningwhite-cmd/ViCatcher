@@ -1,0 +1,1258 @@
+2024-05-14 13:21:44.962 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:21:44.962 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:21:44.963 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-05-14 13:21:44.963 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-05-14 13:21:47.982 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:21:53.319 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:21:53.319 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.540 s.
+2024-05-14 13:21:53.335 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:21:53.335 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:21:53.529 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:21:53.529 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:21:53.546 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:21:53.546 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:22:02.456 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:22:02.458 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001E7811CC3D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:22:08.174 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:22:08.565 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:22:08.565 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.293 s.
+2024-05-14 13:22:08.565 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:22:08.565 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:22:08.578 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:22:08.578 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:22:08.594 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:22:08.595 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:22:08.658 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-05-14 13:22:16.893 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:22:16.893 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001E86EB7A550>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:22:23.660 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:22:23.662 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: 字幕by索兰娅...']
+2024-05-14 13:22:23.662 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:22:23.662 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:22:23.662 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+字幕by索兰娅
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:22:24.806 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:22:24.807 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001E86EB970D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:22:24.807 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:22:24.807 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: 索兰娅...']
+2024-05-14 13:22:24.808 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:22:24.808 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:22:28.664 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:22:28.664 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001E8147033D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:22:28.665 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:22:29.088 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:22:33.665 | DEBUG    | metagpt.roles.role:run:479 - Johnson(Extractor): no news. waiting.
+2024-05-14 13:22:38.935 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:22:49.303 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:22:59.280 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝
+2024-05-14 13:23:09.312 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:23:19.311 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:23:29.275 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:23:39.480 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:23:49.464 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:23:59.545 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:24:09.488 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:24:19.667 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:24:29.678 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:24:39.669 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:24:49.668 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:24:54.554 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:24:54.554 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:24:54.554 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-05-14 13:24:54.554 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-05-14 13:24:57.208 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:24:59.524 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:25:00.668 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:25:00.688 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 1.050 s.
+2024-05-14 13:25:00.759 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:25:00.768 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:25:01.933 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:25:01.934 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:25:01.948 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:25:01.948 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:25:09.818 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:25:12.182 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:25:12.212 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001FEC95C8550>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:25:19.880 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:25:21.215 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:25:21.997 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:25:21.997 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.711 s.
+2024-05-14 13:25:21.999 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:25:21.999 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:25:22.014 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:25:22.014 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:25:22.032 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:25:22.032 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:25:22.095 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-05-14 13:25:30.410 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: <|la|> blond
+2024-05-14 13:25:30.942 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:25:30.943 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001FFA2BD2050>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:25:40.096 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:25:50.042 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:26:00.114 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:26:10.013 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:26:20.980 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 環境不得不隨不 oft做賽cc
+2024-05-14 13:26:30.277 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:26:39.376 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:26:39.376 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:26:39.376 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-05-14 13:26:39.376 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-05-14 13:26:40.258 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:26:42.778 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:26:48.409 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:26:48.432 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 1.207 s.
+2024-05-14 13:26:48.625 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:26:48.625 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:26:48.666 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:26:48.666 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:26:48.682 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:26:48.682 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:26:50.057 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:26:57.863 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:26:57.865 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024E01143790>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:27:00.218 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:27:10.394 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:27:18.597 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:27:19.291 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:27:19.291 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.624 s.
+2024-05-14 13:27:19.291 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:27:19.292 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:27:19.306 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:27:19.306 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:27:19.320 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:27:19.320 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:27:19.378 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-05-14 13:27:20.136 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:27:27.550 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:27:27.550 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024EFDCB4610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:27:30.547 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:28:10.859 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: ロードリー・メットダーラップWe always post in therewhat we're currently working onAnd what we plan to work onIn the next three quartersSo if you have more questions
+2024-05-14 13:28:14.403 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: ロードリー・メットダーラップWe alw...']
+2024-05-14 13:28:14.403 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:28:14.403 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:28:14.403 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ロードリー・メットダーラップWe always post in therewhat we're currently working onAnd what we plan to work onIn the next three quartersSo if you have more questions
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:28:15.523 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:28:15.525 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024EF7790450>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:28:15.525 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:28:15.526 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: ロードリー・メットダーラップ...']
+2024-05-14 13:28:15.526 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:28:15.526 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:28:18.866 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:28:18.867 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024EFDCB6290>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:28:18.867 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:29:11.542 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:29:17.576 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:29:17.576 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 5.725 s.
+2024-05-14 13:29:17.576 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:29:17.576 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:29:17.596 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:29:17.606 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:29:17.616 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:29:17.616 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:30:24.302 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: So much more check out dat up and also check out the videos from fans of a on youtube or community members.He's always doing
+2024-05-14 13:30:28.878 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: So much more check o...']
+2024-05-14 13:30:28.878 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:30:28.878 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:30:28.878 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+So much more check out dat up and also check out the videos from fans of a on youtube or community members.He's always doing
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:30:29.831 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:30:29.832 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024EF7790450>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:30:29.832 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:30:29.832 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: community members...']
+2024-05-14 13:30:29.832 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:30:29.832 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:30:34.168 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:30:34.169 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024EFDCB6290>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:30:34.169 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:30:42.919 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: amazing videos about the new streamer featuresand with that I'll pass it onThanks JohannesI'm sure I speak for the
+2024-05-14 13:30:44.171 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user: amazing videos about...']
+2024-05-14 13:30:44.171 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:30:44.171 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:30:44.171 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+amazing videos about the new streamer featuresand with that I'll pass it onThanks JohannesI'm sure I speak for the
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:30:45.482 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:30:45.483 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024EF7790450>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:30:45.483 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:30:45.483 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: Johannes...']
+2024-05-14 13:30:45.483 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:30:45.483 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:30:49.109 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:30:49.109 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024EFDCB6290>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:30:49.110 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:30:49.110 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: streamer features...']
+2024-05-14 13:30:49.110 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:30:49.110 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:30:52.388 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:30:52.389 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024EFDCB6290>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:30:52.389 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:32:24.213 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:32:28.797 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:32:28.797 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000024F2FFB1250>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:33:57.299 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:33:58.592 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:33:59.633 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:00.672 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:01.678 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:02.701 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:03.693 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:04.714 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:05.749 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:06.747 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:07.758 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:08.790 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:10.155 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:34:11.242 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:12.280 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:13.297 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:14.309 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:15.301 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:16.282 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:18.582 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:34:19.713 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:20.281 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:20.432 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:20.593 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:20.764 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:20.915 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:21.068 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:21.228 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:21.382 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:21.530 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:21.682 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:21.834 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:21.996 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:22.159 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:22.300 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:22.452 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:22.604 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:22.746 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:22.887 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:23.040 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:23.185 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:32.450 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:42.580 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:34:52.502 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:34:57.541 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:34:57.541 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:34:57.541 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-05-14 13:34:57.541 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-05-14 13:35:00.656 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:35:02.384 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:35:05.148 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:35:05.148 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.525 s.
+2024-05-14 13:35:05.148 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:35:05.158 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:35:05.351 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:35:05.351 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:35:05.361 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:35:05.361 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:35:12.537 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:35:14.198 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:35:14.200 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B12A98C50>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:35:17.540 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-05-14 13:35:18.427 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-05-14 13:35:18.428 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.711 s.
+2024-05-14 13:35:18.428 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:35:18.428 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:35:18.443 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:35:18.443 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:35:18.458 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-05-14 13:35:18.458 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-05-14 13:35:18.519 | INFO     | Module.AnalyseAudio:record_audio:58 - * recording
+2024-05-14 13:35:22.582 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:35:26.988 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:35:26.989 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D06D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:35:33.196 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:35:39.739 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  Sales relied on us to get data about who's viewing content and when in a timely manner, with a lot of bespoke features and features.
+2024-05-14 13:35:43.543 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user:  Sales relied on us ...']
+2024-05-14 13:35:43.543 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:35:43.543 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:35:43.543 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ Sales relied on us to get data about who's viewing content and when in a timely manner, with a lot of bespoke features and features.
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:35:44.717 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:35:44.852 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:35:44.853 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B68621610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:35:44.864 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:35:44.864 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: bespoke features...']
+2024-05-14 13:35:44.864 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:35:44.864 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:35:44.989 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  filters that made it impossible to build with current technologies. So what we did and what I want to show you today are some of the apps that we've been using.
+2024-05-14 13:35:50.251 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:35:50.251 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:35:50.251 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:35:50.252 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user:  filters that made i...']
+2024-05-14 13:35:50.252 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:35:50.252 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:35:50.252 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ filters that made it impossible to build with current technologies. So what we did and what I want to show you today are some of the apps that we've been using.
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:35:51.325 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:35:51.325 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B68621610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:35:51.326 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:35:51.326 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: apps...']
+2024-05-14 13:35:51.326 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:35:51.326 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:35:52.758 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  we've built to answer these questions in the hands of their own stakeholders. Our first app, Promo Inventory Planner, or PIP as we call it, allows users to
+2024-05-14 13:35:53.452 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:35:59.773 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:35:59.774 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:35:59.774 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:35:59.774 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ["user:  we've built to answ..."]
+2024-05-14 13:35:59.774 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:35:59.774 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:35:59.774 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ we've built to answer these questions in the hands of their own stakeholders. Our first app, Promo Inventory Planner, or PIP as we call it, allows users to
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:36:00.916 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:00.917 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B68621610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:00.917 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:36:00.917 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: Promo Inventory Plan...']
+2024-05-14 13:36:00.917 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:00.917 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:02.938 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  to size ad campaigns effectively. So let's say I am a salesperson and I want to create a campaign, but I only care about showing an ad to oncologists.
+2024-05-14 13:36:03.629 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:36:05.236 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:05.236 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:05.237 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:36:05.237 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user:  to size ad campaign...']
+2024-05-14 13:36:05.237 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:36:05.237 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:36:05.237 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ to size ad campaigns effectively. So let's say I am a salesperson and I want to create a campaign, but I only care about showing an ad to oncologists.
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:36:06.187 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:06.188 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B68621610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:06.188 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:36:06.188 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: oncologists...']
+2024-05-14 13:36:06.188 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:06.188 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:12.450 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  Well, I can add that to the tool. But then I only care about certain countries. In this case, maybe the US, Great Britain,
+2024-05-14 13:36:13.336 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:36:15.402 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:15.403 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:15.403 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:36:15.403 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user:  Well, I can add tha...']
+2024-05-14 13:36:15.403 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:36:15.403 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:36:15.403 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ Well, I can add that to the tool. But then I only care about certain countries. In this case, maybe the US, Great Britain,
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:36:16.299 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:16.300 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B68621610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:16.300 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:36:16.300 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: Great Britain...']
+2024-05-14 13:36:16.300 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:16.301 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:20.040 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:20.040 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:20.041 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:36:20.041 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: stakeholders...']
+2024-05-14 13:36:20.041 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:20.041 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:23.087 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:23.087 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:23.087 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:36:23.087 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: technologies...']
+2024-05-14 13:36:23.088 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:23.088 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:24.935 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:36:24.991 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  In France, I can add those segments to the tool, and since I know the length of the campaign, I can size it out correctly. In this case, I can add those segments to the tool.
+2024-05-14 13:36:26.615 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:26.616 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:26.616 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:36:26.616 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user:  In France, I can ad...']
+2024-05-14 13:36:26.617 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:36:26.617 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:36:26.617 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ In France, I can add those segments to the tool, and since I know the length of the campaign, I can size it out correctly. In this case, I can add those segments to the tool.
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:36:27.626 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:27.627 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B68621610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:27.627 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:36:27.627 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: campaign...']
+2024-05-14 13:36:27.627 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:27.627 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:32.245 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:32.245 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:32.246 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:36:32.246 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: segments...']
+2024-05-14 13:36:32.246 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:32.246 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:32.450 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  let's call it a 12 month campaign. I can drag the slider out, click the run button and get all of the data about each segment.
+2024-05-14 13:36:33.680 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:36:35.607 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:35.607 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:35.608 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:36:35.608 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ["user:  let's call it a 12 ..."]
+2024-05-14 13:36:35.608 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:36:35.608 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:36:35.608 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ let's call it a 12 month campaign. I can drag the slider out, click the run button and get all of the data about each segment.
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:36:36.417 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:36.417 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B68621610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:36.417 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:36:36.418 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: segment...']
+2024-05-14 13:36:36.418 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:36.418 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:39.353 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:39.353 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026BE33D09D0>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:39.353 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=-1
+2024-05-14 13:36:42.912 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  and my fingertips. The tool even suggests a goal size for me. This allows the users to have the charts and the data that they need right there.
+2024-05-14 13:36:43.912 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:36:44.354 | DEBUG    | metagpt.roles.role:_observe:397 - Johnson(Extractor) observed: ['user:  and my fingertips. ...']
+2024-05-14 13:36:44.354 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=0
+2024-05-14 13:36:44.354 | INFO     | Role.Extractor:_act:30 - Johnson(Extractor): to do KeywordExtract(KeywordExtract)
+2024-05-14 13:36:44.354 | DEBUG    | Action.ExtractKeywords:run:65 - # Requirements
+1. The keywords you interested in should be proper nouns or the words which are more difficult to understand.
+2. The given text is shown in the "Original Text" section, you should extract less than 2 keywords from the text.
+3. "Example" section provides you an example of keyword extraction, you can learn from it.
+4. Please respond in the following JSON format: ["keyword1", "keyword2"].
+
+# Example
+### Original Text
+In this work, we present xxxx, a large language model augmented with tools for knowledge retrieval for mathematical reasoning.
+### Result
+["large language model", "knowledge retrieval"]
+
+# Original Text
+ and my fingertips. The tool even suggests a goal size for me. This allows the users to have the charts and the data that they need right there.
+
+# Result
+your result is (no more than 2 keywords):
+
+2024-05-14 13:36:45.155 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-05-14 13:36:45.155 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x0000026B68621610>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-05-14 13:36:45.155 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[KeywordExtract], state=-1
+2024-05-14 13:36:45.155 | DEBUG    | metagpt.roles.role:_observe:397 - Mark(WikiResearcher) observed: ['user: suggests a goal size...']
+2024-05-14 13:36:45.155 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WikiSearchAndSummarize], state=0
+2024-05-14 13:36:45.155 | INFO     | Role.WikiResearcher:_act:36 - Mark(WikiResearcher): to do WikiSearchAndSummarize(WikiSearchAndSummarize)
+2024-05-14 13:36:53.732 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:37:03.778 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:37:13.956 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:37:23.911 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:37:33.935 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:37:43.906 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:37:54.050 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:38:04.021 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:38:13.867 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:38:24.102 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:38:33.945 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:38:44.234 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:38:54.282 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:39:04.169 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:39:14.139 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:39:24.432 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:39:37.211 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:39:44.479 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:39:54.604 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:40:04.583 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:40:14.572 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:40:24.580 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:40:34.459 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:40:44.740 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:40:54.737 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:41:04.771 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:41:14.909 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:41:24.882 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:41:34.892 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:41:44.939 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:41:55.077 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:42:04.934 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:42:14.930 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:42:24.976 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:42:35.114 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:42:45.112 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:42:55.112 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:43:05.068 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:43:15.175 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:43:25.053 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:43:35.014 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:43:44.763 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:43:54.989 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:44:04.998 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:44:15.015 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:44:25.078 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:44:35.303 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:44:45.248 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:44:55.302 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:45:05.268 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:45:15.491 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:45:25.938 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:45:36.771 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 演出
+2024-05-14 13:45:49.562 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 認為初讀者是最大的一個是在學術局的身為提供教訓排音時考察學術卻帶來動作提供承付、發語來成人跟大家示意接收能力去提供現實的學術在學術方面這個是無效的自信有機而這麽是回動
+2024-05-14 13:45:55.608 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:46:05.658 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:46:15.668 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:46:25.881 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:46:35.865 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:46:46.503 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 800字 your800地
+2024-05-14 13:46:55.851 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:47:06.018 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:47:16.033 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:47:25.888 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:47:36.028 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:47:46.201 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:47:56.218 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:48:06.218 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:48:16.233 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:48:26.389 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:48:36.408 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:48:46.347 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:48:56.423 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:49:06.614 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:49:16.567 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:49:26.568 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:49:36.610 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:49:46.782 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:49:56.807 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:50:06.799 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:50:16.872 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:50:27.000 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:50:37.013 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:50:46.959 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:50:57.017 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:51:07.181 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:51:17.198 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:51:27.187 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:51:37.239 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:51:47.374 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:52:01.507 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 出来 sitcom
+2024-05-14 13:52:07.327 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:52:17.367 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:52:27.449 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:52:37.408 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:52:47.568 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:52:57.599 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:53:07.737 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:53:17.747 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:53:27.694 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:53:37.927 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:53:47.927 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:53:57.907 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:54:08.047 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:54:17.917 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:54:28.117 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:54:39.247 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text:  Eyeliner بال routine
+2024-05-14 13:54:48.094 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:54:58.097 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:55:08.258 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:55:18.265 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:55:28.127 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:55:38.305 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:55:48.496 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: let's go
+2024-05-14 13:55:58.477 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:56:08.506 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:56:18.705 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:56:28.667 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:56:38.797 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 13:56:48.687 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:56:58.672 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝
+2024-05-14 13:57:08.827 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:57:18.847 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:57:28.887 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:57:39.047 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:57:49.027 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:57:58.947 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:58:09.053 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:58:19.215 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:58:29.221 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:58:39.232 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:58:49.227 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:58:59.411 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:59:09.402 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:59:19.370 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:59:29.420 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:59:39.588 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 13:59:49.587 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 13:59:59.586 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:00:09.597 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:00:19.779 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:00:29.769 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:00:39.777 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:00:49.908 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 字幕by索兰娅
+2024-05-14 14:00:59.978 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:01:09.956 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:01:19.977 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:01:30.002 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:01:40.171 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:01:50.137 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:02:00.146 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:02:10.170 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:02:20.361 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:02:30.340 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:02:40.346 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:02:50.368 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:03:00.555 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:03:10.536 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:03:20.572 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:03:30.548 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:03:40.766 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:03:50.751 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:04:00.739 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:04:11.671 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 假日告达
+2024-05-14 14:04:20.956 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:04:30.935 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:04:40.948 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:04:51.170 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:05:01.096 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:05:11.146 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:05:21.106 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:05:31.286 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:05:41.331 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:05:51.071 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:06:01.286 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:06:11.306 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:06:21.446 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:06:31.458 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:06:41.446 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:06:51.678 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:07:01.666 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:07:11.658 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:07:21.566 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:07:31.854 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:07:41.864 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:07:51.838 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:08:02.059 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:08:12.036 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:08:21.816 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:08:31.988 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:08:42.029 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:08:52.037 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:09:02.230 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:09:12.240 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:09:22.231 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:09:32.271 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:09:42.409 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:09:52.440 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:10:02.430 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:10:12.429 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:10:22.615 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:10:32.608 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:10:42.617 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:10:52.588 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:11:02.780 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:11:12.823 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:11:22.785 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:11:32.959 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:11:43.015 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:11:53.035 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:12:03.019 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:12:13.015 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:12:23.216 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:12:33.201 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:12:43.155 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:12:53.372 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:13:03.389 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:13:13.384 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:13:23.382 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:13:33.391 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:13:43.259 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:13:53.549 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:14:03.578 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:14:13.557 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:14:23.769 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:14:33.749 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:14:43.739 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:14:53.741 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:15:03.929 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:15:13.946 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:15:23.919 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:15:33.933 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:15:44.116 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:15:54.133 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:16:04.102 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:16:14.099 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:16:24.287 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:16:34.313 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:16:44.301 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:16:54.299 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:17:04.468 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:17:14.479 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:17:24.510 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:17:35.343 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 果汁
+2024-05-14 14:17:45.590 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: NO畢表是的NO潮茶還留言可不可以
+2024-05-14 14:17:56.596 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 哇要不要回去
+2024-05-14 14:18:05.161 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 啊把这个打后面可以打这个只能错了这个只能错了导致他把这个夹紧拿来
+2024-05-14 14:18:14.752 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 他就和上面摩擦起來了
+2024-05-14 14:18:25.223 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我不想改演者因為他這個錯了我想把這個就扔了要錯誤傳遞一下
+2024-05-14 14:18:34.929 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 地毯的话他还是要怎么动的
+2024-05-14 14:18:44.855 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:18:54.834 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:19:05.047 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:19:15.028 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:19:25.066 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:19:35.048 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:19:45.022 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:19:55.238 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:20:05.208 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:20:15.230 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:20:25.213 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:20:35.416 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:20:45.419 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:20:55.416 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:21:05.408 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:21:15.393 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:21:25.637 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:21:35.594 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:21:45.633 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:21:55.590 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:22:05.790 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:22:15.808 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:22:25.812 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:22:35.777 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:22:45.959 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:22:55.947 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:23:05.982 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:23:15.946 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:23:26.162 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:23:36.136 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:23:46.176 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:23:56.144 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:24:06.366 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:24:16.338 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:24:26.347 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:24:36.534 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:24:46.606 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝 法定人數不足
+2024-05-14 14:24:58.045 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 薛宇他這是沒有角變嗎
+2024-05-14 14:25:06.507 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:25:16.720 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:25:26.838 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 这一天的热水都有点问题
+2024-05-14 14:25:36.796 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 我倒多水的味道很重
+2024-05-14 14:25:46.757 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:26:02.166 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 呜
+2024-05-14 14:26:06.876 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:26:16.920 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 謝謝觀看
+2024-05-14 14:26:26.913 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 
+2024-05-14 14:26:36.731 | INFO     | Module.AnalyseAudio:recognize_audio:104 - Recognized text: 

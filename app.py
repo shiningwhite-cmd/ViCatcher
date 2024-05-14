@@ -1,6 +1,7 @@
 import asyncio
 import threading
 import time
+import pyautogui
 
 import streamlit as st
 from streamlit_extras.badges import badge
@@ -18,7 +19,8 @@ from metagpt.logs import logger
 
 if 'Intermediary' not in st.session_state:
     st.session_state.intermediary = Intermediary()
-analysis = RecordAndAnalyseAudio(im=st.session_state.intermediary, record_second=10)
+
+analysis = RecordAndAnalyseAudio(im=st.session_state.intermediary)
 translator = Translator(im=st.session_state.intermediary)
 ys = DecipherVideo(im=st.session_state.intermediary)
 
@@ -36,6 +38,9 @@ translate_thread = threading.Thread(target=run_event_loop, args=(loop, translato
 threads = []
 search_video_match = {}
 
+screen_width, screen_height = pyautogui.size()
+youtube_player_width = int(screen_width * 1380 / 2560 - 400)
+youtube_player_height = int(youtube_player_width * 2 / 3)
 
 async def main():
     # 启动线程
@@ -150,6 +155,7 @@ async def multi_video_learning(learning_area):
     while all(st.session_state.intermediary.get_video_info()) is False:
         search_result.write("Click the button overhead")
         time.sleep(5)
+        return
 
     search_result_container = search_result.container()
     search_video_match, concept_dict = st.session_state.intermediary.get_video_info()
@@ -157,16 +163,20 @@ async def multi_video_learning(learning_area):
     search_result_container.markdown(" **Recommended Video Learning Sequence:** ")
     count_v = 1
     learned_v = []
+
+    v_str = """
+    video id is: 
+    """
     for value in concept_dict.values():
         c_v = value[0]
         if c_v in learned_v:
             continue
 
         if search_video_match[c_v]:
-            search_result_container.markdown(str(count_v) + ". " + search_video_match[c_v] + "  --  video id is: " + c_v)
+            search_result_container.markdown(str(count_v) + ". " + search_video_match[c_v] + v_str + c_v)
             learned_v.append(c_v)
         else:
-            search_result_container.markdown(str(count_v) + ". " + "video id is: " + c_v)
+            search_result_container.markdown(str(count_v) + ". " + " \n video id is: " + c_v)
             learned_v.append(c_v)
         count_v = count_v + 1
 
@@ -176,9 +186,9 @@ async def multi_video_learning(learning_area):
         with result_expender.expander(key):
             for c_v in value:
                 if search_video_match[c_v]:
-                    st.markdown(search_video_match[c_v] + " **match video id is:** " + c_v)
+                    st.markdown(search_video_match[c_v] + " \n **match video id is:** " + c_v)
                 else:
-                    st.markdown(" **match video id is:** " + c_v)
+                    st.markdown(" \n **match video id is:** " + c_v)
 
 
 async def single_video_learning(learning_area, youtube_id: str):
@@ -197,27 +207,27 @@ async def single_video_learning(learning_area, youtube_id: str):
 
     knowledge_container = learning_single_container.container()
     text_container = learning_single_container.empty()
-    # sign_container = learning_single_container.empty()
+    sign_container = learning_single_container.empty()
     # tick_element = learning_single_container.empty()
     button_container = learning_single_container.empty()
 
     with button_container:
         k_b = row(2)
-        if k_b.button('👾 Say hello'):
+        if k_b.button('👾 Start'):
             start_audio_extraction()
             pass
-        k_b.button("Reset", type="primary")
+        # k_b.button("Reset", type="primary")
 
     with text_container.expander(" **:joy: Recognized Audio is Shown Here** ", expanded=True):
         st.markdown(get_audio_text())
 
-    # with sign_container.expander(" **:cool: Signs & Goals of Current Video** ", expanded=True):
-    #     s, g = await get_current_video_info(youtube_id)
-    #     st.markdown(" **Signs:** " + s)
-    #     st.markdown(" **Goals:** " + g)
-    #     pass
+    with sign_container.expander(" **:cool: Signs & Goals of Current Video** ", expanded=True):
+        s, g = await get_current_video_info(youtube_id)
+        st.markdown(" **Signs:** " + s)
+        st.markdown(" **Goals:** " + g)
+        pass
 
-    with knowledge_container.expander(" **:cold: Keyword Recognizer is Working** ", expanded=True):
+    with knowledge_container.expander(" **:cool: Keyword Recognizer is Working** ", expanded=True):
         knowledge_show_area = st.empty()
         for tick in range(1000):
             # tick_element.write(tick)
@@ -231,13 +241,18 @@ async def APP():
 
     initial_id = ini.get_initial_id()
 
+    with st.sidebar:
+        st.title("Learning Path")
+        await multi_video_learning(st.empty())
+        pass
+
     # 创建两列布局
-    col1, col2 = st.columns([3, 2])
+    col1, col2 = st.columns([4, 2])
 
     with col1:
         initial_url = "https://www.youtube.com/embed/" + initial_id
         iframe_html = """
-            <iframe width="1080" height="630" src="{url}" frameborder="0" allow="accelerometer; autoplay; \
+            <iframe width="{width}" height="{height}" src="{url}" frameborder="0" allow="accelerometer; autoplay; \
             clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             """
         youtube_url = None
@@ -258,7 +273,10 @@ async def APP():
         youtube_input_container = st.container()
 
         # 更新iframe的src属性以加载新的视频
-        html = iframe_html.format(url=youtube_url if youtube_url else initial_url)
+        html = iframe_html.format(url=youtube_url if youtube_url else initial_url,
+                                  width=youtube_player_width,
+                                  height=youtube_player_height
+                                  )
         youtube_player_container.markdown(html, unsafe_allow_html=True)
 
         with youtube_input_container.popover(" :sunglasses: Youtube Link"):
@@ -275,12 +293,15 @@ async def APP():
                 st.toast('Searching this video...', icon='😍')
 
                 # 更新iframe的src属性以加载新的视频
-                html = iframe_html.format(url=youtube_url if youtube_url else initial_url)
+                html = iframe_html.format(url=youtube_url if youtube_url else initial_url,
+                                          width=youtube_player_width,
+                                          height=youtube_player_height
+                                          )
                 youtube_player_container.markdown(html, unsafe_allow_html=True)
 
             v_b.link_button("Go to the Link", "https://www.youtube.com/watch?v=" + youtube_id)
 
-        if st.button(" :stop: Stop APP"):
+        if st.button("Reset", type="primary"):
             st.session_state.intermediary.clear_all_saved_data()
             st.stop()
 
@@ -291,13 +312,9 @@ async def APP():
             color_name="red-70",
         )
 
-        selection = st.selectbox('Go to', ['Multi Videos Learning', 'Single Video Learning'])
         Learning_Area = st.empty()
         # 根据选择显示页面
-        if selection == 'Multi Videos Learning':
-            await multi_video_learning(Learning_Area)
-        elif selection == 'Single Video Learning':
-            await single_video_learning(Learning_Area, youtube_id)
+        await single_video_learning(Learning_Area, youtube_id)
 
 
 

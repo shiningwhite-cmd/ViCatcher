@@ -242,6 +242,8 @@ class YoutubeVideoSearch(Action):
 
     @staticmethod
     def truncate_text_by_token_count(text: str, max_tokens):
+        if text is None:
+            text = "a"
         # 使用NLTK库的word_tokenize函数对文本进行令牌化
         tokens = nltk.word_tokenize(text)
         logger.info(len(tokens))
@@ -372,14 +374,14 @@ class YoutubeVideoSearch(Action):
         #         logger.info("Fail to collect goals")
         #         return None
 
-        time.sleep(10)
+        time.sleep(20)
 
         return concepts
 
-    async def collect_video_concept(self, keyword: str, max_results: int = 5, max_tokens: int = 11499):
+    async def collect_video_concept(self, keyword: str, max_results: int = 4, max_tokens: int = 11499):
         search_video_match = {}
-        video = self.search_youtube_video(keyword, max_results=1)
-        p_video = await self.search_youtube_video_of_pre_concept(keyword, max_results=1)
+        video = self.search_youtube_video(keyword, max_results=max_results)
+        p_video = await self.search_youtube_video_of_pre_concept(keyword, max_results=max_results)
 
         video.extend(p_video)
 

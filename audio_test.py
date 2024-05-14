@@ -12,4 +12,5 @@ async def main(im):
     analysis.run()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    im = Intermediary()
+    asyncio.run(main(im))

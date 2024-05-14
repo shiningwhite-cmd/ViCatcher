@@ -30,7 +30,7 @@ class RecordAndAnalyseAudio:
     hp: any = None
     corrector: MacBertCorrector = None
 
-    def __init__(self, im: Intermediary = None, record_second: int = 16):
+    def __init__(self, im: Intermediary = None, record_second: int = 30):
         super().__init__()
         self.record_second = record_second
         self.im = im
@@ -97,7 +97,7 @@ class RecordAndAnalyseAudio:
             try:
                 # 提前设置好本地模型
                 # the path of local model might be transfer to a single file
-                text = recognizer.recognize_whisper(audio_source, model="./Models/whisper/small.pt", language='zh')
+                text = recognizer.recognize_whisper(audio_source, model="./Models/whisper/small.pt")  # , language='zh')
                 # text = self.correct_sentence(text)
                 # text = self.split_sentence(text)
 
@@ -137,9 +137,9 @@ class RecordAndAnalyseAudio:
         recognize_thread.start()
 
         # 等待线程结束
-        audio_thread.join()
-        self.audio_queue.put(None)  # 发送结束信号
-        recognize_thread.join()
+        # audio_thread.join()
+        # self.audio_queue.put(None)  # 发送结束信号
+        # recognize_thread.join()
 
     def end(self):
         self.stream.stop_stream()

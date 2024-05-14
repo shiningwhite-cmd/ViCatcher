@@ -1,0 +1,142 @@
+2024-04-26 13:36:18.981 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:36:18.981 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:36:18.981 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-26 13:36:18.981 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-26 13:36:26.809 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:36:34.281 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:36:34.281 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.897 s.
+2024-04-26 13:36:34.297 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:36:34.297 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:36:34.336 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:36:34.336 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:36:34.345 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:36:34.345 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:37:54.105 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:37:54.105 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:37:54.105 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\sxb23\Documents\GitHub\KnowledgeTranslator\workspace
+2024-04-26 13:37:54.105 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-04-26 13:37:59.771 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:38:03.295 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:38:03.295 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.374 s.
+2024-04-26 13:38:03.306 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:03.306 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:03.330 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:03.330 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:03.348 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:03.348 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:21.336 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:38:22.257 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:38:22.257 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.603 s.
+2024-04-26 13:38:22.257 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:22.257 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:22.273 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:22.273 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:22.288 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:22.288 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:26.478 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:38:26.699 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:38:27.205 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:38:27.205 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.617 s.
+2024-04-26 13:38:27.735 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:38:27.735 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.942 s.
+2024-04-26 13:38:27.735 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:27.735 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:27.746 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:27.746 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:27.762 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:38:27.762 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:38:32.937 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-04-26 13:38:32.944 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001FEF7AAE590>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-04-26 13:38:44.713 | INFO     | Action.SearchVideo:truncate_text_by_token_count:247 - 8531
+2024-04-26 13:38:52.428 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-04-26 13:38:52.428 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001FEF7AAE590>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-04-26 13:38:53.588 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-04-26 13:38:53.588 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001FEF7AAE590>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-04-26 13:39:08.977 | INFO     | Action.SearchVideo:truncate_text_by_token_count:247 - 3461
+2024-04-26 13:39:13.285 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-04-26 13:39:13.285 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001FEF7AAE590>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-04-26 13:39:14.266 | ERROR    | metagpt.provider.openai_api:_calc_usage:215 - usage calculation failed: num_tokens_from_messages() is not implemented for model gpt-3.5-turbo-0125. See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.
+2024-04-26 13:39:14.266 | ERROR    | metagpt.provider.openai_api:acompletion_text:140 - Calling _update_costs with args: (<metagpt.provider.openai_api.OpenAILLM object at 0x000001FEF7AAE590>, CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0)), kwargs: {} failed: 'gpt-3.5-turbo-0125', stack: Traceback (most recent call last):
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\exceptions.py", line 45, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\provider\openai_api.py", line 222, in _update_costs
+    CONFIG.cost_manager.update_cost(usage.prompt_tokens, usage.completion_tokens, self.model)
+  File "C:\Users\sxb23\AppData\Local\Programs\Python\Python311\Lib\site-packages\metagpt\utils\cost_manager.py", line 45, in update_cost
+    prompt_tokens * TOKEN_COSTS[model]["prompt"] + completion_tokens * TOKEN_COSTS[model]["completion"]
+                    ~~~~~~~~~~~^^^^^^^
+KeyError: 'gpt-3.5-turbo-0125'
+
+2024-04-26 13:39:25.908 | INFO     | Module.DecipherVideo:collect_video_concept:55 - set!
+2024-04-26 13:39:25.908 | INFO     | Module.Intermediary:set_video_info:94 - saving!
+2024-04-26 13:39:25.909 | INFO     | Module.Intermediary:set_video_info:97 - saved!
+2024-04-26 13:39:56.178 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:39:57.220 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:39:57.220 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.722 s.
+2024-04-26 13:39:57.233 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:39:57.233 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:39:57.251 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:39:57.251 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:39:57.267 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:39:57.267 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:44:06.686 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:44:08.113 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:44:08.113 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 1.081 s.
+2024-04-26 13:44:08.113 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:44:08.113 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:44:08.125 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:44:08.125 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:44:08.155 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:44:08.155 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:44:29.626 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:44:29.831 | INFO     | Module.Intermediary:__init__:27 - init!
+2024-04-26 13:44:30.528 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:44:30.528 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.628 s.
+2024-04-26 13:44:30.969 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:30 - Use device: cuda
+2024-04-26 13:44:30.969 | DEBUG    | pycorrector.macbert.macbert_corrector:__init__:31 - Loaded macbert4csc model: Models/macbert4csc-base-chinese, spend: 0.585 s.
+2024-04-26 13:44:30.969 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:44:30.969 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:44:31.002 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:44:31.002 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-04-26 13:44:31.017 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-0125
+2024-04-26 13:44:31.017 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
