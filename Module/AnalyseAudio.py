@@ -30,7 +30,7 @@ class RecordAndAnalyseAudio:
     hp: any = None
     corrector: MacBertCorrector = None
 
-    def __init__(self, im: Intermediary = None, record_second: int = 30):
+    def __init__(self, im: Intermediary = None, record_second: int = 20):
         super().__init__()
         self.record_second = record_second
         self.im = im

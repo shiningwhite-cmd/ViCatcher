@@ -81,12 +81,14 @@ async def get_current_video_info(video_id: str):
 
     if signs and goals:
         sign_t = ""
-        goal_t = "\n"
+        goal_t = ""
         for sign in signs:
             sign_t = sign_t + sign + ", "
 
+        i = 1
         for goal in goals:
-            goal_t = goal_t + "- " + goal + "\n"
+            goal_t = goal_t + str(i) + ". " + goal + "\n"
+            i = i + 1
 
         return sign_t, goal_t
 
@@ -126,7 +128,7 @@ def search_youtube(term: str):
 
 
 class initial():
-    ini_id = "lhwclsrszDI"
+    ini_id = "Sb0A9i6d320"
 
     def get_initial_id(self):
         return self.ini_id
@@ -165,18 +167,22 @@ async def multi_video_learning(learning_area):
     learned_v = []
 
     v_str = """
-    video id is: 
+
     """
+    m_str = """ 
+    
+    """
+
     for value in concept_dict.values():
         c_v = value[0]
         if c_v in learned_v:
             continue
 
         if search_video_match[c_v]:
-            search_result_container.markdown(str(count_v) + ". " + search_video_match[c_v] + v_str + c_v)
+            search_result_container.markdown(str(count_v) + " . " + search_video_match[c_v] + v_str + c_v)
             learned_v.append(c_v)
         else:
-            search_result_container.markdown(str(count_v) + ". " + " \n video id is: " + c_v)
+            search_result_container.markdown(str(count_v) + " . " + v_str + c_v)
             learned_v.append(c_v)
         count_v = count_v + 1
 
@@ -186,9 +192,9 @@ async def multi_video_learning(learning_area):
         with result_expender.expander(key):
             for c_v in value:
                 if search_video_match[c_v]:
-                    st.markdown(search_video_match[c_v] + " \n **match video id is:** " + c_v)
+                    st.markdown(search_video_match[c_v] + m_str + c_v)
                 else:
-                    st.markdown(" \n **match video id is:** " + c_v)
+                    st.markdown(m_str + c_v)
 
 
 async def single_video_learning(learning_area, youtube_id: str):
@@ -205,9 +211,9 @@ async def single_video_learning(learning_area, youtube_id: str):
     # )
     learning_single_container = sla.container()
 
-    knowledge_container = learning_single_container.container()
-    text_container = learning_single_container.empty()
     sign_container = learning_single_container.empty()
+    knowledge_container = learning_single_container.container()
+    # text_container = learning_single_container.empty()
     # tick_element = learning_single_container.empty()
     button_container = learning_single_container.empty()
 
@@ -218,20 +224,24 @@ async def single_video_learning(learning_area, youtube_id: str):
             pass
         # k_b.button("Reset", type="primary")
 
-    with text_container.expander(" **:joy: Recognized Audio is Shown Here** ", expanded=True):
-        st.markdown(get_audio_text())
+    # with text_container.expander(" **:joy: Recognized Audio is Shown Here** ", expanded=True):
+    #     st.markdown(get_audio_text())
 
-    with sign_container.expander(" **:cool: Signs & Goals of Current Video** ", expanded=True):
+    _ = get_audio_text()
+
+    with sign_container.expander(" **:star: Goals of Current Video** ", expanded=True):
         s, g = await get_current_video_info(youtube_id)
-        st.markdown(" **Signs:** " + s)
-        st.markdown(" **Goals:** " + g)
+        # st.markdown(" **Signs:** " + s)
+        # st.markdown(" **Goals:** " + g)
+
+        st.markdown(g)
         pass
 
     with knowledge_container.expander(" **:cool: Keyword Recognizer is Working** ", expanded=True):
         knowledge_show_area = st.empty()
         for tick in range(1000):
             # tick_element.write(tick)
-            knowledge_show_area.markdown(get_keyword_text(), unsafe_allow_html=True)
+            knowledge_show_area.markdown(get_keyword_text())
             time.sleep(5)
 
 
@@ -242,7 +252,8 @@ async def APP():
     initial_id = ini.get_initial_id()
 
     with st.sidebar:
-        st.title("Learning Path")
+        st.title("ViCatcher")
+        badge(type="github", name="shiningwhite-cmd/ViCatcher")
         await multi_video_learning(st.empty())
         pass
 
