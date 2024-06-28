@@ -27,7 +27,7 @@ python run.py
 ![失去图片链接](./docs/ppt10.png)
 
 ## 演示视频
-<div style="padding:53.89% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/970307777?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="video"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+[![Presentation Video](./docs/video-thumbnail.png)](https://vimeo.com/970307777)
 
 ## 联系方式
 这个项目目前还有数个工程上的问题亟需解决。如果你对这个项目感兴趣，或者有任何的建议，欢迎通过邮箱：3200102512@zju.edu.cn 联系我。
