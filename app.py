@@ -128,7 +128,7 @@ def search_youtube(term: str):
 
 
 class initial():
-    ini_id = "Sb0A9i6d320"
+    ini_id = "T-D1OfcDW1M"
 
     def get_initial_id(self):
         return self.ini_id

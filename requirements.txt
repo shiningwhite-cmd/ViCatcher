@@ -3,7 +3,7 @@ aiohttp==3.8.4
 beautifulsoup4==4.12.3
 discord.py==2.3.2
 fire==0.4.0
-gradio==4.31.4
+gradio==4.36.0
 hanlp==2.1.0b56
 keybert==0.8.4
 metagpt==0.6.6
@@ -12,13 +12,13 @@ numpy==1.24.3
 PyAudio==0.2.14
 PyAutoGUI==0.9.54
 pycorrector==1.0.3
-pydantic==2.7.1
+pydantic==2.7.3
 pytz==2023.3.post1
-Requests==2.31.0
+Requests==2.32.3
 scikit_learn==1.4.2
 SpeechRecognition==3.10.1
 streamlit==1.33.0
-streamlit_extras==0.4.2
+streamlit_extras==0.4.3
 transformers==4.36.2
 Wikipedia_API==0.6.0
 youtube_dl==2021.12.17
