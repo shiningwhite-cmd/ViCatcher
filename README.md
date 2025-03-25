@@ -28,6 +28,7 @@ python run.py
 
 ## 演示视频
 [演示视频链接(需要VPN)](https://vimeo.com/970307777)
+[演示视频链接(备用)](https://www.yuque.com/shanxiaobai/am2sfg/on80uxte0p58wz8r?singleDoc)
 
 ## 联系方式
 这个项目目前还有数个工程上的问题亟需解决。如果你对这个项目感兴趣，或者有任何的建议，欢迎通过邮箱：qi.zheng@cs.zju.edu.cn 联系我。
